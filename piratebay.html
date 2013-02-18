@@ -46,7 +46,7 @@
 
 <p>The "smaller" file is for download <a href="">TODO: upload it actually :)</a>  - it has 71 MB 7zipped and it really has just names and magnet links.</p>
 
-<p>The "bigger" file is for download <a href="">TODO: upload</a> - in 656 MB 7zipped, it has all the information about seeders, leechers (at the time of the download), magnet links, descriptions, size, and perhaps most importantly - <b>comments</b>. It does <i>not</i> contain the "big" torrent files.</p>
+<p>The "bigger" file is for download <a href="">TODO: upload</a> - in 656 MB 7zipped, it has all the information about seeders, leechers (at the time of the download), magnet links, descriptions, size, and perhaps most importantly - <b>comments</b>. It does <i>not</i> contain the "big" torrent files. But apart from that, you can really reconstruct the whole Pirate Bay from it. (I will touch this later though.)</p>
 
 <p>Note: since the downloading itself took quite long, the data in the older torrents can be slightly out of date.</p>
 
@@ -82,6 +82,14 @@ With <a href="https://github.com/runn1ng/runn1ng.github.com/blob/master/pirateba
 <h4>Number of seeders</h4>
 <p>Now, let's look at something else - is it true, that the newest torrents are seeded the most, or not? Let's put all the torrents on X axis, sort them by time, and put the number of seeders on Y axis. Once R finally crunches the numbers, we get this graph.</p>
 
+<a href="http://imgur.com/TskOXyu"><img src="http://i.imgur.com/TskOXyul.png" title="Hosted by imgur.com" alt="" /></a>
+
+<p>We can see that except for some insanely popular torrents in the past, the more recent torrents are indeed the more seeded ones. However, when I tried to look at the seeder numbers closely, I realized one thing.</p>
+
+<p>Slightly more than one third of the torrents have no seeders at all. Nothing. Actually, more than 3/4 of the torrents have 4 seeders or less. On the other hands, couple of torrents are insanely popular. If you try to graph the popularity on a linear scale and without cutting the very few outliers on the right, you get something like this. (On X is number of seeders, on Y number of torrents with that number of seeders.)</p>
+<a href="http://imgur.com/v7lZ6OS"><img src="http://i.imgur.com/v7lZ6OSl.png" title="Hosted by imgur.com" alt="" /></a>
+
+<p>Yeah, this is not going to work. Let's cut the outliers on the right (say, torrents with >2000 seeders) and let's put the y axis on logarithmic scale.</p>
   
 </section>
 
