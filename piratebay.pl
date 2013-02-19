@@ -42,9 +42,9 @@ sub try_once {
 		my $poorXML = "";
 		
 
-        my ($author) = $page =~ /<dt>By:<\/dt>\s*<dd>\s*<a href="\/user\/(.*?)\/"/s;
+        
         my ($uploaded) = $page =~ /<dt>Uploaded:<\/dt>\s*<dd>(.*?) GMT/s;
-        $author = $author // "Anonymous";
+       
 
         my ($title) = $page =~ /<div id="title">\s*(.*?)\s*<\/div>/s;
         my ($size) = $page =~ /<dt>Size:<\/dt>\s*<dd>.*?\((\d*)&nbsp;Bytes\)<\/dd>/s;
@@ -63,7 +63,7 @@ sub try_once {
 		#my ($up, $down) = $page =~ /<dd id="rating" class="">\s*\+(\d+) \/ -(\d+)/;
 		#$richXML.= "<quality><up>$up</up><down>$down</down></quality>\n";
 		
-		$richXML.="<uploader>$author</uploader>\n";
+		
 		$richXML.="<uploaded>$uploaded</uploaded>\n";
 
 		
@@ -90,11 +90,11 @@ sub try_once {
 			
 			while ($comhtml =~ /<div id="comment-\d*"><p class="byline">\s*<a href="\/user\/([^\/]*)\/".*?at (.*?) CET:\s*<\/p><div class="comment">\s*(.*?)\s*<\/div>/sg) {
 			
-				my $usr = $1;
+				
 				my $time = $2;
 				
 				my $com = $3;
-				$richXML .= "<comment><who>".ent($usr)."</who><when>".ent($time)."</when><what>".ent($com)."</what></comment>\n";
+				$richXML .= "<comment><when>".ent($time)."</when><what>".ent($com)."</what></comment>\n";
 			}
 		}
 		$richXML.="</comments>\n";
