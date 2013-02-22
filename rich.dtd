@@ -13,3 +13,5 @@
 <!ELEMENT nfo (#PCDATA)>
 <!ELEMENT when (#PCDATA)>
 <!ELEMENT what (#PCDATA)>
+<!ELEMENT up (#PCDATA)>
+<!ELEMENT down (#PCDATA)>
