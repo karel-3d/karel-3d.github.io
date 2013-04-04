@@ -19,8 +19,13 @@
       searchControl.addSearcher(new google.search.WebSearch());
 
 
+var drawOptions = new google.search.DrawOptions();
+
+// tell the searcher to draw itself in linear mode
+drawOptions.setDrawMode(google.search.SearchControl.DRAW_MODE_LINEAR);
+
       // tell the searcher to draw itself and tell it where to attach
-      searchControl.draw(document.getElementById("searchcontrol"));
+      searchControl.draw(document.getElementById("searchcontrol"), drawOptions);
 
       // execute an inital search
       searchControl.execute("VW GTI");
