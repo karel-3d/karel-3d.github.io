@@ -71,11 +71,13 @@ function nacti_spocti() {
     var frm = document.forms[0];
     for (var i=1;i<=12;i++) {
         var strana = frm.elements["strana"+i].value; 
-        var procenta = frm.elements["procenta"+i].value;
-        if (isNaN(parseFloat(procenta))) {
-            alert(procenta)
+        var procenta = parseFloat(frm.elements["procenta"+i].value);
+        if (!isNaN(procenta)) {
+            proc[strana]=procenta;
         }
     }
+    var vysledek=statistika(spocti_cr(proc));
+    console.log(vysledek);
 }
 
 //console.log(statistika(spocti_cr({vv:10.88,kscm:11.27,cssd:22.08,top:16.70,ods:20.22})));
@@ -92,7 +94,7 @@ Předpoklady:
 <hr>
 Zadejte strany vlevo, procenta vpravo, na kolik chcete desetinných míst. Předvyplněná data podle
 <a href="http://www.sanep.cz/pruzkumy/volebni-preference-publikovano-15-8-2013/">nějakého náhodného průzkumu</a>. 
-Méně než nula/není číslo => ignoruju.
+Méně než 5/není číslo => ignoruju.
 <div id="vysledky"></div>
 <form>
     <button type="button" onclick="nacti_spocti()">Spočti!</button><br>
