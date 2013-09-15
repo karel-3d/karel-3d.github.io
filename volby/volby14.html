@@ -66,6 +66,10 @@ function spocti_cr(procenta) {
            concat(spocti_kraj(22,308592,procenta));//moravskoslezsky
 }
 
+function nacti_spocti() {
+    alert("SHIT");
+}
+
 console.log(statistika(spocti_cr({vv:10.88,kscm:11.27,cssd:22.08,top:16.70,ods:20.22})));
 </script>
 Moje kalkulačka na přepočet procent ve volebních průzkumech na počty mandátů ve sněmovně.<br><br>
@@ -76,13 +80,37 @@ Předpoklady:
 <a href="http://running.github.io/volby/pr2.html">tolik to počty mandátů nezkazí</a>)</li>
 <li>Procenta jsou platných hlasů</li>
 </ul>
+<br>(Pro výpočet mandátů na celkové volební účasti nezáleží.)
 <hr>
 Zadejte strany vlevo, procenta vpravo, na kolik chcete desetinných míst, bez znaku "%". Předvyplněná data podle
 nějakého náhodného průzkumu. Méně než nula/není číslo => ignoruju.
 <form>
-     <input type="text" name="strana1" value="ODS">
-     <input type="text" name="procenta1" value="20"><br>
+     <input type="submit" value="Spočti!" onclick="nacti_spocti()"><br>
      <input type="text" name="strana1" value="ČSSD">
-     <input type="text" name="procenta1" value="10"><br>
+     <input type="text" name="procenta1" value="27.9"><br>
+     <input type="text" name="strana2" value="KSČM">
+     <input type="text" name="procenta2" value="16.7"><br>
+     <input type="text" name="strana3" value="TOP">
+     <input type="text" name="procenta3" value="13.1"><br>
+     
+     <input type="text" name="strana4" value="ODS">
+     <input type="text" name="procenta4" value="7.8"><br>  
+    <input type="text" name="strana5" value="SPOZ">
+     <input type="text" name="procenta5" value="7.2"><br>
+    <input type="text" name="strana6" value="KDU">
+     <input type="text" name="procenta6" value="6.4"><br>
+    <input type="text" name="strana7" value="Suverenita">
+     <input type="text" name="procenta7" value="3.2"><br>
+    <input type="text" name="strana8" value="Zeleni">
+     <input type="text" name="procenta8" value="2.8"><br>
+    <input type="text" name="strana9" value="Usvit">
+     <input type="text" name="procenta9" value="2.7"><br>
+    <input type="text" name="strana10" value="ANO">
+     <input type="text" name="procenta10" value="2.6"><br>
+    <input type="text" name="strana11" value="Pirati">
+     <input type="text" name="procenta11" value="2.4"><br>
+    <input type="text" name="strana12" value="LEV">
+     <input type="text" name="procenta12" value="2.6"><br>
      
 </form>
+<div id="vysledky"></div>
