@@ -1,0 +1,37 @@
+<script>
+function spocti_d_hondt(mandatu, hlasy) {
+    var skore=[];
+    for (var delitel =1; delitel<=mandatu;delitel++) {
+         for (var strana in hlasy) {
+             var vydeleno=hlasy[strana]/delitel;
+             var obje={};
+             obje["hlasy"]=vydeleno;
+             obje["strana"]=strana;
+             skore.push(obje);
+         }
+    }
+    skore.sort(function(a,b){
+        if (b["hlasy"]==a["hlasy"]) {
+            //simulace losu :)
+            return Math.random()-0.5
+        }
+        return b["hlasy"]-a["hlasy"];
+    });
+    var vysledek=[];
+    for (i=0; i<mandatu;i++) {
+        vysledek.push(skore[i].strana);
+    }
+    return vysledek;
+}
+
+function spocti_kraj(mandatu, hlasu, procenta) {
+    var hlasy_abs=[];
+    for (var strana in procenta) {
+        hlasy_abs[strana]=procenta[strana]/100*hlasu; //nezaokrouhluju, protoze je to vsechno stejne hrozne hrube
+    }
+    return spocti_d_hondt(mandatu, hlasy_abs);
+}
+
+console.log(spocti_kraj(25, 637328,{ods:30,cssd:30}));
+</script>
+Hello. ABCD
