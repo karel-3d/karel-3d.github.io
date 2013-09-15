@@ -2,9 +2,11 @@
 function spocti_d_hondt(mandatu, hlasy) {
     skore=[];
     for (delitel =1; delitel<=mandatu;delitel++) {
-         for (strana in hlasy) {
+         for (var strana in hlasy) {
              vydeleno=hlasy[strana]/delitel;
-             skore.push({strana:vydeleno});
+             var obje={};
+             obje[strana]=vydeleno;
+             skore.push(obje);
          }
     }
     return skore;
@@ -12,4 +14,4 @@ function spocti_d_hondt(mandatu, hlasy) {
 
 console.log(spocti_d_hondt(10, {ods:20,socdem:30}));
 </script>
-Hello. A
+Hello. AB
