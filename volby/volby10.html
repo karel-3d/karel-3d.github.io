@@ -47,6 +47,23 @@ function statistika(mandaty) {
     return res;
 }
 
-console.log(statistika(spocti_kraj(25, 637328,{vv:10.31,kscm:6.53,cssd:15.17,top:27.27,ods:24.79})));
+function spocti_cr(procenta) {
+    return spocti_kraj(25,637328, procenta).//praha
+           concat(spocti_kraj(24,630203,procenta)).//s cechy
+           concat(spocti_kraj(13,333117,procenta)). //j cechy
+           concat(spocti_kraj(11,280264,procenta)). //plzen
+           concat(spocti_kraj(5,130162,procenta)).//karlovarsky
+           concat(spocti_kraj(14,365800,procenta)).//usti
+           concat(spocti_kraj(8,213917,procenta)).//liberec
+           concat(spocti_kraj(11,288981,procenta)).//hradec
+           concat(spocti_kraj(10,268863,procenta)).//pardubice
+           concat(spocti_kraj(10,270872,procenta)).//vysocina
+           concat(spocti_kraj(23,597136,procenta)).//j morava
+           concat(spocti_kraj(12,321871,procenta)).//olomouc
+           concat(spocti_kraj(12,308592,procenta)).//zlin
+           concat(spocti_kraj(22,308592,procenta));//moravskoslezsky
+}
+
+console.log(statistika(spocti_cr({vv:10.88,kscm:11.27,cssd:22.08,top:16.70,ods:20.22})));
 </script>
 Hello. ABCD
