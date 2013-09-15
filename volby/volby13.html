@@ -27,6 +27,7 @@ function spocti_d_hondt(mandatu, hlasy) {
 
 function spocti_kraj(mandatu, hlasu, procenta) {
     var hlasy_abs=[];
+    hlasu = hlasu/2;
     for (var strana in procenta) {
         if (procenta[strana]>=5) {
             hlasy_abs[strana]=procenta[strana]/100*hlasu; //nezaokrouhluju, protoze je to vsechno stejne hrozne hrube
@@ -77,11 +78,11 @@ Předpoklady:
 </ul>
 <hr>
 Zadejte strany vlevo, procenta vpravo, na kolik chcete desetinných míst, bez znaku "%". Předvyplněná data podle
-nějakého náhodného průzkumu.
+nějakého náhodného průzkumu. Méně než nula/není číslo => ignoruju.
 <form>
      <input type="text" name="strana1" value="ODS">
      <input type="text" name="procenta1" value="20"><br>
-     <input type="text" name="strana1" value="CSSD">
+     <input type="text" name="strana1" value="ČSSD">
      <input type="text" name="procenta1" value="10"><br>
      
 </form>
