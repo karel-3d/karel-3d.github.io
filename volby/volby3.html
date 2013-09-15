@@ -5,13 +5,19 @@ function spocti_d_hondt(mandatu, hlasy) {
          for (var strana in hlasy) {
              vydeleno=hlasy[strana]/delitel;
              var obje={};
-             obje[strana]=vydeleno;
+             obje["hlasy"]=vydeleno;
+             obje["strana"]=strana;
              skore.push(obje);
          }
     }
-    return skore;
+    skore.sort(function(a,b){return b["hlasy"]-a["hlasy"]});
+    vysledek=[];
+    for (i=0; i<mandatu;i++) {
+        vysledek.push(skore[i].strana);
+    }
+    return vysledek;
 }
 
 console.log(spocti_d_hondt(10, {ods:20,socdem:30}));
 </script>
-Hello. ABC
+Hello. ABCD
