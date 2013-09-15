@@ -13,7 +13,7 @@ function spocti_d_hondt(mandatu, hlasy) {
     skore.sort(function(a,b){return b["hlasy"]-a["hlasy"]});
     vysledek=[];
     for (i=0; i<mandatu;i++) {
-        vysledek.push(skore[i].strana);
+        vysledek.push(skore[i].hlasy);
     }
     return vysledek;
 }
