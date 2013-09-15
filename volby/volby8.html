@@ -34,6 +34,19 @@ function spocti_kraj(mandatu, hlasu, procenta) {
     return spocti_d_hondt(mandatu, hlasy_abs);
 }
 
-console.log(spocti_kraj(25, 637328,{vv:10.31,kscm:6.53,cssd:15.17,top:27.27,ods:24.79}));
+function statistika(mandaty) {
+    var res={};
+    for (var i in mandaty) {
+        strana = mandaty[i];
+        if (res[strana]!=="undefined") {
+            res[strana]++;
+        } else {
+            res[strana]=1;
+        }
+    }
+    return res;
+}
+
+console.log(statistika(spocti_kraj(25, 637328,{vv:10.31,kscm:6.53,cssd:15.17,top:27.27,ods:24.79})));
 </script>
 Hello. ABCD
