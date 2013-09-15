@@ -72,11 +72,13 @@ function nacti_spocti() {
     for (var i=1;i<=12;i++) {
         var strana = frm.elements["strana"+i].value; 
         var procenta = frm.elements["procenta"+i].value;
-        alert (strana+" = "+procenta);
+        if (isNaN(parseFloat(procenta))) {
+            alert(procenta)
+        }
     }
 }
 
-console.log(statistika(spocti_cr({vv:10.88,kscm:11.27,cssd:22.08,top:16.70,ods:20.22})));
+//console.log(statistika(spocti_cr({vv:10.88,kscm:11.27,cssd:22.08,top:16.70,ods:20.22})));
 </script>
 Moje kalkulačka na přepočet procent ve volebních průzkumech na počty mandátů ve sněmovně.<br><br>
 Předpoklady:
@@ -88,7 +90,7 @@ Předpoklady:
 </ul>
 (Pro výpočet mandátů na celkové volební účasti nezáleží.)
 <hr>
-Zadejte strany vlevo, procenta vpravo, na kolik chcete desetinných míst, bez znaku "%". Předvyplněná data podle
+Zadejte strany vlevo, procenta vpravo, na kolik chcete desetinných míst. Předvyplněná data podle
 <a href="http://www.sanep.cz/pruzkumy/volebni-preference-publikovano-15-8-2013/">nějakého náhodného průzkumu</a>. 
 Méně než nula/není číslo => ignoruju.
 <div id="vysledky"></div>
@@ -118,7 +120,7 @@ Méně než nula/není číslo => ignoruju.
     <input type="text" name="strana11" value="Pirati">
      <input type="text" name="procenta11" value="2.4"><br>
     <input type="text" name="strana12" value="LEV">
-     <input type="text" name="procenta12" value="2.6"><br>
+     <input type="text" name="procenta12" value="2.0"><br>
      
 </form>
 
