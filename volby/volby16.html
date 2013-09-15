@@ -67,7 +67,13 @@ function spocti_cr(procenta) {
 }
 
 function nacti_spocti() {
-    alert("SHIT");
+    var proc={};
+    var frm = document.forms[0];
+    for (var i=1;i<=12;i++) {
+        var strana = frm.elements["strana"+i].value; 
+        var procenta = frm.elements["procenta"+i].value;
+        alert (strana+" = "+procenta);
+    }
 }
 
 console.log(statistika(spocti_cr({vv:10.88,kscm:11.27,cssd:22.08,top:16.70,ods:20.22})));
@@ -83,7 +89,8 @@ Předpoklady:
 (Pro výpočet mandátů na celkové volební účasti nezáleží.)
 <hr>
 Zadejte strany vlevo, procenta vpravo, na kolik chcete desetinných míst, bez znaku "%". Předvyplněná data podle
-nějakého náhodného průzkumu. Méně než nula/není číslo => ignoruju.
+<a href="http://www.sanep.cz/pruzkumy/volebni-preference-publikovano-15-8-2013/">nějakého náhodného průzkumu</a>. 
+Méně než nula/není číslo => ignoruju.
 <div id="vysledky"></div>
 <form>
     <button type="button" onclick="nacti_spocti()">Spočti!</button><br>
