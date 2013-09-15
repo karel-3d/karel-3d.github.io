@@ -80,12 +80,13 @@ Předpoklady:
 <a href="http://running.github.io/volby/pr2.html">tolik to počty mandátů nezkazí</a>)</li>
 <li>Procenta jsou platných hlasů</li>
 </ul>
-<br>(Pro výpočet mandátů na celkové volební účasti nezáleží.)
+(Pro výpočet mandátů na celkové volební účasti nezáleží.)
 <hr>
 Zadejte strany vlevo, procenta vpravo, na kolik chcete desetinných míst, bez znaku "%". Předvyplněná data podle
 nějakého náhodného průzkumu. Méně než nula/není číslo => ignoruju.
+<div id="vysledky"></div>
 <form>
-     <input type="submit" value="Spočti!" onclick="nacti_spocti()"><br>
+    <button type="button" onclick="nacti_spocti()">Spočti!</button><br>
      <input type="text" name="strana1" value="ČSSD">
      <input type="text" name="procenta1" value="27.9"><br>
      <input type="text" name="strana2" value="KSČM">
@@ -113,4 +114,4 @@ nějakého náhodného průzkumu. Méně než nula/není číslo => ignoruju.
      <input type="text" name="procenta12" value="2.6"><br>
      
 </form>
-<div id="vysledky"></div>
+
