@@ -1,8 +1,15 @@
 <script>
 function spocti_d_hondt(mandatu, hlasy) {
-  alert("Mandatu je "+mandatu+", hlasu je "+hlasy)
+    skore=[];
+    for (delitel =1; i<=mandatu;i++) {
+         for (strana in hlasy) {
+             vydeleno=hlasy[strana]/delitel;
+             skore.push({strana:vydeleno});
+         }
+    }
+    return skore;
 }
 
-spocti_d_hondt(10, [2,3]);
+console.log(spocti_d_hondt(10, {ods:20,socdem:30}));
 </script>
 Hello.
