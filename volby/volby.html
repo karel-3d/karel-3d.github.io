@@ -1,7 +1,7 @@
 <script>
 function spocti_d_hondt(mandatu, hlasy) {
     skore=[];
-    for (delitel =1; i<=mandatu;i++) {
+    for (delitel =1; delitel<=mandatu;delitel++) {
          for (strana in hlasy) {
              vydeleno=hlasy[strana]/delitel;
              skore.push({strana:vydeleno});
