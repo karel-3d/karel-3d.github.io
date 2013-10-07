@@ -15,7 +15,7 @@ use Fcntl qw(:flock SEEK_END);
 my $tries_if_wrong=4;
 
 #which is the first torrent to try.
-my $first = 5706071 ;
+my $first = 3211593 ;
 
 sub ent {
   my $w = shift;
