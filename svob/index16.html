@@ -1,6 +1,4 @@
 <html>
-<script src="http://www.nihilogic.dk/labs/canvas2image/canvas2image.js"></script>
-<script src="http://www.nihilogic.dk/labs/canvas2image/base64.js"></script>
 <script src="html2canvas.js"></script>
 <script>
   function doRender() {
@@ -10,7 +8,6 @@
         
         
         var dataurl = canvas.toDataURL();
-        //dataURItoBlob : function(dataURI, dataTYPE) {
         var binary = atob(dataurl.split(',')[1]), array = [];
         for(var i = 0; i < binary.length; i++) array.push(binary.charCodeAt(i));
         var blobik= new Blob([new Uint8Array(array)], {type: 'image/png'});
@@ -18,21 +15,22 @@
         var a = document.createElement('a');
         
         a.href = window.URL.createObjectURL(blobik);
-        a.download = "obr.png";
+        a.download = "volim_svobodne_protoze.png";
         a.click();
         
-        
-        //var url = (window.webkitURL || window.URL).createObjectURL(blob);
-        //location.href = url;
-        //Canvas2Image.saveAsPNG(canvas);
-        //document.body.appendChild(canvas);
       }
     });
   };
 </script>
 <link href='http://fonts.googleapis.com/css?family=Marcellus+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <img src="svob.png"><br>
-<div style="font-family: 'Marcellus SC', serif;font-size:3em">lol
-</div><br>
-<button onclick="doRender()">Click me</button>
+<div style="font-family: 'Marcellus SC', serif;font-size:3em;color=white; position:absolute;top:200px;left:200px">lol</div>
+
+<br>
+<form>
+   první řádek<br>
+  <input type="text">protože ...</input>
+</form>
+
+<button onclick="doRender()">Uložit!</button>
 </html>
