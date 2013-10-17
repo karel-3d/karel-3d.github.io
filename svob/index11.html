@@ -6,7 +6,9 @@
   function doRender() {
     html2canvas(document.body, {
       onrendered: function(canvas) {
-        Canvas2Image.saveAsPNG(canvas);
+        var shit = canvas.toDataURL();  
+        alert(shit);
+        //Canvas2Image.saveAsPNG(canvas);
         //document.body.appendChild(canvas);
       }
     });
