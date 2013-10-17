@@ -1,10 +1,13 @@
 <html>
+<script src="http://www.nihilogic.dk/labs/canvas2image/canvas2image.js"/>
+<script src="http://www.nihilogic.dk/labs/canvas2image/base64.js"/>
 <script src="html2canvas.js"></script>
 <script>
   function doRender() {
     html2canvas(document.body, {
       onrendered: function(canvas) {
-        document.body.appendChild(canvas);
+        Canvas2Image.saveAsPNG(canvas);
+        //document.body.appendChild(canvas);
       }
     });
   };
