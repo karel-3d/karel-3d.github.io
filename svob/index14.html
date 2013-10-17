@@ -6,12 +6,22 @@
   function doRender() {
     html2canvas(document.body, {
       onrendered: function(canvas) {
-        var blob = canvas.toBlob(function (blob) {
+        
+        
+        
+        var dataurl = canvas.toDataURL();
+        //dataURItoBlob : function(dataURI, dataTYPE) {
+        var binary = atob(dataurl.split(',')[1]), array = [];
+        for(var i = 0; i < binary.length; i++) array.push(binary.charCodeAt(i));
+        var blobik= new Blob([new Uint8Array(array)], {type: 'image/png'});
+        
+        
+        
             // Do something with the blob object,
             // e.g. creating a multipart form for file uploads:
             alert("DAN");
-        },
-        'image/png');  
+        
+        
         //var url = (window.webkitURL || window.URL).createObjectURL(blob);
         //location.href = url;
         //Canvas2Image.saveAsPNG(canvas);
