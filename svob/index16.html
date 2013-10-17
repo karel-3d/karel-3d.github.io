@@ -1,5 +1,15 @@
 <html>
 <script src="html2canvas.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Marcellus+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<style type="text/css">
+.napis    {
+  font-family: 'Marcellus SC', serif;
+  font-size:3em;
+  color:white; 
+  position:absolute;
+  top:200px;l
+  eft:200px}
+</style>
 <script>
   function doRender() {
     html2canvas(document.body, {
@@ -22,14 +32,13 @@
     });
   };
 </script>
-<link href='http://fonts.googleapis.com/css?family=Marcellus+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <img src="svob.png"><br>
-<div style="font-family: 'Marcellus SC', serif;font-size:3em;color=white; position:absolute;top:200px;left:200px">lol</div>
+<div class="napis">lol</div>
 
 <br>
 <form>
    první řádek<br>
-  <input type="text">protože ...</input>
+  <input type="text" value="protože..."></input>
 </form>
 
 <button onclick="doRender()">Uložit!</button>
