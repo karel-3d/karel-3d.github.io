@@ -63,7 +63,7 @@ left: 0px;
         var blobik= new Blob([new Uint8Array(array)], {type: 'image/png'});
         
         var a = document.createElement('a');
-        
+        alert("shit")
         a.href = window.URL.createObjectURL(blobik);
         a.download = "volim_svobodne_protoze.png";
         a.click();
