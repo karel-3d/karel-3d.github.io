@@ -1,7 +1,6 @@
 <html>
 <script src="html2canvas.js"></script>
 <script>
-  alert('lol');
   function doRender() {
     html2canvas(document.body, {
       onrendered: function(canvas) {
@@ -10,5 +9,6 @@
     });
   };
 </script>
-lol
+lol<br>
+<button onclick="doRender()">Click me</button>
 </html>
