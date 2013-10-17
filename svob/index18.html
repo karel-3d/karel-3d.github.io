@@ -1,5 +1,6 @@
 <html>
 <script src="html2canvas.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Marcellus+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <style type="text/css">
 .napis    {
@@ -7,8 +8,8 @@
   font-size:3em;
   color:white; 
   position:absolute;
-  top:200px;l
-  eft:200px}
+  top:200px;
+  left:200px}
 </style>
 <script>
   function doRender() {
@@ -31,14 +32,18 @@
       }
     });
   };
+  
+  $(document).ready(function () {
+       $('#prvniradek').keyup(function () { alert('test'); });
+   });
 </script>
 <img src="svob.png"><br>
-<div class="napis">lol</div>
+<div class="napis">protože...</div>
 
 <br>
 <form>
    první řádek<br>
-  <input type="text" value="protože..."></input>
+  <input type="text" value="protože..." id="prvniradek"></input>
 </form>
 
 <button onclick="doRender()">Uložit!</button>
