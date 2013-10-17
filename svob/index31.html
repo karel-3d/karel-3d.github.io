@@ -3,6 +3,9 @@
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Marcellus+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <style type="text/css">
+.marcellus {
+  font-family: 'Marcellus SC', serif;
+}
 #prvninapis    {
   font-family: 'Marcellus SC', serif;
   font-size:70px;
@@ -81,15 +84,16 @@ left: 0px;
 <img src="svob.png" id="obrazek">
 <div id="napiski">
 <div id="prvninapis">protože...</div>
-<div id="druhynapis">protože!</div>
+<div id="druhynapis">..!</div>
 </div>
 <br>
+<div class="marcellus"><big><u>Proč volíte svobodné vy?</u></big></div>
 <form>
-   první řádek:
+   <div class="marcellus">první řádek:</div><br>
   <input type="text" value="protože..." id="prvniradek"></input><br>
-     druhý řádek:
+     <div class="marcellus">druhý řádek:</div><br>
   <input type="text" value="..!" id="druhyradek"></input><br>
 </form>
-
-<button onclick="doRender()">Uložit!</button>
+<br><br>
+<button onclick="doRender()">Uložit jako obrázek!</button>
 </html>
