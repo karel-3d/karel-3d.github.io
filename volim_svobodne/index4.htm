@@ -51,6 +51,16 @@ left: 0px;
   }
 </style>
 <script>
+function eventFire(el, etype){
+    if (el.fireEvent) {
+      el.fireEvent('on' + etype);
+    } else {
+      var evObj = document.createEvent('Events');
+      evObj.initEvent(etype, true, false);
+      el.dispatchEvent(evObj);
+    }
+}
+
   function doRender() {
     html2canvas(document.body, {
       onrendered: function(canvas) {
@@ -64,13 +74,14 @@ left: 0px;
         
         var a = document.createElement('a');
         a.href = window.URL.createObjectURL(blobik);
-                alert("shizzle");
+      //          alert("shizzle");
 
         a.download = "volim_svobodne_protoze.png";
-                alert("nizzle");
+    //            alert("nizzle");
 
-        a.click();
-                alert("dizzle");
+eventFire(a, 'click');
+//        a.click();
+  //              alert("dizzle");
 
         
       },width: 791,
