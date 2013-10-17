@@ -57,18 +57,25 @@ left: 0px;
          
         });
    });
+   
+   $(document).ready(function () {
+       $('#druhyradek').keyup(function () { 
+         $('#druhynapis').text($('#druhyradek').val());
+         
+        });
+   });
 </script>
-<img src="svob.png" style="position: absolute;
-top: 0px;
-left: 0px;">
+<img src="svob.png">
 <div id="napiski">
 <div id="prvninapis">protože...</div>
 <div id="druhynapis">protože!</div>
 </div>
 <br>
 <form>
-   první řádek<br>
-  <input type="text" value="protože..." id="prvniradek"></input>
+   první řádek:
+  <input type="text" value="protože..." id="prvniradek"></input><br>
+     druhý řádek:
+  <input type="text" value="..!" id="druhyradek"></input><br>
 </form>
 
 <button onclick="doRender()">Uložit!</button>
