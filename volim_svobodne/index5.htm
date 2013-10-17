@@ -51,15 +51,6 @@ left: 0px;
   }
 </style>
 <script>
-function eventFire(el, etype){
-    if (el.fireEvent) {
-      el.fireEvent('on' + etype);
-    } else {
-      var evObj = document.createEvent('Events');
-      evObj.initEvent(etype, true, false);
-      el.dispatchEvent(evObj);
-    }
-}
 
   function doRender() {
     html2canvas(document.body, {
@@ -79,7 +70,8 @@ function eventFire(el, etype){
         a.download = "volim_svobodne_protoze.png";
     //            alert("nizzle");
 
-eventFire(a, 'click');
+        a.onclick.call(a);
+//eventFire(a, 'click');
 //        a.click();
   //              alert("dizzle");
 
