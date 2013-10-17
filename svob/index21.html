@@ -35,9 +35,8 @@
   
   $(document).ready(function () {
        $('#prvniradek').keyup(function () { 
-         $('#prvninapis').val($('#prvniradek').val());
-         alert($('#prvninapis').val());
-         alert($('#prvniradek').val());
+         $('#prvninapis').text($('#prvniradek').val());
+         
         });
    });
 </script>
