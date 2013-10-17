@@ -15,11 +15,11 @@
         for(var i = 0; i < binary.length; i++) array.push(binary.charCodeAt(i));
         var blobik= new Blob([new Uint8Array(array)], {type: 'image/png'});
         
+        var a = document.createElement('a');
         
-        
-            // Do something with the blob object,
-            // e.g. creating a multipart form for file uploads:
-            alert("DAN");
+        a.href = window.URL.createObjectURL(blobik);
+        a.download = "obr.png";
+        a.click();
         
         
         //var url = (window.webkitURL || window.URL).createObjectURL(blob);
