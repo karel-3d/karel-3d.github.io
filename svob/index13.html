@@ -6,9 +6,14 @@
   function doRender() {
     html2canvas(document.body, {
       onrendered: function(canvas) {
-        var blob = canvas.toBlob();  
-        var url = (window.webkitURL || window.URL).createObjectURL(blob);
-        location.href = url;
+        var blob = canvas.toBlob(function (blob) {
+            // Do something with the blob object,
+            // e.g. creating a multipart form for file uploads:
+            alert("DAN");
+        },
+        'image/png');  
+        //var url = (window.webkitURL || window.URL).createObjectURL(blob);
+        //location.href = url;
         //Canvas2Image.saveAsPNG(canvas);
         //document.body.appendChild(canvas);
       }
