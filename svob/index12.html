@@ -6,8 +6,9 @@
   function doRender() {
     html2canvas(document.body, {
       onrendered: function(canvas) {
-        var shit = canvas.toDataURL();  
-        alert(shit);
+        var blob = canvas.toBlob();  
+        var url = (window.webkitURL || window.URL).createObjectURL(blob);
+        location.href = url;
         //Canvas2Image.saveAsPNG(canvas);
         //document.body.appendChild(canvas);
       }
