@@ -63,7 +63,8 @@ left: 0px;
         a.click();
         
       }
-    });
+    },width: 800,
+  height: 620 );
   };
   
   $(document).ready(function () {
@@ -83,17 +84,16 @@ left: 0px;
 <div id="prazdnydiv"> </div>
 <img src="svob.png" id="obrazek">
 <div id="napiski">
-<div id="prvninapis">protože...</div>
-<div id="druhynapis">..!</div>
+<div id="prvninapis">protože chci nižší daně</div>
+<div id="druhynapis">a méně byrokracie.</div>
 </div>
 <br>
 <div class="marcellus"><big><big><big><u>Proč volíte svobodné vy?</u></big></big></big></div>
 <form>
-   <div class="marcellus">první řádek:</div>
-  <input type="text" value="protože..." id="prvniradek"></input><br>
-     <div class="marcellus">druhý řádek:</div>
-  <input type="text" value="..!" id="druhyradek"></input><br>
+   <div class="marcellus">Napište to do obrázku! První řádek:</div>
+  <input type="text" value="protože chci nižší daně" id="prvniradek"></input><br>
+     <div class="marcellus">Druhý řádek:</div>
+  <input type="text" value="a méně byrokracie." id="druhyradek"></input><br>
 </form>
-<br><br>
-<button onclick="doRender()">Uložit jako obrázek!</button>
+<button onclick="doRender()">Uložit jako obrázek.</button>
 </html>
