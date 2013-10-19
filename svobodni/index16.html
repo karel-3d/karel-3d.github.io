@@ -83,27 +83,35 @@ left: 0px;
     });
   };
   
-  var virgin =1;
   function seridVelikosti() {
      
       if( $('#prvninapis').width()>745 || $('#druhynapis').width()>745 ) {
+             var pocet=0;
              while ($('#prvninapis').width()>745 || $('#druhynapis').width()>745) {
-                 top_font_size--;
-                 if (virgin!=1) { 
+                 pocet++;
+                    top_font_size--;
                      $('#prvninapis').css("font-size", top_font_size);
                      $('#druhynapis').css("font-size", top_font_size);
-                 }
-                 virgin = 0;
              } 
+             if (pocet == 1 ){
+                 top_font_size++;
+                     $('#prvninapis').css("font-size", top_font_size);
+                     $('#druhynapis').css("font-size", top_font_size);
+             }
          } else {
+             var pocet=0;
              while ($('#prvninapis').width()<=745 && $('#druhynapis').width()<=745 && top_font_size<70) {
                  top_font_size++;
-                 if (virgin!=1) { 
+                 pocet++;
                      $('#prvninapis').css("font-size", top_font_size);
                      $('#druhynapis').css("font-size", top_font_size);
-                 }
-                 virgin=0;
+                 
              } 
+             if (pocet == 1 ){
+                 top_font_size--;
+                     $('#prvninapis').css("font-size", top_font_size);
+                     $('#druhynapis').css("font-size", top_font_size);
+             }
          }
          virgin=1;
     
