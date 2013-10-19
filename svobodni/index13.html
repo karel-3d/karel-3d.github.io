@@ -102,14 +102,14 @@ left: 0px;
   
   $(document).ready(function () {
        $('#prvniradek').keyup(function () { 
-         $('#prvninapis').text($('#prvniradek').val().trim());
+         $('#prvninapis').text($('#prvniradek').val().trim()+"|");
          seridVelikosti();
        });  
    });
    
    $(document).ready(function () {
        $('#druhyradek').keyup(function () { 
-         $('#druhynapis').text($('#druhyradek').val().trim());
+         $('#druhynapis').text($('#druhyradek').val().trim()+"|");
          seridVelikosti();
        });    
    });
