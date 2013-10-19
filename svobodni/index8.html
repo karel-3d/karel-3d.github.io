@@ -90,11 +90,13 @@ left: 0px;
              while ($('#prvninapis').width()>750) {
                  top_font_size--;
                  $('#prvninapis').css("font-size", top_font_size);
+                 $('#druhynapis').css("font-size", top_font_size);
              } 
          } else {
-             while ($('#prvninapis').width()<750 ){ // && top_font_size<70) {
+             while ($('#prvninapis').width()<750 && top_font_size<70) {
                  top_font_size++;
                  $('#prvninapis').css("font-size", top_font_size);
+                 $('#druhynapis').css("font-size", top_font_size);
              } 
          }
         });
@@ -103,7 +105,20 @@ left: 0px;
    $(document).ready(function () {
        $('#druhyradek').keyup(function () { 
          $('#druhynapis').text($('#druhyradek').val());
-         
+         if( $('#druhynapis').width()>760) {
+             while ($('#druhynapis').width()>750) {
+                 top_font_size--;
+                 $('#prvninapis').css("font-size", top_font_size);
+                 $('#druhynapis').css("font-size", top_font_size);
+             } 
+         } else {
+             while ($('#druhynapis').width()<750 && top_font_size<70) {
+                 top_font_size++;
+                 $('#prvninapis').css("font-size", top_font_size);
+                 $('#druhynapis').css("font-size", top_font_size);
+             } 
+         }
+        });
         });
    });
 </script>
