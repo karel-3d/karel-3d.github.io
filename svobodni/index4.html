@@ -51,6 +51,7 @@ left: 0px;
   }
 </style>
 <script>
+  var top_font_size=70;
 
   function doRender() {
     html2canvas(document.body, {
@@ -85,7 +86,12 @@ left: 0px;
   $(document).ready(function () {
        $('#prvniradek').keyup(function () { 
          $('#prvninapis').text($('#prvniradek').val());
-         alert( $('#prvninapis').width());
+         if( $('#prvninapis').width()>760) {
+             while ($('#prvninapis').width()>760) {
+                 top_font_size--;
+                 $('#prvninapis').css("font-size", top_font_size);
+             }
+         }
         });
    });
    
