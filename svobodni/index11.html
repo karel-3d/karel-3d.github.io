@@ -83,43 +83,35 @@ left: 0px;
     });
   };
   
-  $(document).ready(function () {
-       $('#prvniradek').keyup(function () { 
-         $('#prvninapis').text($('#prvniradek').val());
-         if( $('#prvninapis').width()>745) {
-             while ($('#prvninapis').width()>745) {
+  function seridVelikosti() {
+      if( $('#prvninapis').width()>745 || $('#druhynapis').width()>745 ) {
+             while ($('#prvninapis').width()>745 || $('#druhynapis').width()>745) {
                  top_font_size--;
                  $('#prvninapis').css("font-size", top_font_size);
                  $('#druhynapis').css("font-size", top_font_size);
              } 
          } else {
-             while ($('#prvninapis').width()<745 && top_font_size<70) {
+             while ($('#prvninapis').width()<745 && $('#druhynapis').width()<745 && top_font_size<70) {
                  top_font_size++;
                  $('#prvninapis').css("font-size", top_font_size);
                  $('#druhynapis').css("font-size", top_font_size);
              } 
          }
         });
+  }
+  
+  $(document).ready(function () {
+       $('#prvniradek').keyup(function () { 
+         $('#prvninapis').text($('#prvniradek').val().trim());
+         seridVelikosti();
+       });  
    });
    
    $(document).ready(function () {
        $('#druhyradek').keyup(function () { 
-         $('#druhynapis').text($('#druhyradek').val());
-         if( $('#druhynapis').width()>760) {
-             while ($('#druhynapis').width()>745) {
-                 top_font_size--;
-                 $('#prvninapis').css("font-size", top_font_size);
-                 $('#druhynapis').css("font-size", top_font_size);
-             } 
-         } else {
-             while ($('#druhynapis').width()<745 && top_font_size<70) {
-                 top_font_size++;
-                 $('#prvninapis').css("font-size", top_font_size);
-                 $('#druhynapis').css("font-size", top_font_size);
-             } 
-         }
-    
-        });
+         $('#druhynapis').text($('#druhyradek').val().trim());
+         seridVelikosti();
+       });    
    });
 </script>
 <div id="prazdnydiv"> </div>
