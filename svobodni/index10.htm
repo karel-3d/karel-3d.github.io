@@ -54,7 +54,7 @@ left: 0px;
   }
 </style>
 <script>
-  var top_font_size=70;
+  var top_font_size=50;
 
   function doRender() {
     html2canvas(document.body, {
@@ -88,9 +88,9 @@ left: 0px;
   
   function seridVelikosti() {
      
-      if( $('#prvninapis').width()>740 || $('#druhynapis').width()>740 ) {
+      if( $('#prvninapis').width()>840 || $('#druhynapis').width()>840 ) {
              var pocet=0;
-             while ($('#prvninapis').width()>740 || $('#druhynapis').width()>740) {
+             while ($('#prvninapis').width()>840 || $('#druhynapis').width()>840) {
                  pocet++;
                     top_font_size--;
                      $('#prvninapis').css("font-size", top_font_size);
@@ -103,7 +103,7 @@ left: 0px;
              }
          } else {
              var pocet=0;
-             while ($('#prvninapis').width()<740 && $('#druhynapis').width()<740 && top_font_size<70) {
+             while ($('#prvninapis').width()<840 && $('#druhynapis').width()<840 && top_font_size<50) {
                  top_font_size++;
                  pocet++;
                      $('#prvninapis').css("font-size", top_font_size);
@@ -116,7 +116,7 @@ left: 0px;
                      $('#druhynapis').css("font-size", top_font_size);
              }
          }
-         virgin=1;
+         
     
   }
   
