@@ -86,11 +86,12 @@ left: 0px;
     });
   };
   
+  var max_width=820;
   function seridVelikosti() {
      
-      if( $('#prvninapis').width()>840 || $('#druhynapis').width()>840 ) {
+      if( $('#prvninapis').width()>max_width || $('#druhynapis').width()>max_width ) {
              var pocet=0;
-             while ($('#prvninapis').width()>840 || $('#druhynapis').width()>840) {
+             while ($('#prvninapis').width()>max_width || $('#druhynapis').width()>max_width) {
                  pocet++;
                     top_font_size--;
                      $('#prvninapis').css("font-size", top_font_size);
@@ -103,7 +104,7 @@ left: 0px;
              }
          } else {
              var pocet=0;
-             while ($('#prvninapis').width()<840 && $('#druhynapis').width()<840 && top_font_size<50) {
+             while ($('#prvninapis').width()<max_width && $('#druhynapis').width()<max_width && top_font_size<50) {
                  top_font_size++;
                  pocet++;
                      $('#prvninapis').css("font-size", top_font_size);
