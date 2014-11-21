@@ -25,7 +25,7 @@ body {
 }
 
 a {
-  color: #8085C1;
+  color: #9D223E;
   text-decoration: none;
   border: none;
 }
@@ -159,7 +159,7 @@ a:hover {
 
 .post a,
 #about a {
-  border-bottom: 1px solid #8085C1;
+  border-bottom: 1px solid #9D223E;
 }
 
 .post a:hover {
