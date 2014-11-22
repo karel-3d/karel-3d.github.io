@@ -26,6 +26,7 @@ Kontakt
 Kdo jsem
 --
 Karel Bílek, narozen 1988.
+
 Jsem absolvent magisterského studia [Matematicko-fyzikální fakulty Univerzity Karlovy v Praze](http://www.mff.cuni.cz/),
 konkrétně informatického programu [matematická lingvistika](http://www.mff.cuni.cz/studium/bcmgr/ok/i3b53.htm)
 na [Ústavu formální a aplikované lingvistiky](https://ufal.mff.cuni.cz/).
