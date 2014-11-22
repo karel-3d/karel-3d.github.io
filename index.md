@@ -1,6 +1,7 @@
 ---
 layout: post
 title: KarelBilek.com
+description: Karel Bílek's personal webpage. Osobní stránky Karla Bílka.
 ---
 
 Dostali jste se na stránky Karla Bílka. Kromě základních informací o sobě tu mám různé poznámky a nikdy nedopsané články; jak česky, tak anglicky.
