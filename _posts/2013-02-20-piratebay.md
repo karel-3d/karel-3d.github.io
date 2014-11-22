@@ -13,7 +13,7 @@ So I did both.
 
 The "smaller" file [is for download here](https://thepiratebay.se/torrent/8156416) - it has 76 MB 7zipped and it really has just names and magnet links.
 
-The "bigger" file [is for download here](https://thepiratebay.se/torrent/8163015) - in 631 MB 7zipped, it has all the information about number of seeders, leechers (at the time of the download), magnet links, descriptions, size, and perhaps most importantly - **comments**. It does *not* contain the "big" torrent files. But apart from that, you can really reconstruct the whole Pirate Bay from it. (I will touch this later though.)
+The "bigger" file [is for download here](https://thepiratebay.se/torrent/8163015) - in 631 MB 7zipped, it has all the information about number of seeders, leechers (at the time of the download), magnet links, descriptions, size, and perhaps most importantly - **comments**. It does *not* contain the "big" torrent files.
 
 Note: since the downloading itself took quite long, the data in the older torrents can be slightly out of date.
 

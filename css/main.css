@@ -30,6 +30,10 @@ a {
   border: none;
 }
 
+.content img {
+    max-width:100%;
+}
+
 a img {
   outline: none;
 }
