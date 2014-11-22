@@ -20,9 +20,16 @@
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     {% if page.description %}
         <meta name="description" content="{{ page.description }}">
+        <meta property="og:description" content="{{ page.description }}" />
     {% endif %}
     <meta name="author" content="Karel Bílek">
     <meta name="keywords" content="Karel Bílek, Bitcoin, pirate bay, anonymous">
+      <meta property="og:title"  content="{{ page.title }}" />
+      <meta property="og:site_name" content="Karel Bílek"/>
+      <meta property="og:url"  content="http://www.karelbilek.com{{ page.url }}" />
+      <meta property="og:image"  content="http://www.karelbilek.com/images/logo.png" />
+      
+      
   </head>
   <body>
     <div class="site">
