@@ -3,9 +3,9 @@ layout: post
 title: KarelBilek.com
 ---
 
-Dostali jste se na stránky Karla Bílka. Kromě základních informací o sobě tu mám různé poznámky a nikdy nedopsané články; jak česky, tak anglicky.
+Dostali jste se na stránky Karla Bílka. Kromě základních informací o sobě tu mám různé poznámky a nikdy nedopsané články - jak česky, tak anglicky.
 
-You have landed on Karel Bílek's webpage. Here you can find some basic information about me, along with some notes and forever unfinished articles; mostly in Czech, some in English.
+You have landed on Karel Bílek's webpage. Here you can find some basic information about me, along with some notes and forever unfinished articles - mostly in Czech, some in English.
 
 <a name="kontakt"></a>
 
