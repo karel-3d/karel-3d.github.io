@@ -219,8 +219,8 @@ border-bottom: 1px dotted #9D223E;
 .sidebar,
 .content {
   vertical-align: top;
-  height: 100%;
-  -webkit-overflow-scrolling: touch;
+/*  height: 100%;*/
+/*  -webkit-overflow-scrolling: touch; */
   overflow-y: auto;
   overflow-x: hidden;
 }
