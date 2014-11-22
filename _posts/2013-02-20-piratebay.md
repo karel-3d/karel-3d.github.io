@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pirate bay archival
+description: Information about 2013 Pirate Bay archive and additional experiments
 ---
 
 *Note: Some people noticed that the XML files are not well-formed and valid. I have corrected that, see the bottom.*

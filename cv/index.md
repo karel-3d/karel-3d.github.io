@@ -1,6 +1,7 @@
 ---
 layout: post
 title: CV
+description: Karel Bílek's CV
 ---
 
 I am Mgr. Karel Bílek, born 1988, currently living in Prague. This is my CV.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Anonymous - revoluce online teenagerů
+description: Krátký nedopsaný článek o Anonymous
 ---
 
 Tohle je pár let starý, nikdy nedopsaný článek o "skupině" Anonymous, který měl vyznívat mírně negativně. Nedopsal jsem ho, protože jsem neměl moc důvod. Ale online ho nechám.
