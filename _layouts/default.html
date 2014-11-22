@@ -16,23 +16,22 @@
       <link rel="stylesheet" href="/css/responsive.css">
 
       <!-- Google Fonts -->
-      <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,600,400,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <link href='/css/fonts.css' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div class="site">
       <div class="sidebar" id="sidebar">
         <div class="header">
           <h1 class="title"><a href="/"><img id="logo" src="/images/logo.png"></a></h1>
-          <span class="tagline">Karel Bílek</span>
+          <span class="tagline"><a href="/">Karel Bílek</a></span>
         </div>
         <div class="posts">
           <ul class="posts-list">
             {% for post in site.posts %}
               <li class="post-link">
                 <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
-                  {{ post.title }}
+                  <span class="post-date">{{ post.date | date: "%d %m %Y" }}</span>
+                  {{ post.url|remove:'/' }}
                 </a>
               </li>
             {% endfor %}
@@ -40,9 +39,8 @@
         </div>
         <div class="footer">
           <span id="footer-links">
-            <a href="" class="footer-link">About</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">Twitter</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">GitHub</a>
+            <a href="/#kontakt" class="footer-link">Kontakt</a> <span class="separator">&bull;</span>
+            <a href="https://www.github.com/runn1ng/runn1ng.github.com" class="footer-link">Fork me</a>
           </span>
         </div>
       </div>

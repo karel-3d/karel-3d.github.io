@@ -1,3 +1,4 @@
 name: Karel Bílek
 markdown: redcarpet
 pygments: true
+permalink: :title

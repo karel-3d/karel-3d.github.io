@@ -8,16 +8,33 @@
     </div>
     <div id="info-container">
       <h1 id="title">{{ page.title }}</h1>
-      {% if page.id %}<span id="date">{{ page.date | date_to_string }}</span>{% endif %}
+      {% if page.id %}<span id="date">{{ page.date | date: "%d %m %Y"}}</span>{% endif %}
     </div>
   </div>
 
   <div class="post">
+    {{ prepost }}
     {{ content }}
+    {{ postpost }}
   </div>
   <div class="colophon">
     <p>
-      {% if page.id %}<span id="pub-date">Published on {{ page.date | date_to_string }}</span> <span class="separator">&bull;</span>{% endif %}
-    </p>
+      <span id="pub-date">Karel Bílek, 
+      {% if page.id %}{{ page.date | date: "%d %m %Y"}}{% else %}{{site.time | date: "%d %m %Y"}}{% endif %}. <a href="mailto:kb@karelbilek.com">Write comments directly to my mail / komentáře mi pište do mailu</a>.
+      </span> <br />
+       <span class="separator">&bull;</span>
+      
+      <br/>
+      This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://karelbilek.com" property="cc:attributionName" rel="cc:attributionURL">Karel Bílek</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      <br>
+       <span class="separator">&bull;</span>
+      <br>
+      <a href="https://secure.flickr.com/photos/shoobydooby/168745766/">Radio City - Shoobydooby/flickr, CC BY 2.0</a>
+   <br />
+       <span class="separator">&bull;</span>
+      
+      <br/>
+     I am using <a href="https://help.github.com/articles/using-jekyll-with-pages/">Jekyll on Github pages</a>, with <a href="https://github.com/the-development/flex">Flex theme</a>.
+ </p>
   </div>
 </div>

@@ -87,7 +87,7 @@ a:hover {
   line-height: 25px;
 }
 
-.tagline {
+.tagline, .tagline a {
   width: 100%;
   color: #787878;
   font-weight: 600;
@@ -173,8 +173,12 @@ a:hover {
   padding: 0 .4em;
 }
 
+span[title] {
+border-bottom: 1px dotted #9D223E;
+}
+
 .post p {
-  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   margin-bottom: 1.45em;
   text-align: justify;

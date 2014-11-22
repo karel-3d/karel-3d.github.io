@@ -1,0 +1,42 @@
+<script>
+//tahle stranka je tu hlavne kvuli ruznym starym odkazum.
+var query = window.location.search.slice(1);
+var tomove;
+switch (query) {
+    case 'pirati':
+        tomove="/pirati";
+        break;
+     case 'bitcoin':
+        tomove="/bitcoin";
+        break;
+    case 'anonymous':
+        tomove="/anonymous";
+        break;
+    case 'eman':
+        tomove="/eman";
+        break;
+    case 'eman:prerequisities':
+        tomove="/eman/prerequisities.html";
+        break;
+    case 'eman:installation':
+        tomove="/eman/installation.html";
+        break;
+    case 'eman:first':
+        tomove="/eman/first.html";
+        break;     
+    case 'eman:concepts':
+        tomove="/eman/concepts.html";
+        break;
+    case 'eman:parallel':
+        tomove="/eman/parallel.html";
+        break;    
+     case 'eman:new':
+        tomove="/eman/new.html";
+        break;    
+    default:
+        tomove="/";
+        break;
+}
+window.location.replace(tomove);
+</script>
+You have used an old link. I am redirecting you to a correct one via JavaScript; if you have javascript disabled, <a href="/">click here</a>.
