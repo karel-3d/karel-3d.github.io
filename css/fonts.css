@@ -4,7 +4,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url("http://www.karelbilek.com/fonts/u-WUoqrET9fUeobQW7jkRVtXRa8TVwTICgirnJhmVJw.woff2") format ('woff2');
+  src: local('Open Sans'), local('OpenSans'), url("/fonts/u-WUoqrET9fUeobQW7jkRVtXRa8TVwTICgirnJhmVJw.woff2") format ('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -12,7 +12,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url("http://www.karelbilek.com/fonts/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2") format ('woff2');
+  src: local('Open Sans'), local('OpenSans'), url("/fonts/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2") format ('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* latin-ext */
@@ -20,7 +20,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url("http://www.karelbilek.com/fonts/MTP_ySUJH_bn48VBG8sNShUOjZSKWg4xBWp_C_qQx0o.woff2") format ('woff2');
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url("/fonts/MTP_ySUJH_bn48VBG8sNShUOjZSKWg4xBWp_C_qQx0o.woff2") format ('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -28,7 +28,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url("http://www.karelbilek.com/fonts/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2") format ('woff2');
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url("/fonts/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2") format ('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* latin-ext */
@@ -36,7 +36,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url("http://www.karelbilek.com/fonts/k3k702ZOKiLJc3WVjuplzBUOjZSKWg4xBWp_C_qQx0o.woff2") format ('woff2');
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url("/fonts/k3k702ZOKiLJc3WVjuplzBUOjZSKWg4xBWp_C_qQx0o.woff2") format ('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -44,7 +44,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url("http://www.karelbilek.com/fonts/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2") format ('woff2');
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url("/fonts/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2") format ('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
@@ -53,7 +53,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 800;
-  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url("http://www.karelbilek.com/fonts/EInbV5DfGHOiMmvb1Xr-hhUOjZSKWg4xBWp_C_qQx0o.woff2") format ('woff2');
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url("/fonts/EInbV5DfGHOiMmvb1Xr-hhUOjZSKWg4xBWp_C_qQx0o.woff2") format ('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -61,7 +61,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 800;
-  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url("http://www.karelbilek.com/fonts/EInbV5DfGHOiMmvb1Xr-hugdm0LZdjqr5-oayXSOefg.woff2") format ('woff2');
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url("/fonts/EInbV5DfGHOiMmvb1Xr-hugdm0LZdjqr5-oayXSOefg.woff2") format ('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* latin-ext */
@@ -69,7 +69,7 @@
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
-  src: local('Open Sans Italic'), local('OpenSans-Italic'), url("http://www.karelbilek.com/fonts/xjAJXh38I15wypJXxuGMBqg5eI2G47JWe0-AuFtD150.woff2") format ('woff2');
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url("/fonts/xjAJXh38I15wypJXxuGMBqg5eI2G47JWe0-AuFtD150.woff2") format ('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -77,7 +77,7 @@
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
-  src: local('Open Sans Italic'), local('OpenSans-Italic'), url("http://www.karelbilek.com/fonts/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2") format ('woff2');
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url("/fonts/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2") format ('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
@@ -86,7 +86,7 @@
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 700;
-  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url("http://www.karelbilek.com/fonts/PRmiXeptR36kaC0GEAetxqsA81DAeuqoeYxDcSOJPMY.woff2") format ('woff2');
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url("/fonts/PRmiXeptR36kaC0GEAetxqsA81DAeuqoeYxDcSOJPMY.woff2") format ('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -94,6 +94,6 @@
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 700;
-  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url("http://www.karelbilek.com/fonts/PRmiXeptR36kaC0GEAetxolIZu-HDpmDIZMigmsroc4.woff2") format ('woff2');
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url("/fonts/PRmiXeptR36kaC0GEAetxolIZu-HDpmDIZMigmsroc4.woff2") format ('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
