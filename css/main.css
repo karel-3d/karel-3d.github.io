@@ -170,6 +170,20 @@ a:hover {
   border: none;
 }
 
+.doGallery a {
+    border:none;
+}
+
+img.obal{
+   border: 1px solid #ddd;
+   padding: 6px; 
+}
+
+a:hover img.obal {
+   background: #eee;
+   border-color: #bbb;
+}
+
 /* standard */
 .post pre {
   border: 1px solid #ddd;
