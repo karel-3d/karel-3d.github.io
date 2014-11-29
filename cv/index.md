@@ -6,6 +6,8 @@ description: Karel Bílek's CV
 
 I am Mgr. Karel Bílek, born 1988, currently living in Prague. This is my CV.
 
+*(Google Docs version of this CV is [here](https://docs.google.com/document/d/1QOVycSRtW4PErcR9H2RZxsfi3WLDzglowmR6KKQbHS8/edit). My LinkedIn profile is [here](https://www.linkedin.com/profile/view?id=215709638).)*
+
 Experience
 ---
 
@@ -110,5 +112,3 @@ Languages
 Notes
 ---
 * In this CV, MFF stands for Faculty of Mathematics and Physics, Charles University in Prague
-* Google Docs version of this CV is [here](https://docs.google.com/document/d/1QOVycSRtW4PErcR9H2RZxsfi3WLDzglowmR6KKQbHS8/edit)
-
