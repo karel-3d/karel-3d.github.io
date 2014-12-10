@@ -4,7 +4,7 @@ title: Pirate bay archival
 description: Information about 2013 Pirate Bay archive and additional experiments
 ---
 
-Update, 2014: As of December 2014, The Pirate Bay is down and people started to write me, if I don't have any updated version. I don't. Slightly more (july 2013) updated versions of TPB (and in CSV - probably easier to parse) are on those github repositories (not made by me):
+Update, 2014: As of December 2014, The Pirate Bay is down and people started to write me, if I don't have any updated version. I don't. Slightly more (july 2013) updated versions of TPB (and in CSV - probably easier to parse) are on those github repositories (not made by me; note that "info hash" and "magnet" are the same thing):
 
 * <https://github.com/tpb-archive/3xxxxxx>
 * <https://github.com/tpb-archive/4xxxxxx>
