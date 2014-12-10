@@ -13,11 +13,15 @@ Update, 2014: As of December 2014, The Pirate Bay is down and people started to 
 * <https://github.com/tpb-archive/7xxxxxx>
 * <https://github.com/tpb-archive/8xxxxxx>
 
-The same stuff is in this archive
+The same stuff is in this archive (without the 8xx torrents)
 
 * <https://archive.org/details/Backup_of_The_Pirate_Bay_32xxxxx-to-79xxxxx>
 
-I am not aware of anything newer.
+and here
+
+* [magnet link](magnet:?xt=urn:btih:0dfe31d5d91058bcbe5cfbcf98646700890afea0&dn=Backup+of+The+Pirate+Bay+%28IDs%3A+3200000+-+7700000%29&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.istole.it%3A6969&tr=udp%3A%2F%2Fopen.demonii.com%3A1337)
+
+I am not aware of anything newer. Andronikov stopped existing after uploading the [latest version of TPB in 10 2013 (magnet)](magnet:?xt=urn:btih:169d2422f15ea6aa33dac5737ee6189d29a0e5d1&dn=+Backup+of+The+Pirate+Bay+%28IDs%3A+8000000+-+8999999%29+&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.istole.it%3A6969&tr=udp%3A%2F%2Fopen.demonii.com%3A1337), unfortunately that magnet has 0 seeders.
 
 
 ----
