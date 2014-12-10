@@ -4,6 +4,20 @@ title: Pirate bay archival
 description: Information about 2013 Pirate Bay archive and additional experiments
 ---
 
+Update, 2014: As of December 2014, The Pirate Bay is down and people started to write me, if I don't have any updated version. I don't. Slightly more (july 2013) updated versions of TPB (and in CSV - probably easier to parse) are on those github repositories:
+
+* https://github.com/tpb-archive/3xxxxxx
+* https://github.com/tpb-archive/4xxxxxx
+* https://github.com/tpb-archive/5xxxxxx
+* https://github.com/tpb-archive/6xxxxxx
+* https://github.com/tpb-archive/7xxxxxx
+* https://github.com/tpb-archive/8xxxxxx
+* https://github.com/tpb-archive/9xxxxxx
+
+I am not aware of any newer archive.
+
+----
+
 *Note: Some people noticed that the XML files are not well-formed and valid. I have corrected that, see the bottom.*
 
 [Some time ago, I did an experiment on how small I can make all pirate bay while keeping the important information.](http://thepiratebay.se/torrent/7016365/The_whole_Pirate_Bay_magnet_archive) People apparently liked it and it got *way* more popular than I expected.
