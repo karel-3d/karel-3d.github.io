@@ -18,7 +18,7 @@ I am not aware of any newer archive.
 
 ----
 
-original article, from February 2013:
+original article, from February 2013 (with working links):
 
 *Note: Some people noticed that the XML files are not well-formed and valid. I have corrected that, see the bottom.*
 
@@ -28,9 +28,9 @@ Well, now some months later, I wanted to do two things - first, make it even sma
 
 So I did both.
 
-The "smaller" file [is for download here](https://thepiratebay.se/torrent/8156416) - it has 76 MB 7zipped and it really has just names and magnet links.
+The "smaller" file [is for download here](http://www.torrenthound.com/hash/277e1afa0038db7299cd8274310556526599f67c/torrent-info/Small-pirate-bay-archive-february-2013) ([magnet](magnet:?xt=urn:btih:277e1afa0038db7299cd8274310556526599f67c&dn=Small+pirate+bay+archive+%28february+2013%29&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.istole.it%3A6969&tr=udp%3A%2F%2Fopen.demonii.com%3A1337)) - it has 76 MB 7zipped and it really has just names and magnet links.
 
-The "bigger" file [is for download here](https://thepiratebay.se/torrent/8163015) - in 631 MB 7zipped, it has all the information about number of seeders, leechers (at the time of the download), magnet links, descriptions, size, and perhaps most importantly - **comments**. It does *not* contain the "big" torrent files.
+The "bigger" file [is for download here](http://www.torrenthound.com/hash/e4b6f847647211b930219492ecf1a9c7bc696d29/torrent-info/Complete-Pirate-Bay-archive-february-2013-.) ([magnet](magnet:?xt=urn:btih:e4b6f847647211b930219492ecf1a9c7bc696d29&dn=Complete+Pirate+Bay+archive+%28february+2013%29.&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.istole.it%3A6969&tr=udp%3A%2F%2Fopen.demonii.com%3A1337)) - in 631 MB 7zipped, it has all the information about number of seeders, leechers (at the time of the download), magnet links, descriptions, size, and perhaps most importantly - **comments**. It does *not* contain the "big" torrent files.
 
 Note: since the downloading itself took quite long, the data in the older torrents can be slightly out of date.
 
