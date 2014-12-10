@@ -7,15 +7,18 @@ description: Information about 2013 Pirate Bay archive and additional experiment
 Update, 2014: As of December 2014, The Pirate Bay is down and people started to write me, if I don't have any updated version. I don't. Slightly more (july 2013) updated versions of TPB (and in CSV - probably easier to parse) are on those github repositories (not made by me; note that "info hash" and "magnet" are the same thing):
 
 * <https://github.com/tpb-archive/3xxxxxx>
-* <https://github.com/tpb-archive/4xxxxxx>
+* https://github.com/tpb-archive/4xxxxxx [taken down by github]
 * <https://github.com/tpb-archive/5xxxxxx>
 * <https://github.com/tpb-archive/6xxxxxx>
 * <https://github.com/tpb-archive/7xxxxxx>
 * <https://github.com/tpb-archive/8xxxxxx>
 
-I am not aware of any newer archive.
+The same stuff is in this archive
 
-Update 2: Aaaaaand Github took it down. (At least the 4xxxxxx one.)
+* <https://archive.org/details/Backup_of_The_Pirate_Bay_32xxxxx-to-79xxxxx>
+
+I am not aware of anything newer.
+
 
 ----
 
