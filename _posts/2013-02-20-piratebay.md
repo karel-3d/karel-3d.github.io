@@ -12,7 +12,6 @@ Update, 2014: As of December 2014, The Pirate Bay is down and people started to 
 * <https://github.com/tpb-archive/6xxxxxx>
 * <https://github.com/tpb-archive/7xxxxxx>
 * <https://github.com/tpb-archive/8xxxxxx>
-* <https://github.com/tpb-archive/9xxxxxx>
 
 I am not aware of any newer archive.
 
