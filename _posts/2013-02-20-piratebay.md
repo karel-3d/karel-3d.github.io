@@ -18,7 +18,7 @@ I am not aware of any newer archive.
 
 ----
 
-original article, from February 2013
+original article, from February 2013:
 
 *Note: Some people noticed that the XML files are not well-formed and valid. I have corrected that, see the bottom.*
 
