@@ -6,17 +6,19 @@ description: Information about 2013 Pirate Bay archive and additional experiment
 
 Update, 2014: As of December 2014, The Pirate Bay is down and people started to write me, if I don't have any updated version. I don't. Slightly more (july 2013) updated versions of TPB (and in CSV - probably easier to parse) are on those github repositories (not made by me):
 
-* https://github.com/tpb-archive/3xxxxxx
-* https://github.com/tpb-archive/4xxxxxx
-* https://github.com/tpb-archive/5xxxxxx
-* https://github.com/tpb-archive/6xxxxxx
-* https://github.com/tpb-archive/7xxxxxx
-* https://github.com/tpb-archive/8xxxxxx
-* https://github.com/tpb-archive/9xxxxxx
+* <https://github.com/tpb-archive/3xxxxxx>
+* <https://github.com/tpb-archive/4xxxxxx>
+* <https://github.com/tpb-archive/5xxxxxx>
+* <https://github.com/tpb-archive/6xxxxxx>
+* <https://github.com/tpb-archive/7xxxxxx>
+* <https://github.com/tpb-archive/8xxxxxx>
+* <https://github.com/tpb-archive/9xxxxxx>
 
 I am not aware of any newer archive.
 
 ----
+
+original article, from February 2013
 
 *Note: Some people noticed that the XML files are not well-formed and valid. I have corrected that, see the bottom.*
 
