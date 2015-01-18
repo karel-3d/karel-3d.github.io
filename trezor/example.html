@@ -15,7 +15,7 @@ Text:<br>
 $("button").click(function(){
     var text=$("#input").val();
     var maker=new qrMaker(text);
-    maker.imgTag(10,10).then(function(tag){
+    maker.imgTag(10,20).then(function(tag){
         $("#place").html(tag);
     });
 })
