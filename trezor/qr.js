@@ -419,7 +419,7 @@ qrMaker.prototype.imgTag=function(cellSize, margin){
                 if (min <= x && x < max && min <= y && y < max) {
                     var c = Math.floor( (x - min) / cellSize);
                     var r = Math.floor( (y - min) / cellSize);
-                    var index=r*realSize+c
+                    var index=c*realSize+r
                     var byte=bytes[index]
                     return byte|0;
                 } else {
