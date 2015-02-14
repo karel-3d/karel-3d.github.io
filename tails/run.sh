@@ -1,4 +1,4 @@
-#wget -q -O - http://karelbilek.com/tails/run.sh | sudo bash
+#wget -q -O - http://karelbilek.com/tails/run.sh | bash
 RELEASEFF=35.0.1
 RELEASEPLUG=1.0.5
 
@@ -8,5 +8,5 @@ wget http://karelbilek.com/tails/browser-plugin-trezor_$RELEASEPLUG""_i386.deb
 #dpkg -x browser-plugin-trezor_$RELEASEPLUG""_i386.deb ./plugin
 #mkdir firefox/browser/plugins/
 #cp plugin/usr/lib/mozilla/plugins/* firefox/browser/plugins
-dpkg -i browser-plugin-trezor_$RELEASEPLUG""_i386.deb
+sudo dpkg -i browser-plugin-trezor_$RELEASEPLUG""_i386.deb
 firefox/firefox
