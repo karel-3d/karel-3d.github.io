@@ -26,4 +26,4 @@ if [ ! -f /lib/udev/rules.d/51-trezor-udev.rules ] ; then
                      udevadm control --reload'"
 fi
 
-sudo -u amnesia firefox/firefox 'https://www.mytrezor.com' -setDefaultBrowser
+firefox/firefox 'https://www.mytrezor.com' -setDefaultBrowser
