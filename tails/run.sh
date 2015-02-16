@@ -20,10 +20,10 @@ fi
 if [ ! -f firefox/browser/plugins/npBitcoinTrezorPlugin.so ] ; then
     cp plugin/usr/lib/mozilla/plugins/npBitcoinTrezorPlugin.so firefox/browser/plugins/
 fi
-if [ ! -f /lib/udev/rules.d/51-trezor-udev.rules ] ; then
+while [ ! -f /lib/udev/rules.d/51-trezor-udev.rules ] ; do
     #the only things that are run as root
     gksudo "bash -c 'cp ~amnesia/plugin/lib/udev/rules.d/51-trezor-udev.rules /lib/udev/rules.d/; 
                      udevadm control --reload'"
-fi
+done
 
 firefox/firefox 'https://www.mytrezor.com' -setDefaultBrowser
