@@ -22,7 +22,7 @@ if [ ! -f firefox/browser/plugins/npBitcoinTrezorPlugin.so ] ; then
 fi
 if [ ! -f /lib/udev/rules.d/51-trezor-udev.rules ] ; then
     #the only things that are run as root
-    gksudo "bash -c 'cp plugin/lib/udev/rules.d/51-trezor-udev.rules /lib/udev/rules.d/; 
+    gksudo "bash -c 'cp ~amnesia/plugin/lib/udev/rules.d/51-trezor-udev.rules /lib/udev/rules.d/; 
                      udevadm control --reload'"
 fi
 
