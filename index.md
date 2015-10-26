@@ -17,6 +17,7 @@ Kontakt
 * PGP key [3FE5FA16](https://pgp.mit.edu/pks/lookup?op=vindex&search=0xA25898CF3FE5FA16) , copied below / zkopírovaný níže
 * telefon: (+420) 732744940
 * bitcoin: [1CrwjoKxvdbAnPcGzYjpvZ4no4S71neKXT](bitcoin:1CrwjoKxvdbAnPcGzYjpvZ4no4S71neKXT)
+* [twitter](https://twitter.com/karel_3d)
 * [facebook](https://facebook.com/syn.bozi)
 * [linkedin](https://www.linkedin.com/profile/view?id=215709638)
 * [github](https://github.com/runn1ng) (including [this website](https://github.com/runn1ng/runn1ng.github.com))
