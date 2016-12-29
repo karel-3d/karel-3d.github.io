@@ -15,7 +15,7 @@ Kontakt
 
 * mail: [kb@karelbilek.com](mailto:kb@karelbilek.com)
 * PGP key [3FE5FA16](https://pgp.mit.edu/pks/lookup?op=vindex&search=0xA25898CF3FE5FA16) , copied below / zkopírovaný níže
-* telefon / Signal: (+420) 732744940 [preferring Signal]
+* telefon / telegram / Signal: (+420) 732744940 [preferring Signal]
 * bitcoin: [1CrwjoKxvdbAnPcGzYjpvZ4no4S71neKXT](bitcoin:1CrwjoKxvdbAnPcGzYjpvZ4no4S71neKXT)
 * [twitter](https://twitter.com/karel_3d)
 * [facebook](https://facebook.com/syn.bozi)
