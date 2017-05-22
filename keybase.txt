@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/karel_3d
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.karelbilek.com
+  * I am karel_3d (https://keybase.io/karel_3d) on keybase.
+  * I have a public key ASBGX-JMFaIqFWwTY-KTrGkdgZayRcsGLeZKYfpgHVk2Swo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120465fe24c15a22a156c1363e293ac691d8196b245cb062de64a61fa601d59364b0a",
+            "host": "keybase.io",
+            "kid": "0120465fe24c15a22a156c1363e293ac691d8196b245cb062de64a61fa601d59364b0a",
+            "uid": "115568619b403d0a4481a30e6591b319",
+            "username": "karel_3d"
+        },
+        "service": {
+            "hostname": "www.karelbilek.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.23"
+    },
+    "ctime": 1495455528,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1495455512,
+        "hash": "eed37bf38b648b7cbb3c5f946d3d1a4f574341c2dc8903b3b344eb6c2c913412e6bcd3facb0216fefa5d3ca37eccdec2799432e39eec03b0eb3a0049a9c5e890",
+        "seqno": 1101131
+    },
+    "prev": "27db2cec37391ed4e2a1f5a0bac2cc32710d727d82e6a0b549b4f4ac355b7616",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRl/iTBWiKhVsE2Pik6xpHYGWskXLBi3mSmH6YB1ZNksKp3BheWxvYWTFAvt7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNDY1ZmUyNGMxNWEyMmExNTZjMTM2M2UyOTNhYzY5MWQ4MTk2YjI0NWNiMDYyZGU2NGE2MWZhNjAxZDU5MzY0YjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNDY1ZmUyNGMxNWEyMmExNTZjMTM2M2UyOTNhYzY5MWQ4MTk2YjI0NWNiMDYyZGU2NGE2MWZhNjAxZDU5MzY0YjBhIiwidWlkIjoiMTE1NTY4NjE5YjQwM2QwYTQ0ODFhMzBlNjU5MWIzMTkiLCJ1c2VybmFtZSI6ImthcmVsXzNkIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ3d3cua2FyZWxiaWxlay5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIzIn0sImN0aW1lIjoxNDk1NDU1NTI4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTU0NTU1MTIsImhhc2giOiJlZWQzN2JmMzhiNjQ4YjdjYmIzYzVmOTQ2ZDNkMWE0ZjU3NDM0MWMyZGM4OTAzYjNiMzQ0ZWI2YzJjOTEzNDEyZTZiY2QzZmFjYjAyMTZmZWZhNWQzY2EzN2VjY2RlYzI3OTk0MzJlMzllZWMwM2IwZWIzYTAwNDlhOWM1ZTg5MCIsInNlcW5vIjoxMTAxMTMxfSwicHJldiI6IjI3ZGIyY2VjMzczOTFlZDRlMmExZjVhMGJhYzJjYzMyNzEwZDcyN2Q4MmU2YTBiNTQ5YjRmNGFjMzU1Yjc2MTYiLCJzZXFubyI6MTEsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA7Oj45ondrov+2YJHz9xqG4fgexE/89aInvrKeuMBGUMa+FR4hn4SqYa0E2ZSu8BV2Qxw6djlszQsmGpHvxsdDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEAIzoFLiZsltTe2ZOoCJ4BOPjye7B7YUcGELwThfsJjo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/karel_3d
+
+==================================================================
