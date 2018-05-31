@@ -9,3 +9,4 @@ Fotky
 * [Ireland 2017](https://photos.app.goo.gl/gGHMsJUW2AmD5SdF2)
 * [Granada 2018](https://photos.app.goo.gl/e5C0plDCH6k9zviB2)
 * [Gran Canaria 2018](https://photos.app.goo.gl/fbCGwR2pcsKNq4TD2)
+* [Paris + Amsterdam + Berlin + Prague + home 2018](https://photos.app.goo.gl/0nGI3Lj1dwYStPW22)
