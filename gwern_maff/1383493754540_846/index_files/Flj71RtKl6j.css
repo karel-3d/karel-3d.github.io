@@ -1,0 +1,8 @@
+/* Effective stylesheet produced by snapshot save */
+.rhcFooterWrap { padding-left: 6px; }
+.rhcFooterBorder { border-bottom: 1px solid rgb(233, 233, 233); }
+.rhcFooterCopyright { padding: 10px 0px 4px; }
+#rhc_footer_selector { vertical-align: top; }
+.rhcFooterSelectorButton .img { margin: 6px 0px 0px 3px; vertical-align: top; }
+.uiMediaThumb { background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); display: inline-block; outline: medium none; padding: 4px; position: relative; vertical-align: bottom; }
+.uiMediaThumb:hover, .uiMediaThumb:hover .uiMediaThumbWrap, .uiMediaThumb:active, .uiMediaThumb:active .uiMediaThumbWrap, .uiMediaThumb:focus, .uiMediaThumb:focus .uiMediaThumbWrap { border-color: rgb(59, 89, 152); }

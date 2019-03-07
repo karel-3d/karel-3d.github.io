@@ -1,0 +1,14 @@
+/* Effective stylesheet produced by snapshot save */
+@import url("dgx.css");
+.pun TABLE, .pun DIV, .pun FORM, .pun P, .pun H1, .pun H2, .pun H3, .pun H4, .pun PRE, .pun BLOCKQUOTE, .pun UL, .pun OL, .pun LI, .pun DL, .pun DT, .pun DD, .pun TH, .pun TD, .pun FIELDSET, .pun IMG { margin: 0px; padding: 0px; font-weight: normal; }
+.pun IMG { border: medium none; }
+.pun INPUT, .pun SELECT, .pun TEXTAREA, .pun OPTGROUP { margin: 0px; }
+.pun .clearer, .pun .nosize { height: 0px; width: 0px; line-height: 0; font-size: 0px; overflow: hidden; }
+.pun .clearer, .pun .clearb { clear: both; }
+.pun, .pun .inbox, .pun .inform, .pun .intd, .pun .tclcon { min-height: 1px; }
+#brdfooter H2, #brdstats H2, #brdstats .conl DT, #brdstats .conr DT, #modcontrols DT, #searchlinks DT, DIV.postright H3 { position: absolute; display: block; overflow: hidden; width: 1em; left: -999em; }
+DIV.block2col DIV.blockform, DIV.block2col DIV.block, #viewprofile DD { margin-left: 14em; }
+DIV.blockmenu, #viewprofile DT { float: left; width: 13em; }
+#viewprofile DL { float: left; width: 100%; overflow: hidden; }
+#onlinelist DD, #onlinelist DT, #brdmenu LI, DIV.linkst LI, DIV.linksb LI, DIV.postlinksb LI, DIV.postfootright LI { display: inline; height: 0px; margin-right: 1em; }
+#viewprofile DT { text-align: right; }

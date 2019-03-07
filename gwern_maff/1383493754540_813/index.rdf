@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:MAF="http://maf.mozdev.org/metadata/rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:root">
+    <MAF:originalurl RDF:resource="http://forum.nette.org/cs/15789-mac-os-10-8-5-s-ampps-nefunguje-rewrite#p112209"/>
+    <MAF:title RDF:resource="Mac Os 10.8.5 s AMPPS nefunguje rewrite — Nette Framework forum"/>
+    <MAF:archivetime RDF:resource="Sun, 03 Nov 2013 10:50:16 -0500"/>
+    <MAF:indexfilename RDF:resource="index.html"/>
+    <MAF:charset RDF:resource="UTF-8"/>
+  </RDF:Description>
+</RDF:RDF>

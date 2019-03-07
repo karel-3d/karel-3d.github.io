@@ -1,0 +1,49 @@
+/* Effective stylesheet produced by snapshot save */
+body, htmlbody, html { font-size: 13px; font-family: Tahoma,Arial,Verdana CE,Helvetica CE,Verdana,Arial,Helvetica,sand-serif; color: rgb(255, 255, 255); text-align: center; background: url("bg.jpg") no-repeat scroll center top rgb(29, 29, 29); }
+div.web { position: relative; width: 1040px; height: 100%; margin: 0px auto; }
+div.logo { width: 430px; height: 130px; position: relative; float: left; top: 0px; left: 95px; z-index: 2; }
+div.userpanel { width: 415px; height: 95px; float: right; position: relative; top: -5px; background-image: url("user-panel.png"); z-index: 2; outline: 0.5px solid rgb(26, 26, 26); }
+div.avatar { width: 81px; height: 77px; margin: 8px 0px 0px 10px; float: left; z-index: 2; }
+div.userpaneltext { width: 315px; height: 70px; float: right; position: relative; text-align: left; margin: 10px 0px 0px; }
+div.icons { width: 115px; height: 35px; position: absolute; left: 290px; top: 5px; text-align: right; z-index: 10; }
+div.boxes { height: 220px; clear: both; position: relative; top: 7px; }
+div.leftbox { width: 572px; height: 220px; float: left; position: relative; background: none repeat scroll 0% 0% rgb(43, 43, 43); border: 1px solid rgb(64, 64, 64); outline: 1px solid rgb(21, 21, 21); border-radius: 2px 2px 2px 2px; }
+div.rightbox { width: 460px; height: 220px; float: right; position: relative; background: none repeat scroll 0% 0% rgb(43, 43, 43); border: 1px solid rgb(64, 64, 64); outline: 1px solid rgb(21, 21, 21); border-radius: 2px 2px 2px 2px; }
+div.leftbox_big { width: 572px; height: 201px; }
+img.boxpicssmall { margin-top: 6px; border: 1px solid rgb(64, 64, 64); outline: 1px solid rgb(21, 21, 21); }
+img#boxpicssmall1 { margin-left: 3px; margin-right: 4px; }
+img#boxpicssmall2 { margin-left: 4px; margin-right: 4px; }
+img#boxpicssmall3 { margin-left: 4px; }
+div.content { background: url("content_bg.png") repeat-y scroll center top transparent; position: relative; top: 17px; }
+div.contentupper { height: 9px; background: url("content_upper.png") no-repeat scroll center top transparent; }
+div.contentlower { position: relative; left: 0px; height: 9px; background-image: url("content_lower.png"); clear: both; }
+.menuheadertext { position: relative; top: 3px; font-size: 20px; color: rgb(238, 207, 0); line-height: 35px; }
+.menu { width: 196px; height: 40px; }
+ul.vysouvaci_menu li { margin: 3px 0px; }
+ul.vysouvaci_menu a:link, ul.vysouvaci_menu a:visited, ul.vysouvaci_menu a:active { color: white; }
+div.menuleft { position: relative; float: left; width: 0px; left: 1px; }
+div.menuleft ul.menuheader { list-style-type: none; position: relative; top: -17px; left: -37px; cursor: pointer; width: 196px; }
+div.menuleft ul.vysouvaci_menu { list-style-image: url("li.png"); position: relative; top: -18px; left: -12px; text-align: left; width: 196px; }
+div.text { width: 829px; height: auto; position: relative; left: 206px; background: none repeat scroll 0% 0% rgb(35, 35, 35); }
+div.paragraph { background: none repeat scroll 0% 0% rgb(45, 45, 45); padding: 0px 0px 20px; border-width: 1px; border-style: solid; border-color: black rgb(42, 42, 42); }
+div.paragraph_text { text-align: left; margin: 0px 15px; position: relative; top: 10px; }
+div.copyright { height: 73px; position: relative; background: none repeat scroll 0% 0% rgb(43, 43, 43); border: 1px solid rgb(64, 64, 64); outline: 1px solid rgb(21, 21, 21); border-radius: 2px 2px 2px 2px; top: 27px; padding: 14px; }
+div.copytext { padding: 10px; }
+div.paragraph_text a { text-decoration: none; font-weight: bold; }
+a:link, a:visited, a:active { color: rgb(250, 234, 103); text-decoration: none; }
+a:hover { color: rgb(250, 234, 103); text-decoration: underline; }
+h1 { color: rgb(238, 207, 0); font-weight: bold; font-size: 20px; margin: 0px; padding: 0px 0px 5px; text-shadow: 1px 1px 1px rgb(102, 102, 102); }
+h2 { color: rgb(238, 207, 0); font-weight: bold; font-size: 18px; margin: 0px; padding: 0px 0px 5px; display: inline; }
+textarea, input { border-style: solid; border-color: rgb(74, 124, 159); margin: 0px; border-width: 1px; }
+input.tlacitko { cursor: pointer; border-style: solid; border-width: 1px; padding: 3px 5px; border-color: rgb(74, 124, 159); font-weight: bold; background-color: rgb(29, 40, 46); text-align: center; color: white; }
+table, form { font-size: 13px; }
+.change { position: absolute; display: none; height: 200px; overflow: hidden; margin: 10px; }
+.change_left { float: left; width: 220px; text-align: left; }
+.change_right { float: right; width: 220px; text-align: right; }
+.back, .back_left { position: absolute; top: 200px; left: 210px; display: block; width: 17px; height: 135px; overflow: hidden; font-weight: 900; font-size: 16px; cursor: pointer; }
+.forth, .forth_left { position: absolute; top: 200px; right: 210px; display: block; width: 17px; height: 135px; overflow: hidden; font-weight: 900; font-size: 16px; cursor: pointer; }
+img { border-color: rgb(50, 50, 50); }
+@media not all {
+  ul.zebra > li:nth-of-type(2n+1), table.zebra tbody tr:nth-of-type(2n+1) { background: none repeat scroll 0% 0% rgb(29, 29, 31); }
+  table.zebra tbody tr:hover, table.zebra tbody tr:nth-of-type(2n+1):hover, table.zebra tbody tr.odd:hover { background: none repeat scroll 0% 0% rgb(34, 34, 36); }
+}

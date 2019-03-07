@@ -1,0 +1,44 @@
+/* Effective stylesheet produced by snapshot save */
+body { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); margin: 0px; }
+.content { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); margin: -10px 8% 20px; }
+tr, td, div, span, body { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 8pt; }
+a:link { color: rgb(0, 0, 0); text-decoration: none; }
+a:visited { color: rgb(0, 0, 0); text-decoration: none; }
+a:active { color: rgb(0, 0, 0); text-decoration: none; }
+a:hover { color: rgb(174, 174, 174); text-decoration: none; }
+a:focus { text-decoration: none; }
+ul { margin-left: 6px; padding-left: 6px; }
+li { margin-bottom: 8px; }
+img { text-align: center; vertical-align: middle; border: medium none; }
+.fHeading { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 8pt; font-weight: bold; }
+.fSmall { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 7pt; }
+.fNormal { font-family: Verdana,Arial,Tahoma,Trebuchet MS,Sans-Serif,Georgia,Courier,Times New Roman,Serif; font-size: 10px; font-weight: bold; padding-left: 12%; }
+.bg1 { background-color: rgb(243, 243, 243); }
+.bg2 { background-color: rgb(255, 255, 255); }
+.data-table { background-color: rgb(255, 255, 255); border: 1px solid rgb(174, 174, 174); border-collapse: collapse; width: 100%; }
+.data-table td { padding: 4px; text-align: left; border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(174, 174, 174) rgb(174, 174, 174) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.data-table-head { background-image: url("detail_head.png"); background-repeat: repeat-x; background-color: rgb(40, 40, 40); border: 1px solid rgb(174, 174, 174); color: rgb(255, 255, 255); vertical-align: bottom; }
+.location a:link { color: rgb(255, 255, 255); text-decoration: none; }
+.location a:visited { color: rgb(255, 255, 255); text-decoration: none; }
+.location a:active { color: rgb(255, 255, 255); text-decoration: none; }
+.location a:hover { color: rgb(174, 174, 174); text-decoration: none; }
+.location { height: 22px; background-image: url("table_location.png"); width: 100%; color: rgb(255, 255, 255); }
+.location_under { height: 15px; background-image: url("location_under.png"); width: 100%; }
+.location ul { list-style-type: none; list-style-image: none; padding-top: 5px; padding-left: 13%; margin: 0px auto; color: rgb(255, 255, 255); }
+.location li { margin-left: 5px; display: inline; }
+.block { margin: 0px auto; }
+.subblock { margin: 0px auto; width: 95%; }
+.navbar img { margin-left: 2px; margin-right: 2px; }
+.navbar { list-style-type: none; list-style-image: none; margin: 0px; padding: 0px 0px 10px; text-align: center; }
+.navbar li { margin-right: 12px; display: inline; }
+.headerblock { background: url("title-background.png") repeat scroll 0% 0% transparent; border: 0px none; height: 86px; width: 100%; position: relative; }
+.title { margin-left: 13%; padding-top: 12px; }
+.headertabs ul { list-style-type: none; list-style-image: none; margin: 0px; padding: 0px; }
+.headertabs li { margin: 0px; display: inline; }
+.headertabs { margin-left: 13%; padding-top: 14px; bottom: 0px; }
+#main ul.subsection_tabs { list-style: none outside none; margin: 0px; padding: 0px; border-bottom: 1px solid rgb(204, 204, 204); height: 18px; clear: both; }
+#main ul.subsection_tabs li { float: left; margin-right: 7px; padding-top: 2px; text-align: center; }
+#main ul.subsection_tabs li a { display: block; height: 16px; padding: 0px 6px; background-color: rgb(255, 255, 255); color: rgb(102, 102, 102); width: 120px; font-weight: bold; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 8pt; }
+#main ul.subsection_tabs li a:hover { color: rgb(102, 102, 102); }
+#main ul.subsection_tabs li a.active { background-color: rgb(221, 221, 221); }
+#footer { clear: both; color: rgb(0, 0, 0); width: 80%; margin-left: 10%; background-repeat: repeat-x; }

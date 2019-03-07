@@ -1,0 +1,87 @@
+/* Effective stylesheet produced by snapshot save */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; }
+:focus { outline: 0px none; }
+body { line-height: 1.4em; }
+h2, h3, h4 { font-weight: bold; text-align: left; line-height: 1.6em; }
+h3 { margin: 0.3em 0px; font-size: 1.25em; }
+strong { font-weight: bold; }
+a { text-decoration: none; border-bottom-width: 1px; }
+hr { height: 1px; margin: 1.5em 0px; border: 0px none; background-color: rgb(192, 192, 192); color: rgb(192, 192, 192); clear: both; }
+ul { list-style: circle outside none; margin: 1ex 2em; }
+img { vertical-align: middle; border: 0px none; }
+img.center { display: block; text-align: center; margin: 0.5em auto; }
+#canvas { position: relative; }
+#canvasInner { position: relative; text-align: left; }
+#header { position: relative; width: 100%; }
+#headerContent h1 { overflow: hidden; position: relative; }
+#column { position: relative; overflow: hidden; }
+#columnInner { margin: 0px; overflow: hidden; }
+#menu, #menuInner { overflow: hidden; }
+#page { clear: both; position: relative; width: 100%; }
+#pageInner { position: relative; }
+#main { position: relative; overflow: hidden; width: 100%; }
+#mainInner { padding: 3% 2%; }
+#headerContent a { border: 0px none; width: 100%; height: 100%; display: block; background-color: transparent ! important; }
+#headerContent a:hover { background: none repeat scroll 0px center transparent; }
+#header #headerInner .headerBox, #header #headerInner #headerContent #head #headerBlogczLogo { display: none; }
+#column .box { position: relative; margin: 1em 0px; }
+#column .box h3 { margin: 0px -10px 0.5ex; padding: 0px 10px; }
+#column .box ul { margin: 0px; list-style: none outside none; }
+div#searchWrap, div#forums, div#profile, div#pollMenu, div#sendMail, div#newsletter, div#category, div#favLink, div#archive, div#actualArticle, div#galleryBox, div#profile, div#favPage, div#columnBottom, div#propagation { padding: 0px 10px ! important; }
+div.preview, div.article { padding: 0px 0px 1em; }
+div.preview div.tr { padding-right: 1em; }
+.articleCaption { margin-bottom: 1em; }
+.articleText img, .preview img { border: 1px none rgb(136, 136, 136); }
+div#bannerLabel { font: 12px arial,sans-serif; }
+#colorbox, #cboxOverlay, #cboxWrapper { position: absolute; top: 0px; left: 0px; z-index: 9999; }
+#cboxOverlay { position: fixed; width: 100%; height: 100%; overflow: hidden; background: none repeat scroll 0% 0% rgb(0, 0, 0); }
+#cboxMiddleLeft, #cboxBottomLeft { clear: left; }
+#cboxContent { text-align: left; font-family: arial,sans-serif; font-size: 12px; position: relative; overflow: visible; background: none repeat scroll 0% 0% rgb(0, 0, 0); border: 1px solid rgb(254, 254, 254); }
+#cboxLoadedContent { background: none repeat scroll 0% 0% rgb(0, 0, 0); padding: 0px; overflow: auto; }
+#cboxLoadingOverlay, #cboxLoadingGraphic { position: absolute; top: 0px; left: 0px; width: 100%; }
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow { cursor: pointer; }
+#cboxTitle, #cboxCurrent { float: left; color: rgb(255, 255, 255); text-align: center; background: url("urn:not-loaded:http://bs.jxs.cz/ublog/skins/common/colorbox/toolbar.png") no-repeat scroll 0% 0% transparent; line-height: 26px; overflow: hidden; padding: 0px 1em; margin: 3px 0px; }
+#cboxCurrent { margin-left: 104px; font-weight: bold; min-width: 4em; max-width: 20%; width: 5%; padding: 0px; }
+#cboxPrevious { position: fixed; top: 50%; left: 0px; margin-top: -41px ! important; background: url("urn:not-loaded:http://bs.jxs.cz/ublog/skins/common/colorbox/prevImage.png") no-repeat scroll left top transparent; width: 57px; height: 65px; text-indent: -9999px; z-index: 10000; }
+#cboxPrevious:hover { background-position: right top; }
+#cboxNext { position: fixed; top: 50%; right: 0px; margin-top: -41px ! important; background: url("urn:not-loaded:http://bs.jxs.cz/ublog/skins/common/colorbox/nextImage.png") no-repeat scroll left top transparent; width: 57px; height: 65px; text-indent: -9999px; z-index: 10000; }
+#cboxNext:hover { background-position: right top; }
+#cboxLoadingOverlay { background: url("urn:not-loaded:http://bs.jxs.cz/ublog/skins/common/colorbox/loading.gif") no-repeat scroll center center rgb(0, 0, 0); }
+#cboxClose { position: absolute; display: block; background: url("urn:not-loaded:http://bs.jxs.cz/ublog/skins/common/colorbox/closeDetail.png") no-repeat scroll left top transparent; width: 26px; height: 26px; right: 0px; top: -30px; text-indent: -9999px; z-index: 10000; }
+#cboxClose:hover { background-position: right top; }
+.clear { clear: both; font-size: 0px; line-height: 0; height: 0px; overflow: hidden; }
+.tr { text-align: right ! important; clear: both; }
+.margin { margin-bottom: 1em ! important; }
+#ribbon { z-index: 1000; overflow: hidden; margin: 0px; padding: 0px; border-style: solid; border-color: rgb(25, 69, 91); border-width: 0px 0px 1px; width: 100%; min-width: 980px; height: 22px; outline: 0px none; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font: 11px Tahoma,'Lucida Grande CE',lucida,sans-serif; }
+#ribbonProject { margin: 3px 0px 0px 10px; padding: 0px; height: 19px; float: left; }
+#ribbonProject li { margin: 0px 8px 0px 0px; padding: 0px; display: block; float: left; }
+#ribbonProject li a { display: block; margin: 0px; padding: 1px 0px 0px 18px; height: 15px; background-color: transparent; background-image: url("ribbon_icons.png"); background-repeat: no-repeat; color: rgb(0, 0, 0); text-decoration: none; border: 0px none; }
+#ribbonProject li a:hover { background-color: transparent; }
+#ribbonTn a { background-position: 0px 0px; }
+#ribbonPrask a { background-position: 0px -224px; padding-left: 28px ! important; }
+#ribbonFanda a { background-position: 0px -240px; padding-left: 21px ! important; }
+#ribbonNova a { background-position: 0px -16px; }
+#ribbonVoyo a { background-position: 0px -32px; }
+#ribbonSmichov a { background-position: 0px -48px; }
+#ribbonDoma a { background-position: 0px -80px; }
+#ribbonKrasna a { background-position: 0px -96px; }
+#ribbonMediaFax a { background-position: 0px -258px; padding-left: 20px ! important; }
+#ribbonYoopy a { background-position: 0px -144px; }
+#ribbonICQ a { background-position: 0px -176px; }
+#ribbonFDb a { background-position: 0px -206px; padding-left: 28px ! important; }
+#ribbonProject li a span { text-decoration: underline; }
+#ribbonProject li a:hover span { text-decoration: none; }
+#ribbonUser { margin: 4px 10px 0px 0px; padding: 0px; height: 18px; float: right; text-align: right; }
+#ribbonUser li { margin: 0px 0px 0px 10px; padding: 0px; display: block; float: left; }
+#ribbonUser li a { display: block; margin: 0px; padding: 0px; height: 16px; color: rgb(0, 0, 0); text-decoration: underline; }
+#ribbonUser li a:hover { background-color: transparent; text-decoration: none; }
+#ribbonUser a span { font: bold 11px Tahoma,'Lucida Grande CE',lucida,sans-serif; color: rgb(0, 156, 32); }
+div.crossPromoBox { width: 25%; float: left; }
+div.crossPromoBox div { margin: 0px auto; width: 150px; }
+div.crossPromoBox div img { margin: 0px auto; display: block; }
+#bannerCenter, #bannerCenterLarge { margin: 0px auto; }
+#bannerCenter { width: 310px; }
+#bannerCenter div, #bannerCenterLarge div { float: left; }
+#bannerInner { width: 310px; }
+#bannerInner div { margin: 0px ! important; }
+html #icqP, html #cloneicqP { margin: 0px 0px -4px; text-align: left; }

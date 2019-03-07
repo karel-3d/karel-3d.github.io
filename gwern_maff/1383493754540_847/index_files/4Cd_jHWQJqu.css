@@ -1,0 +1,64 @@
+/* Effective stylesheet produced by snapshot save */
+.inlineBlock { display: inline-block; }
+.fbPhotosPhotoButtons .cropMessage, .croppingMode .fbPhotosPhotoButtons .fbPhotosPhotoLike, .croppingMode .fbPhotosPhotoButtons .commentButton, .croppingMode .fbPhotosPhotoButtons .tagButton { display: none; }
+.fbPhotosPhotoButtons .saveProfilePicMessage, .profilePicSavingMode .fbPhotosPhotoButtons .fbPhotosPhotoLike, .profilePicSavingMode .fbPhotosPhotoButtons .commentButton, .profilePicSavingMode .fbPhotosPhotoButtons .tagButton { display: none; }
+.fbPhotosPhotoTagboxes { height: 100%; left: 0px; position: absolute; top: 0px; width: 100%; pointer-events: none; }
+.fbPhotosPhotoTagboxes .tagsWrapper { display: inline-block; height: 100%; width: 100%; position: relative; vertical-align: middle; }
+.fbPhotosPhotoTagboxBase { line-height: normal; position: absolute; }
+.fbPhotosPhotoTagboxBase .borderTagBox, .fbPhotosPhotoTagboxBase .innerTagBox { -moz-box-sizing: border-box; height: 100%; width: 100%; }
+.ieContentFix { display: none; font-size: 200px; height: 100%; overflow: hidden; width: 100%; }
+.fbPhotosPhotoTagboxBase .tag { bottom: 0px; left: 50%; position: absolute; }
+.fbPhotosPhotoTagboxBase .tagPointer { left: -50%; pointer-events: auto; position: relative; }
+.fbPhotosPhotoTagboxBase .tagArrow { left: 50%; margin-left: -10px; position: absolute; top: -4px; }
+.fbPhotosPhotoTagboxBase .tagName { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(64, 64, 64); cursor: default; font-weight: normal; padding: 2px 6px 3px; top: 3px; white-space: nowrap; }
+.fbPhotosPhotoTagboxBase .borderTagBox, .fbPhotosPhotoTagboxBase .tagName { box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25), 0px 1px 5px 3px rgba(0, 0, 0, 0.05); background-clip: padding-box; border: 1px solid rgba(0, 0, 0, 0.25); }
+.fbPhotosPhotoTagboxBase .innerTagBox { border: 4px solid rgba(255, 255, 255, 0.8); }
+.fbxPhoto .fbPhotoContributor { min-height: 32px; padding: 12px 0px 5px; width: 448px; }
+.fbxPhoto .fbPhotoContributorName { font-weight: bold; padding-top: 1px; padding-bottom: 3px; display: inline; }
+.fbxPhoto .fbPhotosPhotoCaption { outline: medium none; display: inline; width: auto; }
+.fbxPhoto .fbPhotosPhotoCaption:empty { margin: 0px ! important; }
+.fbxPhoto .fbPhotoUfiCol { padding-right: 10px; vertical-align: top; width: 474px; }
+.fbxPhoto .fbPhotoDataCol { vertical-align: top; width: 262px; }
+.fbxPhoto .fbPhotosPhotoFeedback { margin-top: 3px; }
+.fbxPhoto .fbPhotosPhotoUfi { padding-top: 2px; }
+.fbxPhoto .fbPhotoTagList { display: inline; }
+.fbxPhoto .fbPhotosOnProfile { padding-top: 2px; }
+.fbxPhoto .fbPhotosPhotoActions, .fbPhotosPhotoActions .actionListButton.rotateButtons { border-top: 1px solid rgb(229, 229, 229); }
+.fbxPhoto .fbPhotoRemoveFromProfile, .fbxPhoto .fbPhotosMediaInfo, .fbxPhoto .fbPhotosPhotoActions .fbUndoSpamReport, .fbxPhoto .fbPhotosPhotoActions .fbPhotosPhotoActionsItem, .fbPhotosPhotoActions .rotateButtons { padding-left: 5px; padding-right: 5px; }
+.fbPhotosMediaInfo { margin-top: 5px; }
+.fbxPhoto .fbPhotosPhotoActions .fbPhotosPhotoActionsItem, .fbxPhoto .fbPhotosPhotoActions .fbUndoSpamReport { display: block; margin-bottom: 5px; }
+.fbPhotosPhotoActions .croppingModeOn .startCropping, .fbPhotosPhotoActions .doneCropping { display: none; }
+.fbPhotosAudienceNotEditable { margin-top: 1px; }
+#fbxPhotoContentContainer { position: relative; }
+.fbPrivacyAudienceIndicator .indicator { color: rgb(51, 51, 51); }
+.fbPrivacyAudienceIndicator .audienceIcon { margin-left: -18px; }
+.fbPrivacyAudienceIndicator:hover { text-decoration: none; cursor: default; }
+.sp_1q4iuq { background-image: url("p6FV-SxbpZT.png"); background-size: auto auto; background-repeat: no-repeat; display: inline-block; height: 16px; width: 16px; }
+.sx_87f35d { background-position: -289px -906px; }
+.sx_8a0c07 { width: 17px; background-position: -285px -170px; }
+.UFICommentActorName { font-weight: bold; }
+.UFICommentActions { clear: both; padding-top: 2px; }
+.UFIRow .UFICommentCloseButton { display: block; opacity: 0; position: relative; z-index: 1; }
+.openToggler .UFICommentCloseButton, .UFIRow:hover .UFICommentCloseButton, .UFIRow .UFICommentCloseButton:focus { opacity: 1; outline: medium none; }
+.UFICommentLikeIcon { background-image: url("rU-QG3Izn71.png"); background-repeat: no-repeat; background-size: auto auto; background-position: -285px -102px; display: inline-block; height: 9px; margin-right: 3px; width: 10px; }
+.UFICommentLikeButton { margin: -5px; padding: 0px 5px 4px; white-space: nowrap; }
+.UFICommentLikeButton:active, .UFICommentLikeButton:focus, .UFICommentLikeButton:hover { text-decoration: none; }
+.UFITranslateLink, .UFITranslatedText { display: block; margin-top: 2px; }
+.UFIRow .UFIImageBlockImage { margin: 0px; }
+.UFIRow .UFIImageBlockContent { margin: 0px; padding: 0px 0px 0px 8px; }
+@keyframes rotateSpinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.uiCloseButton { cursor: pointer; display: inline-block; margin: 0px; padding: 0px; }
+.uiCloseButton { background-image: url("4WSewcWboV8.png"); background-repeat: no-repeat; height: 15px; width: 15px; }
+.uiCloseButton:hover, .uiCloseButton:focus { background-position: left -32px; }
+.uiCloseButton:active { background-position: left -48px; }
+.uiCloseButtonHighContrast { display: none; }
+._29k { display: table-cell; vertical-align: top; width: 10000px; }
+._29h { float: left; margin-right: 5px; }
+._29h .img, img._29h, i._29h { display: block; }
+._303 { margin-right: 8px; }
+.emoticon { width: 16px; height: 16px; display: inline-block; vertical-align: top; }
+.emoticon_text { display: none; }
+.emoticon_smile { background-image: url("p6FV-SxbpZT.png"); background-repeat: no-repeat; background-size: auto auto; background-position: -289px -906px; }

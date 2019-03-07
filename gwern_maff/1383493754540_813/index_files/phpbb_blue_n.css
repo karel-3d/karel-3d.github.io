@@ -1,0 +1,116 @@
+/* Effective stylesheet produced by snapshot save */
+@import url("css.css");
+@import url("reset.css");
+@import url("classes.css");
+@import url("base.css");
+@import url("phpbb_blue_cs_n.css");
+.pun, .pun INPUT, .pun SELECT, .pun TEXTAREA, .pun OPTGROUP { font-family: Verdana,Arial,Helvetica,sans-serif; }
+.pun TABLE, .pun INPUT, .pun SELECT, .pun OPTGROUP, .pun TEXTAREA, DIV.postmsg P.postedit { font-size: 1em; }
+.pun PRE { font-family: consolas,monaco,courier,monospace; }
+.pun H2, .pun H4 { font-size: 1em; }
+.pun H3 { font-size: 1.1em; }
+DIV.postmsg P { line-height: 1.4; }
+DIV.postleft DT { font-size: 1.1em; }
+DIV.postleft DT, DIV.postmsg H4, TD.tcl H3, DIV.forminfo H3, P.postlink, DIV.linkst LI, DIV.linksb LI, DIV.postlinksb LI, .blockmenu LI, .pun SPAN.warntext, .pun P.warntext { font-weight: bold; }
+.blockpost DT A:link, .blockpost DT A:visited, .blockpost H2 A:link, .blockpost H2 A:visited, .postlink A:link, .postlink A:visited, .postfootright A:link, .postfootright A:visited, .blockmenu A:link, .blockmenu A:visited { text-decoration: none; }
+.blockpost H2 A:hover { text-decoration: underline; }
+DIV.box, .pun TD, .pun TH, .pun BLOCKQUOTE, DIV.codebox, DIV.forminfo, DIV.blockpost LABEL { border-style: solid; border-width: 1px; }
+HTML, BODY { margin: 0px; padding: 0px; }
+DIV.blocktable, DIV.block, DIV.blockform, DIV.block2col, #postreview { margin-bottom: 12px; }
+#punindex DIV.blocktable, DIV.blockpost { margin-bottom: 6px; }
+DIV.linkst, DIV.linksb {  }
+DIV.block DIV.inbox, DIV.blockmenu DIV.inbox { padding: 3px 6px; }
+.pun P, .pun UL, .pun DL, DIV.blockmenu LI, .pun LABEL, #announce DIV.inbox DIV { padding: 3px 0px; }
+.pun H2 { padding: 4px 6px; }
+.pun H1 { padding: 3px 0px 0px; }
+DIV.linkst { padding: 8px 6px 3px; }
+DIV.linksb, DIV.postlinksb { padding: 3px 6px 8px; }
+DIV.postleft DL, DIV.postright { padding: 6px; }
+DD.usercontacts, DD.postavatar { margin-top: 5px; }
+DD.postavatar { margin-bottom: 5px; }
+DIV.postfootleft P, DIV.postfootright UL, DIV.postfootright DIV { padding: 10px 6px 5px; }
+DIV.postmsg P { padding: 0px; }
+body, input, select { font-family: Verdana,"Geneva CE",lucida,sans-serif; }
+body { line-height: 1.5; font-size: 13px; }
+pre { line-height: 1.4; }
+body, html { min-height: 100%; }
+body { background: url("bg.jpg") repeat-x fixed 110px bottom rgb(52, 132, 210); color: rgb(51, 51, 51); }
+#punwrap { margin: 0px auto; width: 940px; position: relative; }
+#brdheader { height: 120px; font-family: "Open Sans",Verdana,"Geneva CE",lucida,sans-serif; font-size: 14px; }
+#logo { position: relative; left: 0px; top: 7px; width: 180px; height: 95px; display: block; background: url("logo.png") no-repeat scroll 0% 0% transparent; }
+#logo span { display: none; }
+#tools { position: absolute; right: 5px; top: 0px; font-size: 83%; color: rgb(161, 205, 254); line-height: 22px; }
+#tools form { padding: 4px 5px 8px; background: none repeat scroll 0% 0% rgb(39, 114, 189); border-radius: 0px 0px 5px 5px; }
+#tools a { color: rgb(161, 205, 254); text-decoration: none; padding: 3px; }
+#tools a:hover, #tools a:active, #tools a:focus { background: none repeat scroll 0% 0% rgb(253, 232, 150); color: black; }
+#search { display: inline; }
+#search input.text { background: none repeat scroll 0% 0% rgb(148, 190, 231); color: black; border: medium none; padding: 1px; width: 170px; margin-left: 0.5em; font-size: 115%; }
+#search input.text:focus { width: 300px; background: none repeat scroll 0% 0% rgb(248, 248, 248); }
+#menu ul { position: absolute; right: -2px; top: 46px; list-style: none outside none; padding: 0px; }
+#menu li { float: left; padding: 0px; margin: 0px; height: auto; }
+#menu a { display: block; margin: 0px 2px; padding: 0px 0px 0px 11px; color: white; font: 600 117%/30px "Open Sans","Trebuchet MS","Geneva CE",lucida,sans-serif; text-decoration: none; }
+#menu a span { display: inline-block; padding: 0px 10px 0px 0px; height: 30px; }
+#menu a.active { color: black; background: url("menu-button-active.gif") no-repeat scroll left center transparent; }
+#menu a.active span { background: url("menu-button-active.gif") no-repeat scroll right center transparent; }
+#menu a:hover, #menu a:active, #menu a:focus { color: black; background: url("urn:not-loaded:http://forum.nette.org/img/nette/menu-button.gif") no-repeat scroll left center transparent; }
+#menu a:hover span, #menu a:active span, #menu a:focus span { background: url("urn:not-loaded:http://forum.nette.org/img/nette/menu-button.gif") no-repeat scroll right center transparent; }
+#brdmenu ul { font: 11px/27px "Open Sans","Trebuchet MS","Geneva CE",lucida,sans-serif; position: absolute; right: 0px; top: 93px; padding: 0px; list-style: none outside none; height: 27px; }
+#brdmenu li { float: left; padding: 0px; margin: 0px; height: auto; }
+#brdmenu a { display: block; padding: 0px 0px 0px 10px; margin: 0px 1px; line-height: 27px; color: white; font-size: 130%; text-decoration: none; }
+#brdmenu a span { display: inline-block; padding: 0px 10px 0px 0px; height: 27px; }
+#brdmenu a:hover, #brdmenu a:active, #brdmenu a:focus { color: black; background: url("urn:not-loaded:http://forum.nette.org/img/nette/menu-button-small.gif") no-repeat scroll left center transparent; }
+#brdmenu a:hover span, #brdmenu a:active span, #brdmenu a:focus span { background: url("urn:not-loaded:http://forum.nette.org/img/nette/menu-button-small.gif") no-repeat scroll right center transparent; }
+#content { background: none repeat scroll 0% 0% white; border-radius: 5px 5px 5px 5px; min-height: 500px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3); }
+#content .inner { padding: 1em; }
+#brdfooter { width: 100%; bottom: 0px; padding: 5px 0px 10px; color: white; clear: both; }
+#brdfooter .box { background: none repeat scroll 0% 0% transparent; border: medium none; }
+.breadcrumbs { margin: 3px 0px 5px -4px ! important; color: rgb(119, 119, 119); font-size: 80%; }
+.breadcrumbs a { padding: 0px 4px; color: rgb(153, 153, 153); text-decoration: underline; }
+.breadcrumbs a:focus, .breadcrumbs a:hover, .breadcrumbs a:active { color: rgb(0, 106, 235); background: none repeat scroll 0% 0% white; }
+#content h1 { border: medium none; font-family: "Open Sans",Trebuchet MS,"Geneva CE",lucida,sans-serif; margin: 0.4em 0px; padding-bottom: 0.4em; }
+div.linkst { margin: 0px; padding: 0px 10px; }
+a { color: rgb(0, 106, 235); padding: 3px; margin: 0px -3px; text-decoration: none; }
+a:hover, a:active, a:focus { background-color: rgb(0, 106, 235); color: white; border-radius: 2px 2px 2px 2px; }
+p { margin: 0.7em 0px 1em; padding: 0px; }
+.linkst li, h1, h2, h3, h4 { color: rgb(30, 94, 182); }
+h1 { font-size: 230%; font-weight: normal; margin-top: 0.3em; }
+h2 { font-size: 170%; font-weight: normal; }
+.linksb a { margin-right: 1em; }
+div.box, .pun h2 { border: medium none; }
+.pun h2 { border-radius: 5px 5px 0px 0px; }
+div.blockpost { margin: 0px; }
+div.blockpost h2, .pun h2 { background: none repeat scroll 0% 0% rgb(181, 152, 74); }
+#content div.box { box-shadow: 1px 1px 10px rgb(231, 226, 212) inset; border-radius: 0px 0px 5px 5px; }
+#content div.blockpost div.box { box-shadow: none; }
+.pun pre { font-size: 14px; font-weight: normal; line-height: 1.4; background: none repeat scroll 0% 0% white; border-radius: 5px 5px 5px 5px; box-shadow: 1px 1px 1px rgb(224, 220, 210) inset; padding: 10px; margin: 1em 0px; overflow: auto; }
+.pun {  }
+@media not all, not all {
+  #logo { background-image: url("urn:not-loaded:http://files.nette.org/images/logo-big.png"); background-size: 180px 95px; }
+}
+@media (max-width: 940px) {
+  #punwrap { width: auto; }
+}
+@media (max-width: 840px) {
+  #menu ul { margin-left: 180px; }
+}
+@media (max-width: 550px) {
+  body { background: none repeat scroll 0% 0% transparent; }
+  #brdheader { height: auto; background: url("urn:not-loaded:http://forum.nette.org/img/nette/bg.jpg") repeat-x fixed 110px bottom rgb(52, 132, 210); overflow: hidden; }
+  #punwrap { width: auto; }
+  #brdmenu ul { position: static; }
+  #brdmenu a { padding-left: 5px; }
+  #logo, #tools, #brdmenu .rss { display: none; }
+  #menu { display: none; }
+  .breadcrumbs { display: none; }
+  h1 { font-size: 150%; }
+  .inbox .postleft dl { padding: 0px; }
+  .postleft dd { display: none; }
+  .postleft dd.postavatar { display: block; float: left; margin: 0px; }
+  .postleft dd.postavatar img { width: 50px; height: 50px; }
+  .postleft dt { position: absolute; left: 70px; top: 15px; }
+  div.postleft { float: none; width: auto; }
+  div.postright { border-left-width: 0px; }
+  .postsignature, .postfootleft, .postfootright { display: none; }
+  .linksb { display: none; }
+  #content .inner { padding: 0px; }
+}

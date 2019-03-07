@@ -1,0 +1,11 @@
+/* Effective stylesheet produced by snapshot save */
+.fbTimelineScrubber { background-color: rgb(231, 235, 242); padding: 8px 0px 8px 1px; top: 38px; width: 122px; z-index: 1; }
+.fbTimelineScrubber a, .fbTimelineScrubber .selected ul a { border-left: 5px solid rgb(200, 209, 226); color: rgb(148, 160, 193); display: block; font-weight: normal; outline: medium none; padding: 4px 0px 4px 6px; }
+.fbTimelineScrubber li { margin-bottom: 1px; }
+.fbTimelineScrubber a:hover, .fbTimelineScrubber a:focus { border-left-color: rgb(167, 180, 209); text-decoration: underline; }
+.fbTimelineScrubber .selected a, .fbTimelineScrubber .selected ul a { border-left-color: rgb(98, 122, 173); }
+.fbTimelineScrubber ul li { border: 0px none; margin: 0px; }
+.fbTimelineScrubber .selected a { color: rgb(98, 122, 173); font-weight: bold; }
+.fbTimelineScrubber ul { display: none; }
+.fbTimelineScrubber ul { margin-top: -4px; }
+.fbTimelineScrubber ul a { padding: 1px 0px 1px 12px ! important; }

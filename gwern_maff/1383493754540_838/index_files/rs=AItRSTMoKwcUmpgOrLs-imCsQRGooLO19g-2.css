@@ -1,0 +1,78 @@
+/* Effective stylesheet produced by snapshot save */
+button::-moz-focus-inner { border: 0px none; padding: 0px; }
+@keyframes message_block_dots1 {
+  0% { bottom: 4px; }
+  30% { bottom: 6px; }
+  60% { bottom: 4px; }
+}
+@keyframes message_block_dots2 {
+  20% { bottom: 4px; }
+  50% { bottom: 6px; }
+  80% { bottom: 4px; }
+}
+@keyframes message_block_dots3 {
+  40% { bottom: 4px; }
+  70% { bottom: 6px; }
+  100% { bottom: 4px; }
+}
+@keyframes message_block_dots1 {
+  0% { bottom: 4px; }
+  30% { bottom: 6px; }
+  60% { bottom: 4px; }
+}
+@keyframes message_block_dots2 {
+  20% { bottom: 4px; }
+  50% { bottom: 6px; }
+  80% { bottom: 4px; }
+}
+@keyframes message_block_dots3 {
+  40% { bottom: 4px; }
+  70% { bottom: 6px; }
+  100% { bottom: 4px; }
+}
+@keyframes roster_entry_shoop {
+  0% { transform: translateY(-25px) perspective(500px) rotateX(90deg); }
+  100% { transform: translateY(0px) perspective(500px) rotateX(0deg); }
+}
+@keyframes roster_entry_shoop {
+  0% { transform: translateY(-25px) perspective(500px) rotateX(90deg); }
+  100% { transform: translateY(0px) perspective(500px) rotateX(0deg); }
+}
+@keyframes voice_pstnin_ring_animation {
+  0% { transform: scale(0.7, 0.7); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: scale(1.1, 1.1); opacity: 0; }
+}
+@keyframes title_widget_alert {
+  50% { background-color: rgb(140, 196, 116); border-bottom-color: rgb(140, 196, 116); }
+  100% { background-color: rgb(83, 169, 63); border-bottom-color: rgb(83, 169, 63); }
+  0% { background-color: rgb(83, 169, 63); border-bottom-color: rgb(83, 169, 63); }
+}
+@keyframes leftmarquee {
+  0% { transform: translateX(0px); opacity: 1; }
+  97% { opacity: 1; }
+  100% { transform: translateX(-2000px); opacity: 0; }
+}
+@keyframes rightmarquee {
+  0% { transform: translateX(0px); opacity: 1; }
+  97% { opacity: 1; }
+  100% { transform: translateX(2000px); opacity: 0; }
+}
+@keyframes leftmarquee-flip {
+  0% { transform: translateX(0px) rotateY(180deg); opacity: 1; }
+  97% { opacity: 1; }
+  100% { transform: translateX(-2000px) rotateY(180deg); opacity: 0; }
+}
+@keyframes rightmarquee-flip {
+  0% { transform: translateX(0px) rotateY(180deg); opacity: 1; }
+  97% { opacity: 1; }
+  100% { transform: translateX(2000px) rotateY(180deg); opacity: 0; }
+}
+@keyframes rundino {
+  0% { transform: translateX(0px); }
+  100% { transform: translateX(-180px); }
+}
+@keyframes rundino {
+  0% { transform: translateX(0px); }
+  100% { transform: translateX(-180px); }
+}

@@ -1,0 +1,14 @@
+/* Effective stylesheet produced by snapshot save */
+.pw-size-medium .pw-icon { background-image: url("set-24.png"); }
+.pw-size-medium .ra1-pw-icon-twitter { background-position: 0px -150px; }
+.pw-size-medium .ra1-pw-icon-post { background-position: 0px -325px; }
+.pw-size-medium .ra1-pw-icon-facebook { background-position: 0px -725px; }
+.pw-size-medium .ra1-pw-icon-email { background-position: 0px -750px; }
+.pw-button { display: inline-block ! important; white-space: nowrap; border: medium none ! important; text-decoration: none ! important; margin: 0px 0px 1px ! important; background: none repeat scroll 0% 0% transparent ! important; font: 1px/12px Verdana,Tahoma ! important; vertical-align: top; padding: 0px ! important; height: auto ! important; -moz-box-sizing: content-box; }
+.pw-button:before, .pw-button:after { display: none ! important; }
+.pw-widget { font: 1px/1px Verdana,Tahoma ! important; }
+.pw-icon { cursor: pointer; display: inline-block ! important; vertical-align: top; font-size: 1px; -moz-box-sizing: content-box; }
+.pw-size-medium.pw-button { margin-right: 3px ! important; }
+.pw-size-medium .pw-icon { width: 24px; height: 24px; }
+.pw-layout-horizontal .pw-button { vertical-align: bottom; }
+.ra1-pw-popup-i > :last-child { border-radius: 0px 0px 4px 4px; background-clip: padding-box; }

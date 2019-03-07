@@ -1,0 +1,32 @@
+/* Effective stylesheet produced by snapshot save */
+* { margin: 0px; padding: 0px; }
+body { font-size: 80%; font-family: Tahoma,Arial,sans-serif; background: none repeat scroll 0% 0% rgb(196, 196, 196); }
+a, a:link, a:visited, a:hover, a:active { color: DarkRed; text-decoration: none; }
+a:hover { color: rgb(51, 0, 0); }
+img { border: medium none; vertical-align: middle; }
+acronym { font-size: 100%; }
+#ps-overall-header { height: 110px; background: url("header-bg.png") repeat-x scroll 0% 0% transparent; overflow: hidden; }
+#ps-overall-logo { height: 122px; background: url("header-logo.png") no-repeat scroll 0% 0% transparent; }
+#ps-overall-right { float: right; }
+#ps-overall-menu { line-height: 28px; background: url("header-menu-bg.png") repeat scroll 0% 0% transparent; }
+#ps-overall-menu ul { margin: 0px 1em; }
+#ps-overall-menu ul li { display: inline; background: url("header-menu-sep.png") no-repeat scroll 0px 50% transparent; padding-left: 12px; font-weight: bold; }
+#ps-overall-menu li.first { background-image: none; padding-left: 0px; }
+#ps-overall-menu a { color: black; }
+#ps-overall-menu a:hover { color: rgb(106, 90, 205); }
+#ps-menu-right { float: right; display: inline; margin-right: 1em; }
+#ps-menu-right img { vertical-align: top; }
+#ps-overall-footer { font-size: 80%; background: url("footer-bg.png") repeat-x scroll 0% 0% gray; margin-top: 2em; min-height: 41px; overflow: hidden; position: relative; width: 100%; clear: left; text-align: center; }
+#ps-footer-middle { margin-top: 5px; }
+#ps-login-popup { position: absolute; width: 230px; height: 103px; background: url("urn:not-loaded:http://stats.fakaheda.eu/pstats_121203/themes/default/img/popup-login.gif") no-repeat scroll 0% 0% transparent; overflow: hidden; z-index: 65535; }
+#ps-login-popup #ps-login-inner, #ps-search-popup #ps-search-inner { margin: 33px 10px 0px; font-size: 8pt; }
+#ps-login-popup input.field { margin: 0px 0.2em; }
+#ps-login-inner p { margin-bottom: 0.2em; }
+#ps-login-inner p label { float: left; width: 60px; text-align: right; }
+#ps-login-inner button, #ps-search-inner button { vertical-align: bottom; border: medium none; background: none repeat scroll 0% 0% transparent; cursor: pointer; }
+#ps-login-reg { position: absolute; right: 10px; top: 13px; }
+#ps-login-reg a { text-decoration: underline; }
+#ps-login-options { font-size: 8pt; }
+#ps-login-popup input.field { border: 1px solid gray; width: 100px; }
+#ps-search-popup { position: absolute; width: 230px; height: 60px; background: url("urn:not-loaded:http://stats.fakaheda.eu/pstats_121203/themes/default/img/popup-search.gif") no-repeat scroll 0% 0% transparent; z-index: 65535; }
+#ps-search-popup input.field { background: url("urn:not-loaded:http://stats.fakaheda.eu/pstats_121203/themes/default/img/search-input-icon.png") no-repeat scroll 0px 50% white; border: 1px solid gray; width: 155px; padding-left: 17px; }

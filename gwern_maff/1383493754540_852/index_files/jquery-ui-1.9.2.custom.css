@@ -1,0 +1,14 @@
+/* Effective stylesheet produced by snapshot save */
+.ui-helper-reset { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none outside none; }
+.ui-helper-clearfix:before, .ui-helper-clearfix:after { content: ""; display: table; }
+.ui-helper-clearfix:after { clear: both; }
+.ui-helper-clearfix {  }
+.ui-tabs { position: relative; padding: 0px; }
+.ui-tabs .ui-tabs-nav { position: absolute; top: -35px; left: -1px; margin: 0px; height: 35px; z-index: 1; padding: 0px; }
+.ui-tabs .ui-tabs-nav li { float: left; height: 27px; line-height: 27px; border: 1px solid rgb(191, 192, 193); margin: 6px -1px 0px 0px; }
+.ui-tabs .ui-tabs-nav li a { background: url("switcher-shadow.png") repeat-x scroll center bottom rgb(230, 230, 230); display: block; padding: 0px 14px; text-decoration: none; color: rgb(93, 77, 77); }
+.ui-tabs .ui-tabs-nav li a:hover { background: none repeat scroll 0% 0% rgb(249, 226, 172); }
+.ui-tabs .ui-tabs-nav li.ui-tabs-active { background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 0px 20px; border-bottom: 0px none; z-index: 16; margin: 0px -1px 0px 0px; height: 35px; line-height: 34px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-tabs-loading a { background: url("dotted-light.gif") repeat-x scroll left bottom transparent; display: block; color: rgb(93, 77, 77); font-size: 14px; font-weight: bold; padding: 0px; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a { cursor: pointer; }
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0px; padding: 0px; background: none repeat scroll 0% 0% transparent; }

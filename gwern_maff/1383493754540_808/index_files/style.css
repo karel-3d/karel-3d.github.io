@@ -1,0 +1,21 @@
+/* Effective stylesheet produced by snapshot save */
+* { margin: 0px; padding: 0px; }
+* :focus, :active { outline: 0px none; }
+body { font: 0.9em Georgia,"Times New Roman",Sans-Serif; background: url("bg.gif") repeat-x scroll 0% 0% rgb(255, 255, 255); color: rgb(51, 51, 51); margin-left: 5px; }
+a { color: rgb(168, 42, 21); text-decoration: none; }
+img { border: 0px none; }
+h1 { float: left; margin: 10px 0px 15px; font-size: 4em; color: rgb(255, 255, 255); }
+.hr { color: rgb(204, 204, 204); }
+p { margin: 5px 0px 15px; line-height: 1.6em; }
+#content { margin: 0px auto; width: 900px; }
+#top { float: right; margin: 38px 0px 30px; }
+#top li { list-style: none outside none; display: inline; }
+#top li a { float: left; padding: 6px 20px; margin: 3px 2px 0px 0px; color: rgb(204, 204, 204); }
+#top li a.current { color: rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(168, 42, 21); }
+#top li a:hover { background: none repeat scroll 0% 0% rgb(128, 128, 128); color: rgb(255, 255, 255); }
+#left { float: left; width: 590px; margin: 0px 0px 15px; }
+#right { float: right; width: 280px; }
+#right h3 { border-bottom: 1px solid rgb(204, 204, 204); margin: 0px 0px 10px; }
+#right li { list-style: none outside none; }
+#right li a { display: block; border-bottom: 1px solid rgb(204, 204, 204); padding: 5px; }
+#footer { clear: both; padding: 15px 0px; border-top: 1px solid rgb(204, 204, 204); }

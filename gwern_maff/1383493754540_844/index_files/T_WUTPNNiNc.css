@@ -1,0 +1,5 @@
+/* Effective stylesheet produced by snapshot save */
+.fbProfileBylineFragment, .fbProfileNonIconBylineFragment { margin-right: 8px; color: rgb(102, 102, 102); }
+.fbLongBlurb { margin-right: 8px; color: rgb(102, 102, 102); padding-bottom: 3px; }
+.fbTimelineContentHeader h3.uiHeaderTitle, .fbTimelineInlineSectionHeader h3.uiHeaderTitle { background: none repeat scroll 0% 0% rgb(169, 181, 211); border-radius: 3px 3px 3px 3px; color: rgb(255, 255, 255); display: inline-block; font-size: 14px; font-weight: normal; margin: 0px; padding: 6px 11px; word-wrap: normal; }
+.fbTimelineContentHeader { margin-bottom: 15px; text-align: center; }

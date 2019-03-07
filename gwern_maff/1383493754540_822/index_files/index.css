@@ -1,0 +1,158 @@
+/* Effective stylesheet produced by snapshot save */
+a:link, a:visited { color: rgb(204, 102, 0); }
+a:hover { text-decoration: underline; color: rgb(0, 0, 0); }
+body { font-family: verdana,Helvetica,sans-serif; margin: 0px auto; padding: 0px; text-align: center; font-size: 0.8em; line-height: 130%; background: none repeat scroll 0% 0% rgb(153, 151, 149); }
+body, td, th, tr { color: rgb(68, 68, 68); }
+div#wrapper { width: 994px; margin: 15px auto; min-height: 700px; text-align: left; }
+form { padding: 0px; margin: 0px; }
+input, button, select, textarea { font: 95%/115% verdana,Helvetica,sans-serif; color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(210, 210, 210); padding: 2px; }
+select { padding: 0px; }
+select option { padding: 1px; }
+textarea { font: 100%/130% verdana,Helvetica,sans-serif; }
+.button_submit, .button_reset { background: url("submit_bg.png") no-repeat scroll 0% 0% rgb(205, 231, 255); border: 1px solid rgb(210, 210, 210); cursor: pointer; font-weight: normal; }
+input:hover, textarea:hover, button:hover, select:hover { border: 1px solid rgb(69, 69, 69); }
+.button_submit:hover, .button_reset:hover { border: 1px solid rgb(170, 170, 170); background: url("submit_bg.png") no-repeat scroll 0px -218px rgb(205, 231, 255); }
+input:focus, textarea:focus, button:focus, select:focus { border: 1px solid rgb(69, 69, 69); }
+hr, .hrcolor { height: 1px; border: 0px none; color: rgb(102, 102, 102); background-color: rgb(102, 102, 102); }
+h1, h2, h3, h4, h5, h6 { color: black; font-size: 1em; margin: 0px; padding: 0px; }
+a img { border: 0px none; }
+strong { font-weight: bold; }
+em { font-style: italic; }
+.floatright, .align_right { float: right; }
+.floatleft, .align_left { float: left; }
+.flow_hidden { overflow: hidden; }
+#quickModForm div div.postarea div.flow_hidden {  }
+.clear { clear: both; }
+.smalltext, tr.smalltext th { font-size: 0.85em; font-family: verdana,sans-serif; }
+.centertext { margin: 0px auto; text-align: center; }
+.righttext { margin-left: auto; margin-right: 0px; text-align: right; }
+.lefttext { margin-left: 0px; margin-right: auto; text-align: left; }
+.padding { padding: 0.7em; }
+ul.reset, ul.reset li { padding: 0px; margin: 0px; list-style: none outside none; }
+.quoteheader { color: rgb(122, 137, 156); }
+.codeheader, .quoteheader { font-size: 0.9em; font-weight: bold; padding-left: 5px; }
+blockquote, blockquote blockquote blockquote { font-size: 0.9em; color: rgb(0, 0, 0); line-height: 1.4em; background: url("quote.png") no-repeat scroll 2px 2px rgb(215, 218, 236); border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding: 1em 1em 1em 2em; margin: 0.3em 0px 0px; }
+blockquote blockquote { background: none repeat scroll 0% 0% rgb(231, 234, 252); }
+.catbg, .catbg2, tr.catbg td, tr.catbg2 td, tr.catbg th, tr.catbg2 th { color: white; font-family: arial,helvetica,sans-serif; font-size: 1em; font-weight: bold; background: url("main_block.png") no-repeat scroll -10px -160px transparent; }
+div.cat_bar { background: url("main_block.png") no-repeat scroll 0px -160px transparent; padding-left: 9px; height: 31px; overflow: hidden; margin-bottom: 1px; }
+tr.catbg td a, tr.catbg2 td a, .catbg a { color: white; }
+.windowbg, #preview_body { color: rgb(0, 0, 0); background-color: rgb(253, 253, 253); }
+.windowbg2 { color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); }
+.pagesection { font-size: 0.9em; padding: 0px 0px 0.2em; overflow: hidden; margin-bottom: 1px; }
+.pagelinks { padding: 0.6em 0px 0.4em 6px; }
+.post, .personalmessage { overflow: auto; line-height: 1.4em; padding: 0.1em 0px; }
+.alert { color: red; }
+.description, .plainbox { padding: 0.5em 1em 1em; font-size: 0.9em; line-height: 1.4em; background: none repeat scroll 0% 0% rgb(255, 255, 255); margin: 0px 0px 1em; border: 1px solid rgb(204, 102, 0); }
+h3.catbg, h3.catbg2, h3.titlebg, h4.titlebg, h4.catbg, .table_list tbody.header td { overflow: hidden; height: 31px; line-height: 32px; font-size: 1em; font-weight: bold; }
+h3.catbg a, h3.catbg, .table_list tbody.header td, .table_list tbody.header td a { color: white; text-decoration: none; }
+h3.catbg a:hover, .table_list tbody.header td a:hover { text-decoration: none; }
+h3.catbg img.icon, h4.titlebg img.icon { vertical-align: middle; margin: -2px 5px 0px 0px; }
+h4.catbg, h4.catbg2, h3.catbg, h3.catbg2, .table_list tbody.header td.catbg { background: url("main_block.png") no-repeat scroll 100% -160px transparent; padding-right: 9px; }
+.windowbg span.topslice { display: block; padding-left: 20px; background: url("main_block.png") no-repeat scroll 0px -30px transparent; }
+.windowbg span.topslice span { display: block; background: url("main_block.png") no-repeat scroll 100% -30px transparent; height: 11px; }
+.windowbg span.botslice { display: block; padding-left: 20px; background: url("main_block.png") no-repeat scroll 0px -40px transparent; font-size: 5px; line-height: 5px; margin-bottom: 0.6em; }
+.windowbg span.botslice span { display: block; background: url("main_block.png") no-repeat scroll 100% -40px transparent; height: 11px; }
+.windowbg2 span.topslice { display: block; padding-left: 20px; background: url("main_block.png") no-repeat scroll 0px -60px transparent; }
+.windowbg2 span.topslice span { display: block; background: url("main_block.png") no-repeat scroll 100% -60px transparent; height: 11px; }
+.windowbg2 span.botslice { display: block; padding-left: 20px; background: url("main_block.png") no-repeat scroll 0px -71px transparent; font-size: 5px; line-height: 5px; margin-bottom: 0.6em; }
+.windowbg2 span.botslice span { display: block; background: url("main_block.png") no-repeat scroll 100% -71px transparent; height: 11px; }
+.roundframe { padding: 0px 10px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-left: 1px solid rgb(236, 236, 236); border-right: 1px solid rgb(236, 236, 236); }
+.roundframe dl, .roundframe dt, .roundframe p { margin: 0px; }
+.roundframe p { padding: 0.5em; }
+span.upperframe { padding: 0px 0px 0px 20px; display: block; background: url("main_block.png") no-repeat scroll 0px -90px transparent; }
+span.upperframe span { padding: 0px; height: 12px; display: block; background: url("main_block.png") no-repeat scroll 100% -90px transparent; }
+span.lowerframe { padding: 0px 0px 0px 20px; display: block; background: url("main_block.png") no-repeat scroll 0px -102px transparent; }
+span.lowerframe span { padding: 0px; height: 12px; display: block; background: url("main_block.png") no-repeat scroll 100% -102px transparent; }
+#main_menu { padding: 5px 0px 0px 0em; margin: 0px 5px 0px 6px; height: 2em; border-bottom: 1px solid rgb(203, 203, 203); clear: both; }
+.dropmenu, .dropmenu ul { list-style: none outside none; line-height: 1em; padding: 0px; margin: 0px; }
+.dropmenu { padding: 0px; }
+.dropmenu a {  }
+.dropmenu a span {  }
+.dropmenu li a.firstlevel { line-height: 1.4; }
+.dropmenu li a.firstlevel span.firstlevel { padding: 3px 3px 4px 0px; }
+.dropmenu li { float: left; padding: 0px 5px 0px 0px; margin: 0px; position: relative; }
+.dropmenu li a.active { color: rgb(0, 0, 0); font-weight: bold; }
+.dropmenu li a.active span.firstlevel {  }
+.dropmenu li a.firstlevel:hover {  }
+.dropmenu li a.firstlevel:hover span.firstlevel {  }
+.buttonlist ul { z-index: 100; padding: 5px; margin: 0.5em 0.2em 2em 0px; }
+.buttonlist ul li { margin: 0px; padding: 0px; list-style: none outside none; float: left; }
+.buttonlist ul li a { display: block; padding: 0px; margin-left: 12px; }
+.buttonlist ul li a:hover {  }
+.buttonlist ul li a span {  }
+.buttonlist ul li a:hover span {  }
+.buttonlist ul li a.active span {  }
+.buttonlist ul li a.active { padding: 2px 6px 4px; background: url("submit_bg.png") no-repeat scroll 0% 0% rgb(205, 231, 255); border: 1px solid rgb(210, 210, 210); cursor: pointer; font-weight: bold; }
+.buttonlist ul li a { padding: 2px 0px 4px; }
+.buttonlist ul li a.active:hover {  }
+#header { background: url("main_block.png") no-repeat scroll 0px -240px rgb(254, 254, 254); padding-left: 20px; }
+#header div.frame { background: url("main_block.png") no-repeat scroll 100% -240px transparent; display: block; padding: 5px 20px 0px 0px; }
+#content_section { background: url("frame_repeat.png") repeat-y scroll left top rgb(238, 238, 238); padding-left: 20px; }
+#content_section div.frame { background: url("frame_repeat.png") repeat-y scroll right center transparent; display: block; padding: 0px 20px 0px 0px; }
+#main_content_section { width: 100%; min-height: 200px; }
+form#postmodify { width: 98%; }
+h1.forumtitle { line-height: 45px; font-size: 1em; font-family: Geneva,verdana,sans-serif; margin: 34px 0px 4px 9px; padding: 0px; float: left; position: relative; width: 200px; height: 30px; }
+h1.forumtitle span { display: block; position: absolute; width: 200px; height: 30px; background: url("logo_root.png") no-repeat scroll 0% 0% rgb(255, 255, 255); top: 0px; left: 0px; }
+h3, h4 { padding-bottom: 3px; }
+#top_section { position: relative; overflow: hidden; height: 80px; }
+.navigate_section { overflow: hidden; padding: 0px 0.5em 0.5em; margin: 0px; }
+.navigate_section ul { display: block; margin: 0px; font-size: 0.9em; padding: 0em 0px 0.5em; }
+.navigate_section ul li { display: inline; font-size: 0.95em; }
+#footer_section { text-align: center; background: url("main_block.png") no-repeat scroll 0px -820px transparent; padding-left: 20px; }
+#footer_section span.smalltext { font-size: 100%; }
+#footer_section div.frame { background: url("main_block.png") no-repeat scroll 100% -820px transparent; display: block; padding: 60px 0px 0px; }
+#footer_section ul li, #footer_section p { font-size: 0.8em; }
+#footer_section ul li { display: inline; padding-right: 5px; }
+#footer_section ul li.copyright { display: block; }
+.nextlinks { text-align: right; margin-top: -1px; }
+.nextlinks_bottom { clear: right; text-align: right; }
+#moderationbuttons { overflow: hidden; }
+#forumposts { clear: both; }
+#forumposts h3 span#author, #forumposts h3 span#top_subject { float: left; }
+#forumposts h3 img { float: left; margin: 4px 0.5em 0px 0px; }
+#forumposts h3.catbg { margin-bottom: 3px; }
+.poster { float: left; width: 15em; }
+.postarea, .moderatorbar { margin: 0px 0px 0px 16em; }
+.moderatorbar { clear: right; }
+.poster h4, .poster ul { padding: 0px; margin: 0px 1em 0px 1.5em; }
+.poster h4 { margin: 0.2em 0px 0.4em 1.1em; font-size: 120%; }
+.poster h4, .poster h4 a {  }
+.poster ul ul { margin: 0.3em 1em 0px 0px; padding: 0px; }
+.poster ul ul li { display: inline; }
+.poster li.stars, .poster li.avatar, .poster li.blurb, li.postcount, li.im_icons ul { margin-top: 0.5em; }
+.messageicon { float: left; margin: 0px 0.5em 0px 0px; }
+.messageicon img { padding: 6px 3px; }
+.keyinfo { float: left; width: 50%; }
+.postarea ul.quickbuttons { clear: right; float: right; text-align: right; font-family: arial,sans-serif; font-weight: bold; font-size: 0.85em; }
+.postarea ul.quickbuttons a:hover { color: rgb(170, 119, 0); }
+ul.quickbuttons { margin: 0.9em 11px 0px 0px; }
+ul.quickbuttons li { float: left; display: inline; margin: 0px 0px 0px 11px; }
+ul.quickbuttons li a { padding: 0px 0px 0px 20px; display: block; height: 20px; line-height: 18px; float: left; }
+ul.quickbuttons li.quote_button { background: url("quickbuttons.png") no-repeat scroll 0px 0px transparent; }
+.post { margin-top: 0.5em; clear: right; }
+.inner { padding: 1em 1em 0px 0px; margin: 0px 1em 0px 0px; border-top: 1px solid rgb(153, 153, 170); }
+.inner img.smiley { vertical-align: bottom; }
+#forumposts .modified { float: left; }
+#forumposts .reportlinks { margin-right: 1.5em; text-align: right; clear: right; }
+#forumposts span.botslice { clear: both; }
+#quickReplyOptions .roundframe { text-align: center; padding: 0px 10%; }
+#display_jump_to { clear: both; padding: 5px; margin-top: 2px; }
+#forumposts .post_separator { display: none; }
+#main_content_section div.pagesection div.buttonlist.align_right ul li a.active { font-size: 11px ! important; }
+#footer_section div.frame ul.reset li.copyright span.smalltext a { color: rgb(255, 255, 255); }
+div.pagelinks strong { background: url("tab-a.png") repeat-x scroll 0% 0% rgb(87, 86, 82); padding: 2px 6px; border: 1px solid rgb(181, 90, 0); color: rgb(255, 255, 255); margin: 0px -5px; position: relative; z-index: 50000; }
+form#search_form { width: 300px; text-align: right; position: absolute; top: 22px; right: 6px; display: block; }
+#footer { font-family: "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif; background: none repeat scroll 0% 0% rgb(238, 238, 238); margin: 25px 0px -12px; text-align: center; padding: 30px 0px 13px; line-height: 1.3; clear: both; border-top: 2px solid rgb(231, 231, 231); border-bottom: 21px solid rgb(238, 238, 238); position: relative; }
+#siux { display: block; position: absolute; right: 0px; top: -7px; width: 88px; }
+#projectInfo { width: 994px; margin: 0px auto 10px; text-align: left; position: relative; }
+#footer #projectInfo strong { color: rgb(0, 0, 0); }
+#footer #projectInfo a.logo-iinfo { margin: 0px 5px 0px 0px; float: left; position: relative; top: -7px; }
+#footer #projectInfo p { margin: 0px 0px 4px 190px; padding: 0px; font-size: 13px; }
+#footer #projectInfo ul { font-size: 13px; margin: 13px 0px 0px 190px; color: rgb(166, 167, 165); }
+#footer #projectInfo ul li { float: left; list-style: none outside none; margin: 0px 4px 0px 0px; padding: 0px; }
+#footer #projectInfo a { color: rgb(1, 103, 171); padding-right: 4px; }
+#footer #projectInfo .corner { display: none; }
+#footer ul { list-style: none outside none; margin: 0px 0px 0px 170px; padding: 0px; }
+#footer a { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#menu_nav li.goToServer { border-left: 1px solid rgb(203, 203, 203); padding: 0px 0px 0px 8px; font-weight: bold; }
+.adsense-box { line-height: 1.3; font-size: 1em; }

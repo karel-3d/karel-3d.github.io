@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:MAF="http://maf.mozdev.org/metadata/rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:root">
+    <MAF:originalurl RDF:resource="http://sheep5u64fi457aw.onion/forum/topic/sheep-marketplace-want-to-hear-your-wishes-9fe3d1a010f72802b05be22ccd9991d6"/>
+    <MAF:title RDF:resource="Forum Sheep Marketplace"/>
+    <MAF:archivetime RDF:resource="Sun, 03 Nov 2013 10:52:49 -0500"/>
+    <MAF:indexfilename RDF:resource="index.html"/>
+    <MAF:charset RDF:resource="UTF-8"/>
+  </RDF:Description>
+</RDF:RDF>

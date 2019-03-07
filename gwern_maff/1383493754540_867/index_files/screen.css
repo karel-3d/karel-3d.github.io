@@ -1,0 +1,52 @@
+/* Effective stylesheet produced by snapshot save */
+html { min-height: 100%; }
+body { min-height: 100%; }
+.search { float: right; }
+body { margin: 0px; padding: 0px; }
+#bg { background-color: rgb(21, 28, 36); float: left; width: 100%; min-width: 1150px; height: 5px; border-bottom: 1px solid rgb(41, 50, 57); margin: 0px; }
+#top { float: left; width: 100%; min-width: 1150px; background-color: rgb(30, 37, 47); height: 80px; border-bottom: 1px solid rgb(241, 241, 241); margin: 0px; }
+#top .logo { float: left; width: 250px; height: 70px; background: url("logo.png") no-repeat scroll 0% 0% transparent; margin-right: 10px; margin-top: 5px; }
+#top .container { margin: 0px auto; width: 1150px; }
+#top .menu { float: left; width: 77%; margin: 13px 0px 0px; }
+#top .menu .right { float: right; }
+#top .menu li { float: left; list-style-type: none; }
+#top .menu li a { color: rgb(255, 255, 255); font-weight: bold; font-size: 140%; padding: 15px; display: block; }
+#top .menu li a:hover { text-decoration: none; }
+#top .menu li:hover { background: linear-gradient(to bottom, rgb(133, 219, 68) 0%, rgb(109, 177, 58) 100%) repeat scroll 0% 0% transparent; }
+#submenu { float: left; width: 100%; background-color: rgb(240, 240, 240); min-width: 1150px; height: 40px; border-top: 1px solid rgb(214, 214, 214); border-bottom: 1px solid rgb(214, 214, 214); }
+#submenu .container { margin: 0px auto; width: 1150px; }
+#submenu .container ul { float: left; list-style-type: none; width: 100%; min-width: 1150px; margin: 0px; }
+#submenu .container ul li { float: left; margin-top: 8px; margin-right: 20px; }
+#submenu .container .search { float: right; margin-top: 5px; margin-right: 10px; }
+#submenu .container .search .span2 { width: 250px; }
+#main { float: left; width: 100%; min-width: 1024px; background-color: rgb(233, 233, 233); min-height: 600px; }
+#main .container { margin: 0px auto; width: 1150px; }
+#main .category { margin: 0px; float: left; width: 240px; list-style-type: none; font-weight: bold; background: linear-gradient(to right, rgb(233, 233, 233) 0%, rgb(219, 219, 219) 100%) repeat scroll 0% 0% transparent; }
+#main .category ul { margin: 0px; }
+#main .category li { margin: 0px; padding-left: 0px; }
+#main .category ul > li a { margin: 0px; padding-left: 20px; }
+#main .category ul > li > ul > li a { margin: 0px; padding-left: 40px; }
+#main .category ul > li > ul > li > ul > li a { margin: 0px; padding-left: 60px; }
+#main .category li a { display: block; padding: 2px 0px 2px 5px; border-bottom: 1px solid rgb(204, 204, 204); }
+#main .category li a:hover { border-bottom: 1px solid rgb(204, 204, 204); text-decoration: none; background: linear-gradient(to right, rgb(233, 233, 233) 0%, rgb(232, 232, 232) 100%) repeat scroll 0% 0% transparent; }
+#footer { float: left; width: 100%; min-width: 1150px; background-color: rgb(9, 14, 18); min-height: 50px; }
+#footer .container { margin: 0px auto; width: 1120px; }
+#layout { margin: 0px; padding: 0px; border: medium none; }
+#layout td { vertical-align: top; }
+#layout td.m { background-color: rgb(248, 248, 248); border-right: 1px solid rgb(204, 204, 204); width: 900px; }
+#layout .td-category { max-width: 240px; border-right: 1px solid rgb(204, 204, 204); }
+.category-ware { float: left; list-style-type: none; margin: 10px; }
+.category-ware li { float: left; width: 200px; margin: 9px; border: 1px solid rgb(204, 204, 204); border-radius: 4px 4px 4px 4px; background-color: rgb(248, 248, 248); }
+.category-ware li h4 a { font-size: 80%; }
+.category-ware li h4 { margin-bottom: 0px; }
+.category-ware li h4 a { margin-left: 5px; }
+.category-ware li strong { margin-left: 5px; font-size: 80%; display: block; }
+.category-ware li strong span { font-weight: normal; }
+.category-ware li strong a { font-size: 100%; }
+.category-ware li .input-append { margin-top: 10px; margin-bottom: 10px; }
+li.clear { float: left; width: 100%; height: 5px; border: 0px none; }
+.imgstar { position: absolute; margin-top: 1px; margin-left: 1px; font-size: 11px ! important; }
+.price-item { margin-left: 10px; }
+.price-item .box-container { float: left; margin-bottom: 10px; }
+.price-item .box-container .input-curabb { text-align: right; width: 120px; font-size: 12px; height: 16px; }
+.price-item .box-container .input-btc { text-align: right; width: 120px; font-size: 12px; height: 16px; margin-top: -1px; }

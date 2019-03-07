@@ -1,0 +1,80 @@
+/* Effective stylesheet produced by snapshot save */
+._53s { position: relative; }
+#fbProfileCover, #pagelet_above_header_timeline { margin: -1px -1px 0px; }
+#pagelet_above_header_timeline { margin-left: 0px; margin-right: 0px; position: relative; z-index: 1; }
+#above_header_timeline_placeholder { display: none; }
+#fbProfileCover .cover { display: block; position: relative; }
+#fbProfileCover .coverWrap { display: block; position: relative; height: 315px; overflow: hidden; text-decoration: none; }
+#fbProfileCover .coverWrap .photo { image-rendering: optimizequality; min-height: 100%; min-width: 100%; position: absolute; left: 0px; }
+#fbProfileCover .coverBorder { border-width: 1px; border-style: solid; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-right: 1px solid rgba(0, 0, 0, 0.25); border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.25); bottom: 0px; left: 0px; position: absolute; right: 0px; top: 0px; }
+#fbProfileCover .coverChangeThrobber { display: none; left: 50%; margin-top: -8px; position: absolute; top: 50%; }
+#fbProfileCover .uiSelector, #fbProfileCover .uiSelectorButton, #fbProfileCover .uiButtonText { max-width: none; }
+.gecko #fbProfileCover .uiSelector, .gecko #fbProfileCover .uiSelectorButton, .gecko #fbProfileCover .uiButtonText { display: inline-block; }
+#fbTimelineHeadline { min-height: 47px; position: relative; width: 100%; z-index: 4; }
+#fbTimelineHeadline .name { overflow: hidden; }
+#fbTimelineHeadline .actions { float: right; padding: 7px 25px 0px 10px; max-width: 500px; text-align: right; }
+#fbTimelineHeadline .actions .uiButtonGroup { margin: 10px 0px 0px 10px; white-space: nowrap; }
+#fbTimelineHeadline .profilePicThumb { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.3); border-radius: 3px 3px 3px 3px; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.07); display: block; left: 23px; margin-top: -121px; padding: 1px; position: absolute; }
+.pagesTimelineLayout #fbTimelineHeadline .profilePicThumb { margin-top: -104px; }
+#fbTimelineHeadline a.profilePicThumb:hover { border-color: rgb(59, 89, 152); }
+#fbTimelineHeadline .profilePicThumb .img { margin: 0px; display: block; }
+#fbTimelineHeadline .profilePic { background-color: rgb(255, 255, 255); border: 4px solid rgb(255, 255, 255); border-radius: 2px 2px 2px 2px; height: 160px; width: 160px; }
+#fbTimelineHeadline h2 { bottom: 50px; color: rgb(28, 42, 71); font-size: 20px; overflow: hidden; margin: 16px 0px 0px 206px; }
+#fbTimelineHeadline .profileHeaderButton, #fbTimelineHeadline .actionsDropdown, #fbTimelineHeadline .actionsContents { display: inline-block; }
+.wrap a.fbTimelineActionSelectorButton .uiButtonText, .wrap a.fbTimelineActionSelectorButton:focus .uiButtonText, .wrap a.fbTimelineActionSelectorButton:active .uiButtonText { height: 13px; margin-left: 8px; width: 9px; }
+.fbTimelineCapsule { background: url("N8eF8pLkCCD.png") repeat-y scroll center top transparent; margin: 0px; padding: 15px 0px; position: relative; list-style: none outside none; }
+.fbTimelineCapsuleBorn { padding-bottom: 0px; }
+.fbTimelineCapsule:empty { display: none; }
+.fbTimelineCapsule .timelineUnitContainer { background: none repeat scroll 0% 0% rgb(255, 255, 255); border-left: 1px solid rgb(196, 205, 224); border-right: 1px solid rgb(196, 205, 224); padding: 13px 15px; }
+.fbTimelineCapsule .topBorder { background-image: url("rU-QG3Izn71.png"); background-repeat: no-repeat; background-size: auto auto; background-position: -412px -249px; height: 3px; width: 411px; }
+.fbTimelineCapsule .bottomBorder { background-image: url("rU-QG3Izn71.png"); background-repeat: no-repeat; background-size: auto auto; background-position: 0px -249px; height: 4px; width: 411px; }
+.fbTimelineCapsule .spinePointer { background-image: url("rU-QG3Izn71.png"); background-repeat: no-repeat; background-size: auto auto; background-position: -613px -80px; height: 15px; left: -18px; position: absolute; top: 20px; width: 19px; z-index: 1; }
+.fbTimelineUnit { display: block; margin-bottom: 15px; position: relative; }
+.fbTimelineUnit:hover { z-index: 2; }
+.fbTimelineUnit .uiStreamStory .mainWrapper { margin-right: 0px; padding-top: 9px; }
+.fbTimelineUnit .uiStreamFooter { min-height: 16px; }
+.fbTimelineUnit[data-side="l"] { clear: left; float: left; }
+.fbTimelineTwoColumn[data-side="l"] .spinePointer { background-image: url("rU-QG3Izn71.png"); background-repeat: no-repeat; background-size: auto auto; background-position: -822px -56px; left: auto; right: -18px; }
+.fbTimelineTwoColumn[data-side="l"] + .fbTimelineTwoColumn[data-side="r"] .spinePointer { top: 40px; }
+.fbTimelineTwoColumn[data-side="r"] { clear: right; float: right; }
+.fbTimelineTwoColumn .timelineUnitContainer { width: 379px; }
+._wj { font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
+._wk { font-size: 13px; line-height: 18px; }
+._1_m { border-bottom: 1px solid rgb(229, 229, 229); }
+._50c7 { height: 32px; width: 32px; }
+._1_n { line-height: 15px; }
+._1_o { margin-left: 6px; position: relative; top: 1px; }
+._1_s { font-size: 11px; font-weight: normal; margin-right: 15px; }
+._1_m + .aboveUnitContent { margin-top: 15px; }
+.timelineLayout { background: none repeat scroll 0% 0% rgb(231, 235, 242); }
+.timelineLayout #globalContainer { clear: both; }
+.timelineLayout #contentArea { position: relative; width: 851px ! important; }
+.timelineLayout #contentCol { background: none repeat scroll 0% 0% transparent; padding-top: 0px; }
+.timelineLayout #rightCol { margin-right: -5px; width: 122px; }
+.timelineLayout #pageFooter { margin: 0px; overflow: hidden; width: 851px; }
+.timelineLayout .copyright { margin-bottom: 10px; margin-top: 10px; }
+.timelineLayout #bottomContent { display: none; }
+.timelineLayout #contentCurve { background-color: transparent; }
+.timelineLayout .fbTimelineTopSection { padding: 0px; margin: 0px; }
+@keyframes fbTimelineCurationNUXBounce {
+  50% { transform: translate(0px, 8px); }
+}
+.fbTimelineUnit .uiStreamStory .storyContent .storyInnerContent, .fbTimelineUnit .uiStreamStory .storyContent .storyInnerContentPush { margin: 0px; }
+.fbTimelineUnit .uiStreamStory .storyContent .storyInnerContent .mainWrapper { margin-bottom: 0px; }
+.fbTimelineSection { background: none repeat scroll 0% 0% rgb(255, 255, 255); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(196, 205, 224); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-radius: 3px 3px 3px 3px; padding: 20px 35px 10px; }
+.fbTimelineSection .uiMorePager { margin: 0px -35px -10px; }
+.fbTimelineTopSection { border-bottom: 0px none; border-radius: 0px 0px 0px 0px; border-top: 0px none; padding-bottom: 0px; }
+.fbTimelineTopSectionBase .topSectionBottomBorder { display: block; }
+.fbTimelineCompactSection { padding: 0px 0px 15px; }
+.fbTimelineCompactSection .uiMorePager { margin: 0px; }
+.fbTimelineSectionTransparent { background: none repeat scroll 0% 0% transparent; border: medium none; border-radius: 0px 0px 0px 0px; box-shadow: none; padding-top: 75px; }
+#pagelet_timeline_recent .fbTimelineCompactSection { padding: 0px; }
+.fbTimelineSubSections { display: none; }
+.fbTimelineTimePeriod { background: url("N8eF8pLkCCD.png") repeat-y scroll center top rgb(231, 235, 242); }
+.fbTimelineTimePeriodUnexpanded, .fbTimelineTimePeriod .forceLoad, .fbTimelineTimePeriod .loadingIndicator { display: none; }
+.fbTimelineTimePeriod .loadingContainer { text-align: center; }
+._1x1 { padding: 10px 0px 15px; }
+div.photoUnit { margin: 0px -15px; position: relative; }
+.photoUnit .photo { float: left; }
+.photoUnit .photoWrap { margin-left: 3px; }
+.fbTimelineTwoColumn .photoUnit .photoWidth1 .photoWrap { height: 403px; width: 403px; }

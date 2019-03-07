@@ -1,0 +1,914 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="Tor a SMTP">
+	<meta name="keywords" content="">
+	<title>Tor a SMTP</title>
+	<link rel="canonical" href="#">
+	<link rel="stylesheet" type="text/css" href="index_files/index.css">
+	<link rel="stylesheet" type="text/css" href="index_files/print.css" media="print">
+	<link rel="help" href="http://forum.root.cz/index.php?action=help">
+	<link rel="search" href="http://forum.root.cz/index.php?action=search">
+	<link rel="contents" href="http://forum.root.cz/index.php">
+	<link rel="SHORTCUT ICON" href="index_files/favicon.ico.bin" type="image/x-icon">
+	
+	<link rel="alternate" type="application/rss+xml" title="Fórum Root.cz - RSS" href="http://forum.root.cz/index.php?type=rss;action=.xml">
+	<link rel="prev" href="http://forum.root.cz/index.php?topic=6722.0;prev_next=prev">
+	<link rel="next" href="http://forum.root.cz/index.php?topic=6722.0;prev_next=next">
+	<link rel="index" href="http://forum.root.cz/index.php?board=14.0">
+	<link rel="stylesheet" type="text/css" href="index_files/firefox.css">
+	<script src="index_files/xgemius.js" defer="defer" async="async"></script><script src="index_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="index_files/script.js"></script>
+	<script type="text/javascript" src="index_files/theme.js"></script>
+	<script type="text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+	<script type="text/javascript" src="index_files/jquery.js"></script>
+	<script type="text/javascript" src="index_files/sklik.js"></script>
+	
+	<script type="text/javascript" src="index_files/ado.js"></script>
+	<script type="text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+
+	<!-- start master -->
+	<script type="text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+	<!--  end master  -->	
+	
+        <!-- twitter app card start-->
+        <!-- https://dev.twitter.com/docs/cards/types/app-card -->
+        <meta name="twitter:card" content="app">
+    
+        <meta name="twitter:app:id:iphone" content="307880732">
+        <meta name="twitter:app:url:iphone" content="tapatalk://">
+        <meta name="twitter:app:id:ipad" content="307880732">
+        <meta name="twitter:app:url:ipad" content="tapatalk://">
+        
+        <meta name="twitter:app:id:googleplay" content="com.quoord.tapatalkpro.activity">
+        <meta name="twitter:app:url:googleplay" content="tapatalk://forum.root.cz/?location=topic&amp;fid=14&amp;tid=6722">
+        
+    <!-- twitter app card -->
+    
+    <!-- Tapatalk Banner head start -->
+    <link href="index_files/appbanner.css" rel="stylesheet" type="text/css" media="screen">
+    <script type="text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+    <script src="index_files/appbanner.js" type="text/javascript"></script>
+    <!-- Tapatalk Banner head end-->
+
+	<script type="text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+<script><!--
+/* Script removed by snapshot save */
+--></script></head>
+<body><style type="text/css"><!--
+/* Effective stylesheet produced by snapshot save */
+@font-face {
+  font-family: "OpenSansSemibold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("urn:not-loaded:http://forum.root.cz/Themes/default/fonts/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("urn:not-loaded:http://forum.root.cz/Themes/default/fonts/OpenSans-Semibold-webfont.woff") format("woff"), url("urn:not-loaded:http://forum.root.cz/Themes/default/fonts/OpenSans-Semibold-webfont.ttf?#iefix") format("truetype"), url("urn:not-loaded:http://forum.root.cz/Themes/default/fonts/OpenSansSemibold?#iefix") format("svg");
+}
+body { min-width: 994px; margin: 0px; padding: 0px; }
+#sefa.iinfoBar * { margin: 0px; padding: 0px; }
+#sefa.iinfoBar:after { clear: both ! important; content: "." ! important; display: block ! important; height: 0px ! important; visibility: hidden ! important; }
+#sefa.iinfoBar { font-family: OpenSansSemibold,sans-serif; font-size: 14px; line-height: 39px; min-width: 994px; min-height: 26px; box-shadow: 0px 0px 2px 0px rgb(191, 191, 191); background: url("index_files/iinfobar-bck.png") repeat-x scroll 0% 0% rgb(218, 218, 218); border-top: 1px solid rgb(255, 255, 255); border-bottom: 1px solid rgb(181, 181, 181); z-index: 4000000; text-align: left; }
+#sefa.iinfoBar .sub { width: auto; height: auto; overflow: visible; position: relative; padding: 0px 71px 1px 0px; margin: -1px 0px; z-index: 4000000; }
+#sefa.iinfoBar.wide { padding-right: 0px ! important; }
+#sefa.iinfoBar a { text-decoration: none; color: rgb(31, 63, 124); font-size: inherit; }
+#sefa.iinfoBar #logo { display: block; width: 89px; height: 26px; background: url("index_files/iinfobar-logo.png") repeat scroll 0% 0% transparent; text-indent: -10000px; margin: -13px 8px 0px 1ex; position: absolute; top: 50%; left: 0px; overflow: hidden; line-height: 1; padding: 0px; z-index: 1000; }
+#sefa.iinfoBar ul#iinfoBarItems { height: 2.8em; overflow: hidden; display: block; position: relative; padding: 0px 0px 0px 110px; }
+#sefa.iinfoBar #iinfoBarItems li { float: left; display: block; }
+#sefa.iinfoBar #iinfoBarItems li a { display: inline-block; line-height: 2.8em; height: 2.8em; padding: 0px 15px 0px 13px; position: relative; background: url("index_files/iinfobar-sep.png") repeat-y scroll right top transparent; }
+#sefa.iinfoBar #iinfoBarItems li a:hover { background: url("index_files/iinfobar-sep.png") repeat-y scroll right top rgb(210, 210, 210); color: rgb(0, 0, 0); }
+html > body #sefa.iinfoBar #iinfoBarItems li a:hover:before { content: ""; display: block; height: 2.8em; width: 1px; background: none repeat scroll 0% 0% rgb(203, 203, 203); position: absolute; left: -1px; top: 0px; }
+#sefa.iinfoBar #nextItemsButton { position: absolute; top: 0px; right: 0px; display: none; width: 45px; height: 2.75em; line-height: 2.8em; text-align: left; color: rgb(31, 63, 124); padding: 0px 0px 0px 24px; cursor: pointer; background: url("index_files/iinfobar-more.png") no-repeat scroll 8px center transparent; z-index: 3000000; }
+#nextItemsButton:hover { background: url("index_files/iinfobar-more.png") no-repeat scroll 8px center rgb(210, 210, 210); border-left: 1px solid rgb(203, 203, 203); }
+#sefa.iinfoBar #otherItems { position: absolute; top: 2.9em; font-size: 14px; right: 0px; font-family: OpenSansSemibold,sans-serif; background: none repeat scroll 0% 0% rgb(238, 238, 238); box-shadow: 0px 0px 2px 0px rgb(191, 191, 191); width: 150px; border: medium none; z-index: 2000000; }
+#sefa.iinfoBar #otherItems li { display: block; line-height: 1; border: medium none; }
+#sefa.iinfoBar #otherItems li a { display: block; color: rgb(31, 63, 124); text-decoration: none; border-width: medium medium 1px; border-style: none none solid; border-color: -moz-use-text-color -moz-use-text-color rgb(216, 216, 216); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; font-size: 14px; width: 120px; padding: 0.8em 15px; float: none; clear: both; line-height: 1; position: relative; }
+#sefa.iinfoBar #otherItems li a:hover { background: none repeat scroll 0% 0% rgb(210, 210, 210); color: rgb(0, 0, 0); }
+--></style>
+
+
+
+<script type="text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+
+
+<div id="sefa" class="iinfoBar wide">
+  	<div class="sub">
+	  	<a href="http://iinfo.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" id="logo">Internet Info</a>
+
+	  	<ul id="iinfoBarItems">
+
+	  		<li class="server-lupa normalItem">
+	  			<a href="http://www.lupa.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Lupa: server o českém Internetu">Lupa</a>
+	  		</li>
+
+			<li class="server-mesec normalItem">
+				<a href="http://www.mesec.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Měšec: server o osobních financích">Měšec</a>
+			</li>
+
+			<li class="server-podnikatel normalItem">
+				<a href="http://www.podnikatel.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Podnikatel: informace pro váš business a podnikání">Podnikatel</a>
+			</li>
+
+			<li class="server-root normalItem">
+				<a href="http://www.root.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Root: informace nejen ze světa Linuxu">Root</a>
+			</li>
+
+			<li class="server-digizone normalItem">
+				<a href="http://www.digizone.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="DigiZone: vše o digitálním vysílání">DigiZone</a>
+			</li>
+
+			<li class="server-slunecnice normalItem">
+				<a href="http://www.slunecnice.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Slunečnice: server freeware a shareware">Slunečnice</a>
+			</li>
+
+			<li class="server-vitalia normalItem">
+				<a href="http://www.vitalia.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Vitalia: váš průvodce zdravým životem">Vitalia</a>
+			</li>
+
+			<li class="server-topdrive normalItem">
+				<a href="http://www.topdrive.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="TopDrive: server o luxusních vozech">TopDrive</a>
+			</li>
+
+			<li class="server-tuesday normalItem">
+				<a href="http://www.tuesday.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Tuesday Business Network: Jsme sociální síť v reálném světě">Tuesday</a>
+			</li>
+
+			<li class="server-navrcholu normalItem">
+				<a href="http://navrcholu.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Navrcholu: měření a vyhodnocování návštěvnosti www stránek">Navrcholu</a>
+			</li>
+
+			<li class="server-dobryweb normalItem">
+				<a href="http://www.dobryweb.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Dobrý web: Váš pomocník pro úspěch na Internetu">Dobrý web</a>
+			</li>
+
+			<li class="server-zdrojak normalItem">
+				<a href="http://www.zdrojak.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Zdroják: tvorba webových stránek a aplikací">Zdroják</a>
+			</li>
+
+			<li class="server-weblogy normalItem">
+				<a href="http://www.weblogy.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Weblogy: to nejlepší z českých blogů">Weblogy</a>
+			</li>
+
+			<li class="server-woko normalItem">
+				<a href="http://www.woko.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Woko: pamatuje si za vás">Woko</a>
+			</li>
+
+			<li class="server-jagg otherItem">
+				<a href="http://www.jagg.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Jagg: ukládejte a sdílete své oblíbené odkazy">Jagg</a>
+			</li>
+
+			<li class="server-mojelinky otherItem">
+				<a href="http://www.mojelinky.sk/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="MojeLinky: uchovávajte a zdieľajtě svoje obľubné odkazy">MojeLinky</a>
+			</li>
+
+		</ul>
+	<div style="display: block;" id="nextItemsButton">další<ul style="display: none;" id="otherItems"><li class="server-jagg otherItem">
+				<a href="http://www.jagg.cz/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="Jagg: ukládejte a sdílete své oblíbené odkazy">Jagg</a>
+			</li><li class="server-mojelinky otherItem">
+				<a href="http://www.mojelinky.sk/#utm_medium=textlink&amp;utm_source=ii-lista&amp;utm_campaign=brand" title="MojeLinky: uchovávajte a zdieľajtě svoje obľubné odkazy">MojeLinky</a>
+			</li></ul></div></div>
+</div>
+
+	<!-- start slave -->
+	<div id="adoceanczmndnflhqvs"></div>
+	<script type="text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+	<!--  end slave  -->
+	<div id="wrapper">
+<!-- Tapatalk Detect body start -->
+<style type="text/css"><!--
+/* Effective stylesheet produced by snapshot save */
+--></style>
+<script type="text/javascript"><!--
+/* Script removed by snapshot save */
+--></script><img class="ktmniasomguhxxppdzjm" src="urn:not-loaded:https://activate.tapatalk.com/i.gif?host=forum.root.cz" style="display:none;" border="0">
+<!-- Tapatalk Detect banner body end -->
+
+
+	<div id="header"><div class="frame">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://forum.root.cz/index.php">Fórum Root.cz<span></span></a>
+			</h1>
+			
+			
+				<form id="search_form" style="margin: 0;" action="http://forum.root.cz/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input name="search" class="input_text" type="text"> 
+					<input name="submit" value="Vyhledávání" class="button_submit" type="submit">
+					<input name="advanced" value="0" type="hidden">
+					<input name="topic" value="6722" type="hidden"></form>
+			
+		</div>
+		<script type="text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+		<div id="main_menu">
+			<ul class="dropmenu" id="menu_nav">
+				<li id="button_home">
+					<a class="active firstlevel" href="http://forum.root.cz/index.php">
+						<span class="last firstlevel">Domů</span>
+					</a>
+				</li>
+				<li id="button_help">
+					<a class="firstlevel" href="http://forum.root.cz/index.php?action=help">
+						<span class="firstlevel">Nápověda</span>
+					</a>
+				</li>
+				<li id="button_search">
+					<a class="firstlevel" href="http://forum.root.cz/index.php?action=search">
+						<span class="firstlevel">Vyhledávání</span>
+					</a>
+				</li>
+				<li id="button_login">
+					<a class="firstlevel" href="http://forum.root.cz/index.php?action=login">
+						<span class="firstlevel">Přihlásit</span>
+					</a>
+				</li>
+				<li id="button_register">
+					<a class="firstlevel" href="http://www.root.cz/registrace/?refUrl=http%3A%2F%2Fforum.root.cz%2F">
+						<span class="last firstlevel">Registrovat</span>
+					</a>
+				</li>
+				<li class="goToServer"><a class="firstlevel" href="http://www.root.cz/"><span class="firstlevel">Přejít na Root.cz</span></a></li>
+			</ul>
+		</div>
+			<br class="clear">
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://forum.root.cz/index.php"><span>Fórum Root.cz</span></a> »
+			</li>
+			<li>
+				<a href="http://forum.root.cz/index.php#c1"><span>Hlavní témata</span></a> »
+			</li>
+			<li>
+				<a href="http://forum.root.cz/index.php?board=14.0"><span>Server</span></a> »
+			</li>
+			<li class="last">
+				<a href="#"><span>Tor a SMTP</span></a>
+			</li>
+		</ul>
+	</div>
+	</div></div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+			<a id="top"></a>
+			<a id="msg65822"></a>
+			<div class="pagesection">
+				<div class="nextlinks"><a href="http://forum.root.cz/index.php?topic=6722.0;prev_next=prev#new">« předchozí</a> <a href="http://forum.root.cz/index.php?topic=6722.0;prev_next=next#new">další »</a></div>
+		<div class="buttonlist align_right">
+			<ul>
+				<li><a class="active" href="http://forum.root.cz/index.php?action=post;topic=6722.0;last_msg=66053"><span>Odpověď</span></a></li><li><a href="http://forum.root.cz/index.php?action=printpage;topic=6722.0" rel="new_win nofollow"><span class="last">Tisk</span></a></li>
+			</ul>
+		</div>
+				<div class="pagelinks floatleft">Stran: [<strong>1</strong>] </div>
+			</div>
+			<div id="forumposts">
+				<div class="cat_bar">
+					<h3 class="catbg">
+						<img src="index_files/normal_post.gif" alt="" align="bottom">
+						<span id="author">Autor</span>
+						Téma: Tor a SMTP  (Přečteno 1099 krát)
+					</h3>
+				</div>
+				<form action="http://forum.root.cz/index.php?action=quickmod2;topic=6722.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="">
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								Tom_as
+							</h4>
+							<ul class="reset smalltext" id="msg_65822_extra_info">
+								<li class="membergroup">Host</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="index_files/xx.gif" alt="">
+									</div>
+									<h5 id="subject_65822">
+										<a href="http://forum.root.cz/index.php?topic=6722.msg65822#msg65822" rel="nofollow">Tor a SMTP</a>
+									</h5>
+									<div class="smalltext">« <strong> kdy:</strong> 15. 06. 2013, 00:00:03 »</div>
+									<div id="msg_65822_quick_mod"></div>
+								</div>
+								<ul class="reset smalltext quickbuttons">
+									<li class="quote_button"><a href="http://forum.root.cz/index.php?action=post;quote=65822;topic=6722.0;last_msg=66053" onclick="">Citace</a></li>
+								</ul>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_65822">Zdravim lidi <img src="index_files/smiley.gif" alt=":)" title="Úsměv" class="smiley">,<br><br>uz delsi dobu resim jak skryt IP odeslanych e-mailu ze serveru, napadla me moznost pres Tor ale dost mozno jsem pohorel. Nasel jsem starsi navod na BSD (<a href="http://styx.org/ww/2011/12/torfix.txt" rel="nofollow" class="bbc_link" target="_blank">http://styx.org/ww/2011/12/torfix.txt</a>) ale nepovedlo se me to rozchodit. Je vubec mozne takto e-mail pres Tor odeslat aby jeho doruceni bylo pokud mozno 100%?<br><br>Diky vse a verte nejde o spamovani <img src="index_files/cheesy.gif" alt=":D" title="Smích" class="smiley"></div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_65822">
+							</div>
+							<div class="smalltext reportlinks">
+								<a href="http://forum.root.cz/index.php?action=reporttm;topic=6722.0;msg=65822">Oznámit moderátorům</a>  
+								<img src="index_files/ip.gif" alt="">
+								IP zaznamenána
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator"><div class="windowbg2"> 
+	<span class="topslice"><span></span></span> 
+		<div class="poster"> 
+			<h4> 
+			<a href="http://www.root.cz/">Reklama</a></h4> 
+			<ul class="reset smalltext" id="msg_25_extra_info"> 
+				<li class="postgroup">Stálý člen</li> 
+				<li class="stars"><img src="index_files/star.gif" alt="*" border="0"><img src="index_files/star.gif" alt="*" border="0"><img src="index_files/star.gif" alt="*" border="0"><img src="index_files/star.gif" alt="*" border="0"><img src="index_files/star.gif" alt="*" border="0"></li> 
+				<li class="postcount">Příspěvků: 0</li> 
+				<li class="profile"> 
+					<ul> 
+						<li><img src="index_files/profile_sm.gif" alt="" border="0"></li> 
+						<li><img src="index_files/email_sm.gif" alt="" border="0"></li> 
+					</ul> 
+				</li> 
+			</ul> 
+		</div> 
+		<div class="postarea">
+			<div class="centertext">
+			<!-- start slave -->
+			<div id="adoceanczznktiirujn"></div>
+			<script type="text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+			<!--  end slave  -->
+			</div>
+		</div> 
+		<span class="botslice"><span></span></span> 
+</div> 
+<hr class="post_separator">
+
+					<hr class="post_separator">
+				<a id="msg65825"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								Franta &lt;xkucf03/&gt;
+							</h4>
+							<ul class="reset smalltext" id="msg_65825_extra_info">
+								<li class="membergroup">Host</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="index_files/xx.gif" alt="">
+									</div>
+									<h5 id="subject_65825">
+										<a href="http://forum.root.cz/index.php?topic=6722.msg65825#msg65825" rel="nofollow">Re:Tor a SMTP</a>
+									</h5>
+									<div class="smalltext">« <strong>Odpověď #1 kdy:</strong> 15. 06. 2013, 00:35:22 »</div>
+									<div id="msg_65825_quick_mod"></div>
+								</div>
+								<ul class="reset smalltext quickbuttons">
+									<li class="quote_button"><a href="http://forum.root.cz/index.php?action=post;quote=65825;topic=6722.0;last_msg=66053" onclick="">Citace</a></li>
+								</ul>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_65825">Tohle je právě dost problém – snadno by se síť zneužívala ke spamování. Zkus si přes Tor založit účet u nějakého e-mailového poskytovatele a pak posílat přes jeho SMTP servery. (a na portu 587 bys mohl mít trochu větší šance než na 25) </div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_65825">
+							</div>
+							<div class="smalltext reportlinks">
+								<a href="http://forum.root.cz/index.php?action=reporttm;topic=6722.1;msg=65825">Oznámit moderátorům</a>  
+								<img src="index_files/ip.gif" alt="">
+								IP zaznamenána
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator">
+					<hr class="post_separator">
+				<a id="msg65850"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<a href="http://forum.root.cz/index.php?action=profile;u=196" title="Zobraz profil uživatele JardaP .">JardaP .</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_65850_extra_info">
+								<li class="postgroup">Guru</li>
+								<li class="stars"><img src="index_files/star.gif" alt="*"><img src="index_files/star.gif" alt="*"><img src="index_files/star.gif" alt="*"><img src="index_files/star.gif" alt="*"><img src="index_files/star.gif" alt="*"></li>
+								<li class="avatar">
+									<a href="http://forum.root.cz/index.php?action=profile;u=196">
+										<img class="avatar" src="index_files/108445.jpg" alt="" height="65" width="65">
+									</a>
+								</li>
+								<li class="postcount">Příspěvků: 1 725</li>
+								<li class="profile">
+									<ul>
+										<li><a href="http://forum.root.cz/index.php?action=profile;u=196"><img src="index_files/profile_sm.gif" alt="Zobrazit profil" title="Zobrazit profil"></a></li>
+										<li><a href="http://forum.root.cz/index.php?action=emailuser;sa=email;msg=65850" rel="nofollow"><img src="index_files/email_sm.gif" alt="E-mail" title="E-mail"></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="index_files/xx.gif" alt="">
+									</div>
+									<h5 id="subject_65850">
+										<a href="http://forum.root.cz/index.php?topic=6722.msg65850#msg65850" rel="nofollow">Re:Tor a SMTP</a>
+									</h5>
+									<div class="smalltext">« <strong>Odpověď #2 kdy:</strong> 15. 06. 2013, 11:43:06 »</div>
+									<div id="msg_65850_quick_mod"></div>
+								</div>
+								<ul class="reset smalltext quickbuttons">
+									<li class="quote_button"><a href="http://forum.root.cz/index.php?action=post;quote=65850;topic=6722.0;last_msg=66053" onclick="">Citace</a></li>
+								</ul>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_65850">Typicky SMTP server od vaseho ISP vas nepusti dovnitr od jinud, nez z vlastniho rozsahu adres. Pokud ano, tak uz je urcite na vsech blacklistech. Muzete zkusit SMTP servery Google, Seznamu nebo Yahoo. Budete tam asi muset mit konto. Asi by se nasly dalsi, ale neznam.<br><br>Pokud to chcete pres SSL, tak Google umi. Yahoo a Seznam nevim. Ale je otrava, ze tam kazdou chvili meni certifikaty a nejsou pak schopni zajistit, aby meli vsude stejny certifikat, takze vy pak treba dva tydny odklikavate hlasky o zmene certifikatu, podle toho, na ktery server vas to zrovna hodi. Take je blbe, ze Google prepisuje odesilatelovu adresu na adresu vaseho Google uctu a jediny zpusob, jak tam dostat jinou adresu, je napchat ji do Reply-to. Vyhoda pro vas muze byt v tom, zeGoogle do hlavicek nedava odesilatelovu ip.<br><br>U Yahoo pak budete napred muset vykonat magicky ritual, pomoci ktereho se vam aktivuje POP a SMTP pristup, protoze standardne mate akorat Webmail (alespon to tak byvalo). Navod najdete na strance Fetchyahoo. Tusim je to prvni polozka v Related Links. Budete muset trochu improvizovat, protoze navod je stary a interface Yahoo se mezitim zmenil. Tedy napriklad ritual se jiz neprovadi za poledne, na louce s jezirkem, oblecen ve vlci kuzi, ale za uplnku na hrbitove, nahy a pomazan byci krvi a je nutno obetovat rocniho kohouta a litr konskeho mleka.</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_65850">
+							</div>
+							<div class="smalltext reportlinks">
+								<a href="http://forum.root.cz/index.php?action=reporttm;topic=6722.2;msg=65850">Oznámit moderátorům</a>  
+								<img src="index_files/ip.gif" alt="">
+								IP zaznamenána
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator">
+					<hr class="post_separator">
+				<a id="msg65851"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<a href="http://forum.root.cz/index.php?action=profile;u=916" title="Zobraz profil uživatele Tonda">Tonda</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_65851_extra_info">
+								<li class="postgroup">Pokročilý uživatel</li>
+								<li class="stars"><img src="index_files/star.gif" alt="*"><img src="index_files/star.gif" alt="*"><img src="index_files/star.gif" alt="*"></li>
+								<li class="postcount">Příspěvků: 118</li>
+								<li class="profile">
+									<ul>
+										<li><a href="http://forum.root.cz/index.php?action=profile;u=916"><img src="index_files/profile_sm.gif" alt="Zobrazit profil" title="Zobrazit profil"></a></li>
+										<li><a href="http://forum.root.cz/index.php?action=emailuser;sa=email;msg=65851" rel="nofollow"><img src="index_files/email_sm.gif" alt="E-mail" title="E-mail"></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="index_files/xx.gif" alt="">
+									</div>
+									<h5 id="subject_65851">
+										<a href="http://forum.root.cz/index.php?topic=6722.msg65851#msg65851" rel="nofollow">Re:Tor a SMTP</a>
+									</h5>
+									<div class="smalltext">« <strong>Odpověď #3 kdy:</strong> 15. 06. 2013, 12:45:44 »</div>
+									<div id="msg_65851_quick_mod"></div>
+								</div>
+								<ul class="reset smalltext quickbuttons">
+									<li class="quote_button"><a href="http://forum.root.cz/index.php?action=post;quote=65851;topic=6722.0;last_msg=66053" onclick="">Citace</a></li>
+								</ul>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_65851">Nevíš nic o Tor uzlu, ze kterého to půjde ven, jestli není na blacklistu, jestli nemá blokovaný port 25, takže odesílání pošty by se mohlo stát značně nespolehlivým.<br><br>Každopádně pro smysluplnou radu by to chtělo abys popsal současné řešení a co a proč ti na něm vadí.</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_65851">
+							</div>
+							<div class="smalltext reportlinks">
+								<a href="http://forum.root.cz/index.php?action=reporttm;topic=6722.3;msg=65851">Oznámit moderátorům</a>  
+								<img src="index_files/ip.gif" alt="">
+								IP zaznamenána
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator">
+					<hr class="post_separator">
+				<a id="msg65992"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								Tom_as
+							</h4>
+							<ul class="reset smalltext" id="msg_65992_extra_info">
+								<li class="membergroup">Host</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="index_files/xx.gif" alt="">
+									</div>
+									<h5 id="subject_65992">
+										<a href="http://forum.root.cz/index.php?topic=6722.msg65992#msg65992" rel="nofollow">Re:Tor a SMTP</a>
+									</h5>
+									<div class="smalltext">« <strong>Odpověď #4 kdy:</strong> 17. 06. 2013, 21:37:46 »</div>
+									<div id="msg_65992_quick_mod"></div>
+								</div>
+								<ul class="reset smalltext quickbuttons">
+									<li class="quote_button"><a href="http://forum.root.cz/index.php?action=post;quote=65992;topic=6722.0;last_msg=66053" onclick="">Citace</a></li>
+								</ul>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_65992">Vec se ma takto. Mam bitoin server, ktery jsem musel schovat do toru a oddelit od webu protoze byly moc velke utoky na server. Jenze mam strach ze kdyz zacnu rozesilat informativni e-maily tak nastanou dalsi utoky. A web, ktery je oddeleny od bitcoin serveru nechci zatezovat rozesilanim e-mailu.<br><br>Jelikoz podle zdejsich reakci jsem se rozhodl udelat dalsi VPS jen na rozesilani e-mailu a ridit ho pomoci API. Pokud nekoho napada jednodusi reseni byl bych rad za pomoc.<br><br>Dekuji</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_65992">
+							</div>
+							<div class="smalltext reportlinks">
+								<a href="http://forum.root.cz/index.php?action=reporttm;topic=6722.4;msg=65992">Oznámit moderátorům</a>  
+								<img src="index_files/ip.gif" alt="">
+								IP zaznamenána
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator"><div class="windowbg2"> 
+	<span class="topslice"><span></span></span> 
+		<div class="poster"> 
+			<h4> 
+			<a href="http://www.root.cz/">Reklama</a></h4> 
+			<ul class="reset smalltext" id="msg_25_extra_info"> 
+				<li class="postgroup">Stálý člen</li> 
+				<li class="stars"><img src="index_files/star.gif" alt="*" border="0"><img src="index_files/star.gif" alt="*" border="0"><img src="index_files/star.gif" alt="*" border="0"><img src="index_files/star.gif" alt="*" border="0"><img src="index_files/star.gif" alt="*" border="0"></li> 
+				<li class="postcount">Příspěvků: 0</li> 
+				<li class="profile"> 
+					<ul> 
+						<li><img src="index_files/profile_sm.gif" alt="" border="0"></li> 
+						<li><img src="index_files/email_sm.gif" alt="" border="0"></li> 
+					</ul> 
+				</li> 
+			</ul> 
+		</div> 
+		<div class="postarea">
+			<div class="adsense-box" id="as-forum2">
+				<!-- Kontextová reklama Sklik -->
+				<div id="sklikReklama_36614"><iframe style="display: block;" src="index_files/context.html" frameborder="0" height="190" scrolling="no" width="600"></iframe></div>
+				<script type="text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+				<script type="text/javascript" src="index_files/script-1.js"></script>
+			</div>
+		</div> 
+		<span class="botslice"><span></span></span> 
+</div> 
+<hr class="post_separator">
+
+					<hr class="post_separator">
+				<a id="msg65995"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								Franta &lt;xkucf03/&gt;
+							</h4>
+							<ul class="reset smalltext" id="msg_65995_extra_info">
+								<li class="membergroup">Host</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="index_files/xx.gif" alt="">
+									</div>
+									<h5 id="subject_65995">
+										<a href="http://forum.root.cz/index.php?topic=6722.msg65995#msg65995" rel="nofollow">Re:Tor a SMTP</a>
+									</h5>
+									<div class="smalltext">« <strong>Odpověď #5 kdy:</strong> 17. 06. 2013, 21:56:26 »</div>
+									<div id="msg_65995_quick_mod"></div>
+								</div>
+								<ul class="reset smalltext quickbuttons">
+									<li class="quote_button"><a href="http://forum.root.cz/index.php?action=post;quote=65995;topic=6722.0;last_msg=66053" onclick="">Citace</a></li>
+								</ul>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_65995"><div class="quoteheader"><div class="topslice_quote"><a href="http://forum.root.cz/index.php?topic=6722.msg65992#msg65992">Citace: Tom_as  17. 06. 2013, 21:37:46</a></div></div><blockquote class="bbc_standard_quote">Vec se ma takto. Mam bitoin server, ktery jsem musel schovat do toru a oddelit od webu protoze byly moc velke utoky na server. Jenze mam strach ze kdyz zacnu rozesilat informativni e-maily tak nastanou dalsi utoky. A web, ktery je oddeleny od bitcoin serveru nechci zatezovat rozesilanim e-mailu.<br><br>Jelikoz podle zdejsich reakci jsem se rozhodl udelat dalsi VPS jen na rozesilani e-mailu a ridit ho pomoci API. Pokud nekoho napada jednodusi reseni byl bych rad za pomoc.<br><br>Dekuji<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>jj, zvláštní VPS je v tomto případě rozumné řešení.<br><br>Akorát to API mi přijde zbytečné – na té VPS jednoduše spusť postfix i na nestandardním portu (na který se půjde připojovat z Toru) a na Bitcoin serveru si nastav, aby se posílalo přes tento server/port (+šifrování a přihlašování). A vlastně tenhle provoz bys ani nemusel hnát přes Tor, tedy pokud ti stačí utajení IP adresy Bitcoin serveru před příjemci zpráv – jen si nastav ten SMTP server tak, aby ve zprávách původní IP adresu neuváděl. Bude to spolehlivější a nebudeš Tor síť zbytečně zatěžovat.<br><br>Sice by pak na něco mohl přijít ISP, ale moc toho nezjistí (SMTP komunikace bude šifrovaná).</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_65995">
+							</div>
+							<div class="smalltext reportlinks">
+								<a href="http://forum.root.cz/index.php?action=reporttm;topic=6722.5;msg=65995">Oznámit moderátorům</a>  
+								<img src="index_files/ip.gif" alt="">
+								IP zaznamenána
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator">
+					<hr class="post_separator">
+				<a id="msg65996"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								Tom_as
+							</h4>
+							<ul class="reset smalltext" id="msg_65996_extra_info">
+								<li class="membergroup">Host</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="index_files/xx.gif" alt="">
+									</div>
+									<h5 id="subject_65996">
+										<a href="http://forum.root.cz/index.php?topic=6722.msg65996#msg65996" rel="nofollow">Re:Tor a SMTP</a>
+									</h5>
+									<div class="smalltext">« <strong>Odpověď #6 kdy:</strong> 17. 06. 2013, 22:01:37 »</div>
+									<div id="msg_65996_quick_mod"></div>
+								</div>
+								<ul class="reset smalltext quickbuttons">
+									<li class="quote_button"><a href="http://forum.root.cz/index.php?action=post;quote=65996;topic=6722.0;last_msg=66053" onclick="">Citace</a></li>
+								</ul>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_65996"><div class="quoteheader"><div class="topslice_quote">Citace</div></div><blockquote class="bbc_standard_quote">aby ve zprávách původní IP adresu neuváděl</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>I kdyz dam pryc IP z e-mail zpravy (konfigurace postfixu) tak se neda nejakym zpusobem dohledat z jakeho serveru byla odeslana? Nebude takova zprava neobsahujici IP okamzite oznacena za spam?</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_65996">
+							</div>
+							<div class="smalltext reportlinks">
+								<a href="http://forum.root.cz/index.php?action=reporttm;topic=6722.6;msg=65996">Oznámit moderátorům</a>  
+								<img src="index_files/ip.gif" alt="">
+								IP zaznamenána
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator">
+					<hr class="post_separator">
+				<a id="msg66041"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								Jimm
+							</h4>
+							<ul class="reset smalltext" id="msg_66041_extra_info">
+								<li class="membergroup">Host</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="index_files/xx.gif" alt="">
+									</div>
+									<h5 id="subject_66041">
+										<a href="http://forum.root.cz/index.php?topic=6722.msg66041#msg66041" rel="nofollow">Re:Tor a SMTP</a>
+									</h5>
+									<div class="smalltext">« <strong>Odpověď #7 kdy:</strong> 18. 06. 2013, 10:32:15 »</div>
+									<div id="msg_66041_quick_mod"></div>
+								</div>
+								<ul class="reset smalltext quickbuttons">
+									<li class="quote_button"><a href="http://forum.root.cz/index.php?action=post;quote=66041;topic=6722.0;last_msg=66053" onclick="">Citace</a></li>
+								</ul>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_66041"><div class="quoteheader"><div class="topslice_quote"><a href="http://forum.root.cz/index.php?topic=6722.msg65996#msg65996">Citace: Tom_as  17. 06. 2013, 22:01:37</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote">Citace</div></div><blockquote class="bbc_alternate_quote">aby ve zprávách původní IP adresu neuváděl</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>I kdyz dam pryc IP z e-mail zpravy (konfigurace postfixu) tak se neda nejakym zpusobem dohledat z jakeho serveru byla odeslana? Nebude takova zprava neobsahujici IP okamzite oznacena za spam?<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div> <br>Například u mě na serveru s tímto rozhodně nepochodíte. Jedna vps za pár kaček, postfix konfigurace na 5 minut, využívat toto smtp. Při striktním nastavení firewallu a slušném poskytovateli jste za vodou. Pokud chcete, za nějakých 400 Kč/month Vám na to dám dedikovaný server.</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_66041">
+							</div>
+							<div class="smalltext reportlinks">
+								<a href="http://forum.root.cz/index.php?action=reporttm;topic=6722.7;msg=66041">Oznámit moderátorům</a>  
+								<img src="index_files/ip.gif" alt="">
+								IP zaznamenána
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator">
+					<hr class="post_separator">
+				<a id="msg66053"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								Tomas
+							</h4>
+							<ul class="reset smalltext" id="msg_66053_extra_info">
+								<li class="membergroup">Host</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="index_files/xx.gif" alt="">
+									</div>
+									<h5 id="subject_66053">
+										<a href="http://forum.root.cz/index.php?topic=6722.msg66053#msg66053" rel="nofollow">Re:Tor a SMTP</a>
+									</h5>
+									<div class="smalltext">« <strong>Odpověď #8 kdy:</strong> 18. 06. 2013, 11:12:51 »</div>
+									<div id="msg_66053_quick_mod"></div>
+								</div>
+								<ul class="reset smalltext quickbuttons">
+									<li class="quote_button"><a href="http://forum.root.cz/index.php?action=post;quote=66053;topic=6722.0;last_msg=66053" onclick="">Citace</a></li>
+								</ul>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_66053">Problem s VPS nemam, pouzivam Gandi a DigitalOcean a muzu si VPS znasilnovat dle chuti.<br><br>Akorat co jsem resil tak jsem si nastavil postfix a z hlavicek jsem odstranoval informace. Google je ovsem chytrejsi a danne informace si tam dopisuje sam ale i tak to splni svuj ucel.<br><br>Dekuji vsem za pomoc</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_66053">
+							</div>
+							<div class="smalltext reportlinks">
+								<a href="http://forum.root.cz/index.php?action=reporttm;topic=6722.8;msg=66053">Oznámit moderátorům</a>  
+								<img src="index_files/ip.gif" alt="">
+								IP zaznamenána
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator">
+					<hr class="post_separator">
+				</form>
+			</div>
+			<a id="lastPost"></a>
+			<div class="pagesection">
+				
+		<div class="buttonlist align_right">
+			<ul>
+				<li><a class="active" href="http://forum.root.cz/index.php?action=post;topic=6722.0;last_msg=66053"><span>Odpověď</span></a></li><li><a href="http://forum.root.cz/index.php?action=printpage;topic=6722.0" rel="new_win nofollow"><span class="last">Tisk</span></a></li>
+			</ul>
+		</div>
+				<div class="pagelinks floatleft">Stran: [<strong>1</strong>] </div>
+				<div class="nextlinks_bottom"><a href="http://forum.root.cz/index.php?topic=6722.0;prev_next=prev#new">« předchozí</a> <a href="http://forum.root.cz/index.php?topic=6722.0;prev_next=next#new">další »</a></div>
+			</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://forum.root.cz/index.php"><span>Fórum Root.cz</span></a> »
+			</li>
+			<li>
+				<a href="http://forum.root.cz/index.php#c1"><span>Hlavní témata</span></a> »
+			</li>
+			<li>
+				<a href="http://forum.root.cz/index.php?board=14.0"><span>Server</span></a> »
+			</li>
+			<li class="last">
+				<a href="#"><span>Tor a SMTP</span></a>
+			</li>
+		</ul>
+	</div>
+			<div id="moderationbuttons"></div>
+			<div class="plainbox" id="display_jump_to"><label class="smalltext" for="display_jump_to_select">Přejít na:</label> <select name="display_jump_to_select" id="display_jump_to_select" onfocus=""><option selected="selected" value="?board=14.0">=&gt; Server</option></select> <input value="Hop!" onclick="" type="button"></div>
+			<a id="quickreply"></a>
+			<div class="tborder" id="quickreplybox">
+				<div class="cat_bar">
+					<h3 class="catbg">
+						<span class="ie6_header floatleft"><a href="javascript:void(0);">
+							<img src="index_files/expand.gif" alt="+" id="quickReplyExpand" class="icon">
+						</a>
+						<a href="javascript:void(0);">Rychlá odpověď</a>
+						</span>
+					</h3>
+				</div>
+				<div id="quickReplyOptions" style="display: none">
+					<span class="upperframe"><span></span></span>
+					<div class="roundframe">
+						<p class="smalltext lefttext">S <em>rychlou odpovědí</em> můžete používat BB kódy a emotikony jako v běžném okně pro odpověď, ale daleko rychleji.</p>
+						<p class="alert smalltext">Upozornění: do tohoto tématu bylo naposledy přispěno před 120 dny.<br>Zvažte prosím založení nového tématu.</p>
+						
+						
+						<form action="http://forum.root.cz/index.php?board=14;action=post2" method="post" accept-charset="UTF-8" name="postmodify" id="postmodify" onsubmit="" style="margin: 0;">
+							<input name="topic" value="6722" type="hidden">
+							<input name="subject" value="Re:Tor a SMTP" type="hidden">
+							<input name="icon" value="xx" type="hidden">
+							<input name="from_qr" value="1" type="hidden">
+							<input name="notify" value="0" type="hidden">
+							<input name="not_approved" value="" type="hidden">
+							<input name="goback" value="0" type="hidden">
+							<input name="last_msg" value="66053" type="hidden">
+							<input name="svd0573801" value="3faa636eb79890d94769256072d9ef36" type="hidden">
+							<input name="seqnum" value="14254178" type="hidden">
+							<strong>Jméno:</strong> <input name="guestname" size="25" class="input_text" tabindex="1" type="text">
+							<strong>E-mail:</strong> <input name="email" size="25" class="input_text" tabindex="2" type="text"><br>
+							<strong>Ověření:</strong>
+			<div id="verification_control_0" class="verification_control">
+				<div class="smalltext">
+					Doplňte název velkého lidového povstání (r.vol..e)...:<br>
+					<input name="post_vv[q][19]" size="30" tabindex="3" class="input_text" type="text">
+				</div>
+			</div>
+			<div id="verification_control_1" class="verification_control">
+				<div class="smalltext">
+					Jaký dopravní prostředek se nachází ve slově „trikolora“?:<br>
+					<input name="post_vv[q][24]" size="30" tabindex="4" class="input_text" type="text">
+				</div>
+			</div><br>
+							<div class="quickReplyContent">
+								<textarea cols="600" rows="7" name="message" tabindex="5"></textarea>
+							</div>
+							<div class="righttext padding">
+								<input name="post" value="Poslat" onclick="" accesskey="s" tabindex="6" class="button_submit" type="submit">
+								<input name="preview" value="Prohlédnout" onclick="" accesskey="p" tabindex="7" class="button_submit" type="submit">
+							</div>
+						</form>
+					</div>
+					<span class="lowerframe"><span></span></span>
+				</div>
+			</div>
+				<script type="text/javascript" src="index_files/topic.js"></script>
+				<script type="text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://forum.root.cz/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0</a> | <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF © 2011</a>, <a href="http://www.simplemachines.org/" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a>
+			</span></li>
+		</ul>
+	</div></div>
+</div>
+<div id="footer" class="clear">
+	<div id="projectInfo">
+		<a class="logo-iinfo" href="http://www.iinfo.cz/"><img src="index_files/logo-iinfo.png" alt="Internet Info" title="Internet Info - provozovatel" height="49" width="171"></a>
+		<div class="text-info">
+			<p><strong>Root.cz</strong> (www.root.cz), informace nejen ze světa Linuxu. ISSN 1212-8309</p>
+
+			<p>Copyright © 1998 – 2013 <a href="http://www.iinfo.cz/">Internet Info, s.r.o.</a> Všechna práva vyhrazena. Powered by  Linux.</p>
+
+			<ul class="left">
+				<li><a title="Kontakty na provozovatele, kontaktní formulář" href="http://www.root.cz/redakce/kontakt/">Kontakt</a>|</li>
+				<li><a title="Reklamní možnosti serveru, ceník reklamy" href="http://www.iinfo.cz/projekty/root/reklama-root/">Reklama</a>|</li>
+				<li><a title="Podmínky užívání serveru  autorská práva atd." href="http://www.root.cz/redakce/podminky-uzivani/">Podmínky užívání</a>|</li>
+				<li><a title="Líbí se vám server Root.cz? Vyjádřete mu svou podporu umístěním ikonky na své stránky." href="http://www.root.cz/redakce/podpora/">Podpořte Root.cz</a>|</li>
+				<li><a title="Exporty syndikovaného obsahu" href="http://www.root.cz/redakce/exporty/">RSS exporty</a></li>
+			</ul>
+			<div id="siux">
+				<a href="http://www.siux.cz/"><img alt="Profesionální monitoring serverů zajišťuje SiUX" src="index_files/siux.gif" height="31" width="88"></a>
+			</div>
+		</div>
+		<span class="corner top-left"> </span>
+		<span class="corner top-right"> </span>
+		<span class="corner bottom-left"> </span>
+		<span class="corner bottom-right"> </span>
+	</div>
+</div><!-- /#footer -->
+<div id="webstats">
+	<script src="index_files/code.js" type="text/javascript"></script><noscript><div><img src="http://c1.navrcholu.cz/hit?site=14;t=t1x1;ref=;jss=0" width="1" height="1" alt="" /></div></noscript>
+
+	<!-- (C)2000-2013 Gemius SA - gemiusAudience / root.cz / Ostatni -->
+	<script type="text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+</div>
+
+</body></html>

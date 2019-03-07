@@ -1,0 +1,31 @@
+/* Effective stylesheet produced by snapshot save */
+button.as_link::-moz-focus-inner { border: 0px none; padding: 0px; }
+.UIActionLinks_bottom { color: rgb(153, 153, 153); }
+.UIActionLinks_bottom a, .UIActionLinks_bottom button.as_link, .UIActionLinks_bottom .uiLinkButton input, .UIActionLinks_bottom .uiLinkButton input:hover { color: rgb(109, 132, 180); }
+.fbTimelineFeedbackActions { background-color: rgb(237, 239, 244); padding: 5px 12px; }
+.fbTimelineUFI .UIActionLinks_bottom a, .fbTimelineUFI .fbTimelineFeedbackActions input, .fbTimelineUFI .UIActionLinks .uiLinkButton, .fbTimelineUFI .UIActionLinks .uiLinkButton input, .fbTimelineUFI div.fbTimelineFeedbackActions input:hover, .fbTimelineUFI .fbTimelineFeedbackActions button.as_link { color: rgb(59, 89, 152); }
+.fbTimelineUFI { background: none repeat scroll 0% 0% rgb(255, 255, 255); position: relative; }
+.uiStream .uiStreamMessage { color: rgb(0, 0, 0); font-size: 11px; font-weight: normal; margin: 0px 0px 5px; }
+.uiStreamMessage, .uiAttachmentTitle, .uiAttachmentDesc { word-wrap: break-word; }
+.permalink_stream { position: relative; }
+.uiStreamStory .mainWrapper { margin: 0px 35px 14px 0px; padding-top: 14px; }
+.uiStreamStory { padding: 0px; position: static; }
+.storyContent { padding-bottom: 2px; position: relative; }
+.uiStreamFooter, .uiStreamSource, .uiStreamSource a, .uiStreamFooter .uiStreamSource a, .uiStreamAdditionalLogging, .uiStreamAdditionalLogging a, .uiStreamPrivacyContainer { color: rgb(153, 153, 153); }
+.uiStreamHomepage .uiStreamStory:first-child { margin-top: -6px; }
+.uiStreamHomepage .uiStreamStory:first-child .mainWrapper { padding-top: 18px; }
+.permalink_stream .fbStreamPermalinkHeader .highlightSelector { float: right; margin-right: 0px; margin-top: 0px; }
+.permalink_stream .highlightSelector .highlightSelectorButton { background-image: url("rU-QG3Izn71.png"); background-repeat: no-repeat; background-size: auto auto; background-position: -741px -56px; border: 0px none; box-shadow: none; display: inline-block; height: 21px; line-height: 21px; overflow: hidden; padding: 0px; text-indent: 50px; width: 21px; }
+.permalink_stream .highlightSelector .highlightSelectorButton, .permalink_stream .highlightSelector .highlightSelectorButton:active, .permalink_stream .highlightSelector .highlightSelectorButton:focus, .permalink_stream .highlightSelector .highlightSelectorButton:hover { background-color: transparent; border: 0px none; height: 21px; padding: 0px; width: 21px; }
+.permalink_stream .highlightSelector .highlightSelectorButton:hover { background-image: url("rU-QG3Izn71.png"); background-repeat: no-repeat; background-size: auto auto; background-position: -762px -56px; border: 0px none; padding: 0px; }
+.uiStream .uiStreamStory .highlightSelector .uiSelectorButton:hover, .highlightSelector .highlightSelectorButton:hover { background-image: url("rU-QG3Izn71.png"); background-repeat: no-repeat; background-size: auto auto; background-position: -634px -56px; border: 0px none; padding: 0px; }
+.uiStreamRedesign .uiStreamMessage .messageBody { color: rgb(51, 51, 51); font-size: 13px; line-height: 1.38; }
+.uiStreamRedesign .uiStreamStory .mainWrapper { margin-bottom: 16px; padding-top: 18px; }
+.permalinkBody .uiStreamRedesign .uiStreamStory .mainWrapper { margin-bottom: 4px; }
+.UFIRow { background-color: rgb(237, 239, 244); margin-top: 1px; padding: 4px; word-wrap: break-word; }
+.fbTimelineUFI .UFIContainer, .fbPagePostFooter .UFIContainer { width: 100%; }
+.fbTimelineUFI .UFIRow { border: 0px none; padding-left: 12px; padding-right: 12px; }
+div.UFIContainer { overflow: hidden; padding: 0px; }
+.UFIContainer { margin: 0px; width: 398px; }
+.UFILikeIcon { background-image: url("Qdv04UHuWZa.png"); background-repeat: no-repeat; background-size: auto auto; background-position: 0px -35px; display: block; height: 13px; width: 15px; }
+.hdn { visibility: hidden; }

@@ -1,0 +1,13 @@
+/* Effective stylesheet produced by snapshot save */
+#sfondobarra { background: url("urn:download-error:http://forum.ubuntu.cz/Themes/images/sfondo.png") repeat-x scroll 0px 0px transparent; }
+#barra { position: relative; background: url("urn:download-error:http://forum.ubuntu.cz/Themes/images/logo.png") no-repeat scroll 0% 0% transparent; border-style: solid; border-width: 0px; color: rgb(219, 186, 117); height: 37px; }
+#pulsante { position: absolute; bottom: 0px; right: 10px; }
+#pulsante ul { margin: 0px; padding: 10px 10px 0px 1px; list-style: none outside none; }
+#pulsante li { display: inline; float: left; background: url("tab_off_ns1.gif") no-repeat scroll left top transparent; margin: 0px; padding: 0px 0px 0px 5px; }
+#pulsante a { float: left; display: block; background: url("tab_off_ns2.gif") no-repeat scroll right top transparent; padding: 10px 15px 3px 8px; font: bold 9px Verdana,Arial,Helvetica,Sans-Serif; text-decoration: none; margin: 0px; color: rgb(68, 68, 68); }
+#pulsante a { float: none; }
+#pulsante a:hover { color: rgb(51, 51, 51); }
+#pulsante li:hover, #pulsante li:hover a { background-position: 0% -163px; color: rgb(0, 0, 0); }
+#pulsante li:hover a { background-position: 100% -163px; color: rgb(0, 0, 0); }
+#pulsante #current { background: url("tab_on_ns1.gif") no-repeat scroll left top transparent; }
+#pulsante #current a { background: url("tab_on_ns2.gif") no-repeat scroll right top transparent; color: rgb(0, 0, 0); padding-bottom: 4px; }

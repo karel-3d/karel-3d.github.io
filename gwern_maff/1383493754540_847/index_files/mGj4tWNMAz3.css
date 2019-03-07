@@ -1,0 +1,19 @@
+/* Effective stylesheet produced by snapshot save */
+.fbxPhoto .fbPhotoImageStage { width: 100%; -moz-user-select: none; }
+.fbxPhoto .fbPhotoImageStage .stageContainer, .fbxPhoto .fbPhotoImageStage .buttonsContainer { width: 100%; }
+.fbxPhoto .fbPhotoImageStage .fbPhotoPageError { text-align: left; }
+.fbPhotoImageStage .fbPhotosPhotoButtons { bottom: 0px; color: rgb(51, 51, 51); cursor: default; left: 0px; position: absolute; right: 0px; -moz-user-select: none; z-index: 2; }
+.fbPhotoImageStage .imageStage { overflow: hidden; position: relative; width: 720px; }
+.fbPhotoImageStage .fbPhotosPhotoButtons .saveProfilePicMessage, .fbPhotoImageStage .fbPhotosPhotoButtons .tagMessage, .fbPhotoImageStage .fbPhotosPhotoButtons .cropMessage { background-color: rgba(255, 255, 255, 0.8); color: rgb(51, 51, 51); padding: 6px 10px; vertical-align: middle; }
+.fbxPhoto .fbPhotoImageStage .stageContainer { background-color: rgb(246, 246, 246); height: 453px; }
+.fbxPhoto .fbPhotoImageStage .stageWrapper { display: inline-block; position: relative; }
+.fbxPhoto .fbPhotoImage { display: inline-block; height: auto; image-rendering: optimizequality; max-height: 720px; max-width: 720px; vertical-align: middle; width: auto; }
+.fbPhotoViewLarger { opacity: 0.5; position: absolute; right: 15px; top: 15px; z-index: 1; }
+.fbPhotoViewLarger:hover { cursor: pointer; opacity: 1; }
+.fbxPhoto .fbPhotoImageStage .stageTagApproval, .fbxPhoto .fbPhotoImageStage .stageActions { cursor: pointer; height: 0px; left: 0px; position: absolute; top: 0px; width: 0px; }
+.fbxPhoto .fbPhotoImageStage .stageTagApproval { cursor: auto; width: 100%; }
+.fbxPhoto .fbPhotoImageStage .stageButtons { position: relative; text-align: center; }
+.fbxPhoto .newTagBox { height: 99px; left: auto; position: absolute; right: auto; top: 0px; width: 99px; }
+.fbxPhoto .newTagBox .tag { top: 105%; }
+.sp_3vjpuj { background-image: url("4AWJfIPdRhD.png"); background-size: auto auto; background-repeat: no-repeat; display: inline-block; height: 16px; width: 16px; }
+.sx_269391 { width: 13px; height: 13px; background-position: 0px -70px; }

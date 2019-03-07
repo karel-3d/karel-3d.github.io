@@ -1,0 +1,31 @@
+/* Effective stylesheet produced by snapshot save */
+.playerAvatar { padding: 3px; border-radius: 3px 3px 3px 3px; background-color: rgb(84, 84, 84); }
+.playerAvatar.offline { background: linear-gradient(to bottom, rgb(112, 108, 107) 5%, rgb(78, 77, 77) 95%) repeat scroll 0% 0% transparent; filter: none; }
+.playerAvatar.online { background: linear-gradient(to bottom, rgb(123, 175, 214) 5%, rgb(80, 109, 146) 95%) repeat scroll 0% 0% transparent; filter: none; }
+.playerAvatar.online img { border-color: rgb(77, 87, 97); }
+.playerAvatar.in-game { background: linear-gradient(to bottom, rgb(155, 200, 97) 5%, rgb(120, 158, 76) 95%) repeat scroll 0% 0% transparent; filter: none; }
+.playerAvatar.in-game img { border-color: rgb(82, 90, 79); }
+.playerAvatar { width: 34px; height: 34px; }
+.playerAvatar img { width: 32px; height: 32px; border: 1px solid rgb(84, 84, 84); border-radius: 3px 3px 3px 3px; }
+.persona, a.persona, .persona a { color: rgb(137, 137, 137); }
+.persona.online, a.persona.online, .persona.online a { color: rgb(134, 181, 217); }
+.persona.in-game, a.persona.in-game, .persona.in-game a { color: rgb(139, 197, 63); }
+.miniprofile_hover { position: absolute; top: 0px; left: 0px; z-index: 1200; }
+.miniprofile_hover_inner.shadow_content { margin: 11px; }
+.hover_arrow { position: absolute; top: 30px; }
+.miniprofile_arrow { border-top: 9px solid transparent; border-bottom: 9px solid transparent; width: 0px; height: 0px; }
+.miniprofile_arrow.left { border-right: 8px solid rgb(49, 63, 86); left: 4px; }
+.miniprofile_arrow.right { border-left: 8px solid rgb(49, 63, 86); right: 4px; }
+.miniprofile_arrow_inner { position: absolute; top: -6px; background-repeat: no-repeat; width: 7px; height: 1px; }
+.miniprofile_arrow.left .miniprofile_arrow_inner { left: 2px; }
+.miniprofile_arrow.right .miniprofile_arrow_inner { right: 2px; }
+.pulldown { padding-left: 5px; padding-right: 18px; background-image: url("urn:not-loaded:http://cdn.steamcommunity.com/public/shared/images/popups/btn_arrow_down_padded.png"); background-position: right center; background-repeat: no-repeat; cursor: pointer; }
+.popup_block_new { z-index: 200; position: absolute; box-shadow: 0px 0px 12px rgb(0, 0, 0); }
+.popup_block_new .popup_body { border: 1px solid rgb(130, 128, 124); position: relative; background-color: rgb(59, 57, 56); background-image: url("urn:not-loaded:http://cdn.steamcommunity.com/public/shared/images/popups/bg_popup.png"); background-repeat: repeat-x; background-position: center top; }
+.popup_block_new .popup_body.popup_menu {  }
+.popup_menu .popup_menu_item { display: block; padding: 5px 12px; color: rgb(229, 228, 220); text-transform: none; font-size: 11px; font-weight: bold; line-height: normal; }
+.popup_menu a.popup_menu_item { text-decoration: none; }
+.popup_menu .popup_menu_item:hover, .popup_menu .popup_menu_item.focus { text-decoration: none; background-color: rgb(33, 45, 61); }
+.friendPlayerLevel { display: inline-block; font-size: 16px; border-radius: 16px 16px 16px 16px; border: 2px solid white; height: 28px; width: 28px; line-height: 28px; text-align: center; cursor: default; }
+.friendPlayerLevel .friendPlayerLevelNum { color: rgb(155, 155, 155); }
+.friendPlayerLevel.lvl_0 { border-color: rgb(155, 155, 155); }

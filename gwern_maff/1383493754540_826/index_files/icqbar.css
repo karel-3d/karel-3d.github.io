@@ -1,0 +1,74 @@
+/* Effective stylesheet produced by snapshot save */
+#icqBar { visibility: hidden; display: block; }
+#icqBar .hide, #cloneicqBar .hide { display: none ! important; }
+#icqP div, #icqP span, #icqP applet, #icqP object, #icqP iframe, #icqP h1, #icqP h2, #icqP h3, #icqP h4, #icqP h5, #icqP h6, #icqP p, #icqP blockquote, #icqP pre, #icqP a, #icqP del, #icqP dfn, #icqP em, #icqP font, #icqP img, #icqP ins, #icqP kbd, #icqP q, #icqP s, #icqP samp, #icqP small, #icqP strike, #icqP strong, #icqP sub, #icqP sup, #icqP tt, #icqP var, #icqP b, #icqP u, #icqP i, #icqP center, #icqP ol, #icqP ul, #icqP li, #icqP form, #cloneicqP div, #cloneicqP span, #cloneicqP applet, #cloneicqP object, #cloneicqP iframe, #cloneicqP h1, #cloneicqP h2, #cloneicqP h3, #cloneicqP h4, #cloneicqP h5, #cloneicqP h6, #cloneicqP p, #cloneicqP blockquote, #cloneicqP pre, #cloneicqP a, #cloneicqP abbr, #cloneicqP acronym, #cloneicqP code, #cloneicqP del, #cloneicqP dfn, #cloneicqP em, #cloneicqP font, #cloneicqP img, #cloneicqP ins, #cloneicqP kbd, #cloneicqP q, #cloneicqP s, #cloneicqP samp, #cloneicqP small, #cloneicqP strike, #cloneicqP strong, #cloneicqP b, #cloneicqP u, #cloneicqP i, #cloneicqP center, #cloneicqP ol, #cloneicqP ul, #cloneicqP li { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font: inherit; vertical-align: baseline; background: none repeat scroll 0% 0% transparent; }
+#icqP, #cloneicqP { line-height: 1; }
+#icqP input, #cloneicqP input { background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#icqP .clearBoth, #cloneicqP .clearBoth { display: block; clear: both; }
+#icqP span, #cloneicqP span { font-weight: normal; }
+#icqP a, #cloneicqP a { color: rgb(255, 255, 255); }
+#icqP img, #cloneicqP img { border: medium none; }
+#icqP, #icqP *, #cloneicqP, #cloneicqP * { margin: 0px; padding: 0px; outline: medium none; }
+#icqP, #cloneicqP { color: rgb(32, 32, 32); font-size: 10px; font-weight: bold; font-family: Arial,Verdana,Helvetica,sans-serif; position: fixed; bottom: 0px; right: 0px; z-index: 9999; background: url("panel_bg.gif") repeat-x scroll 0px 0px transparent; border-right: 1px solid rgb(75, 75, 75); border-left: 1px solid rgb(75, 75, 75); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 1px medium; border-style: none solid; border-color: -moz-use-text-color rgb(75, 75, 75); margin: 0px 100px -4px; direction: ltr; }
+#icqP .pUl, #cloneicqP .pUl { padding: 0px; margin: 0px; float: left; width: 100%; font-size: 11px; display: block; }
+#icqP .pLi, #cloneicqP .pLi { padding: 0px; margin: 0px; float: left; position: relative; display: inline-block; }
+#icqP .pLi a, #cloneicqP .pLi a { padding: 5px; float: left; text-indent: -9999px; width: 16px; text-decoration: none; color: rgb(51, 51, 51); position: relative; line-height: 14px; }
+#icqP a.delete { border: medium none; }
+#icqP { z-index: 99999; }
+#icqP a.chat, #cloneicqP a.chat { padding-left: 10px; text-indent: 0px; width: 190px; }
+#icqP #iContactThisSite, #cloneicqP #cloneiContactThisSite { width: 25px; display: none; position: absolute; right: 0px; top: 1px; border-left: 1px solid rgb(182, 182, 182); z-index: 1; cursor: pointer; }
+#icqP #ichatpanel, #icqP #ialertpanel, #cloneicqP #cloneichatpanel, #cloneicqP #cloneialertpanel { float: right; }
+#icqP #ichatpanel:hover { background: url("urn:not-loaded:http://c.icq.com/siteim/icqbar/img/panel_bg_unread.gif") repeat-x scroll 0px 0px transparent; }
+#icqP .tooltip, #cloneicqP .tooltip { position: absolute; top: -77px; right: -2px; width: 166px; display: none; z-index: 999999; }
+#icqP .tooltip .top, #cloneicqP .tooltip .top { background: url("urn:not-loaded:http://c.icq.com/siteim/icqbar/img/hint-bubble-top.png") repeat scroll 0% 0% transparent; height: 6px; }
+#icqP .tooltip .top img, #cloneicqP .tooltip .top img { float: right; padding: 6px 5px; }
+#icqP .tooltip .middle, #cloneicqP .tooltip .middle { background: url("urn:not-loaded:http://c.icq.com/siteim/icqbar/img/hint-bubble-middle.png") repeat scroll 0% 0% transparent; }
+#icqP .tooltip .middle a, #cloneicqP .tooltip .middle a { padding: 0px; margin: 0px; text-decoration: underline; }
+#icqP .tooltip .middle img, #cloneicqP .tooltip .middle img { float: left; padding: 0px 7px; display: inline; }
+#icqP .tooltip .middle span, #cloneicqP .tooltip .middle span { width: 100px; font-family: Arial; font-size: 11px; }
+#icqP .tooltip .bottom, #cloneicqP .tooltip .bottom { background: url("urn:not-loaded:http://c.icq.com/siteim/icqbar/img/hint-bubble-bottom.png") repeat scroll 0% 0% transparent; height: 23px; }
+#icqP #iTooltipText2, #cloneicqP #cloneiTooltipText2 { display: none; }
+#icqP .pUl .pLi a, #cloneicqP .pUl .pLi a { z-index: 99998 ! important; }
+#icqP .pUl .pLi div a, #cloneicqP .pUl .pLi div a { text-indent: 0px; width: auto; height: auto; float: none; color: rgb(42, 44, 41); position: static; }
+#icqP #iMainCLWrapper, #cloneicqP #cloneiMainCLWrapper { margin-left: -1px; }
+#icqP #panelHideShow, #cloneicqP #panelHideShow { width: 17px; text-align: center; float: right; border-top: 1px solid rgb(75, 75, 75); display: none; }
+#icqP #panelHideShow a, #cloneicqP #panelHideShow a { border-left: 0px none; }
+#icqP #panelHideShow a span, #cloneicqP #panelHideShow a span { margin-top: 3px; width: 7px; height: 9px; display: block; background: url("urn:not-loaded:http://c.icq.com/siteim/icqbar/img/panel_hideshow.png") no-repeat scroll 0px 0px transparent; }
+#icqP #ichatSessionWrap .chatSession, #ichatpanel, #cloneicqP #cloneichatSessionWrap .chatSession, #cloneichatpanel { border-top: 1px solid rgb(75, 75, 75) ! important; }
+#icqP #isigninImg, #cloneicqP #cloneisigninImg { display: inline; float: left; width: 20px; height: 18px; }
+#icqRemoteIframe, #cloneicqRemoteIframe { margin: 0px 0px 0px -3px; padding: 0px; border: 0px none; overflow: hidden; height: 340px; width: 210px; position: relative; z-index: 9999; }
+#icqP #iMyProfileWrap, #cloneicqP #cloneiMyProfileWrap { height: 32px; }
+#icqP .subpanel, #cloneicqP .subpanel { position: absolute; left: 0px; bottom: 27px; display: none; width: 205px; border: 1px solid rgb(75, 75, 75); background: none repeat scroll 0% 0% rgb(255, 255, 255); overflow: hidden; padding-bottom: 2px; }
+#icqP h3, #cloneicqP h3 { height: 16px; background: url("urn:not-loaded:http://c.icq.com/siteim/icqbar/img/cl_header_bg.gif") repeat-x scroll 0px 0px transparent; padding: 12px 10px 5px 60px; cursor: pointer; position: relative; border-bottom: 2px solid rgb(251, 250, 251); }
+#icqP #icqLogo, #cloneicqP #cloneicqLogo { position: absolute; left: 5px; top: 8px; width: 129px; height: 20px; }
+#icqP .subpanel .pUl, #cloneicqP .subpanel .pUl { padding: 0px; margin: 0px; background: none repeat scroll 0% 0% rgb(255, 255, 255); width: 100%; overflow: auto; }
+#icqP .subpanel .pLi, #cloneicqP .subpanel .pLi { float: none; display: block; padding: 0px; margin: 0px; clear: both; background: none repeat scroll 0% 0% rgb(255, 255, 255); position: relative; }
+#icqP .subpanel .pLi a, #cloneicqP .subpanel .pLi a { padding: 2px 0px 0px; margin: 0px; line-height: 22px; height: 22px; background: none repeat scroll 0% 0% rgb(255, 255, 255); display: block; }
+#icqP .subpanel .pLi a:hover, #cloneicqP .subpanel .pLi a:hover { background: url("urn:not-loaded:http://c.icq.com/siteim/icqbar/img/bg1.gif") repeat-x scroll 0px 0px transparent; color: rgb(0, 0, 0); text-decoration: none; }
+#icqPanelElements, #cloneicqPanelElements { display: none; }
+#icqP .pUl .pLi a.delete, #cloneicqP .pUl .pLi a.delete { background: url("urn:not-loaded:http://c.icq.com/siteim/icqbar/img/delete_x.png") no-repeat scroll 0% 0% transparent; width: 13px; height: 14px; padding: 0px; position: absolute; right: 5px; top: 7px; display: none; }
+#icqP #ichatSessionNext, #cloneicqP #cloneichatSessionNext { border-right: 1px solid rgb(75, 75, 75); border-top: 1px solid rgb(75, 75, 75); }
+#icqP #ichatSessionNext, #icqP #ichatSessionPrev, #cloneicqP #cloneichatSessionNext, #cloneicqP #cloneichatSessionPrev { padding: 12px 5px 0px; z-index: 9001; display: none; border-top: 1px solid rgb(75, 75, 75); }
+#icqP #ichatSessionPrev, #cloneicqP #cloneichatSessionPrev { border-right: 1px solid rgb(75, 75, 75); }
+#icqP #ichatSessionNext a, #icqP #ichatSessionPrev a, #cloneicqP #cloneichatSessionNext a, #cloneicqP #cloneichatSessionPrev a { margin: 0px; padding: 0px; display: block; width: 5px; height: 10px; }
+#icqP #ichatSessionNext a, #cloneicqP #cloneichatSessionNext a { background: url("urn:not-loaded:http://c.icq.com/siteim/icqbar/img/arrows.png") no-repeat scroll 0px 0px transparent; }
+#icqP #ichatSessionPrev a, #cloneicqP #cloneichatSessionPrev a { background: url("urn:not-loaded:http://c.icq.com/siteim/icqbar/img/arrows.png") no-repeat scroll -6px 0px transparent; }
+#icqP #ichatSessionSlideWrap, #cloneicqP #cloneichatSessionSlideWrap { position: static; height: 15px; }
+#icqP .clearfix:after, #cloneicqP .clearfix:after { clear: both; content: "."; display: block; font-size: 0px; height: 0px; line-height: 0; visibility: hidden; }
+#icqP .clearfix, #cloneicqP .clearfix { display: block; }
+#icqP #ichatSessionWrap, #cloneicqP #cloneichatSessionWrap { width: 10000px; position: absolute; left: 0px; top: 0px; display: inline-block; overflow: visible; z-index: 9000; }
+#icqP #ibottomBanner span, #cloneicqP #cloneibottomBanner span { font-weight: normal; line-height: 18px; cursor: pointer; padding-right: 5px; font-size: 10px; }
+#icqP #ibottomBanner, #cloneicqP #cloneibottomBanner { color: rgb(0, 102, 204); display: none; background: url("urn:not-loaded:http://c.icq.com/siteim/icqbar/img/bg_group.gif") repeat-x scroll 0px 0px transparent; height: 22px; padding: 3px 10px 0px; position: absolute; bottom: 0px; width: 186px; }
+#icqP #iconnectFacebook, #cloneicqP #cloneiconnectFacebook { border-left: 1px solid rgb(0, 102, 204); padding-left: 5px; }
+#icqP .numItems, #cloneicqP .numItems { position: absolute; top: 2px; left: 4px; font-size: 9px; }
+#icqP #isearchBox { line-height: 22px; }
+#icqP #isearchBoxWrapper, #cloneicqP #cloneisearchBoxWrapper { display: none; padding-bottom: 29px; height: 22px; }
+#icqP .subpanel .searchBox, #cloneicqP .subpanel .searchBox { padding: 3px 8px; border-top: 1px solid rgb(211, 211, 211); }
+#icqP .subpanel .searchBox .input, #cloneicqP .subpanel .searchBox .input { position: relative; border: 1px solid gray; height: 22px; display: block; float: none; }
+#icqP .subpanel .searchBox img, #cloneicqP .subpanel .searchBox img { width: 19px; height: 18px; position: absolute; z-index: 10; top: 2px; left: 5px; cursor: pointer; }
+#icqP .subpanel .searchBox input, #cloneicqP .subpanel .searchBox input { position: relative; width: 140px; height: 20px; padding: 0px 0px 0px 30px; border: 0px none; }
+#icqP div#isearchAlert { padding: 10px; word-wrap: break-word; display: none; }
+#icqP .pUl .pLi .input a.delete { display: block; top: 5px; right: 3px; }
+#icqP .link:hover { text-decoration: underline; }
+#icqP #iclearSearch, #cloneicqP #iclearSearch { display: none; }
+#icqP #iLogoutWrap { display: block; z-index: 9999999; position: relative; }

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:MAF="http://maf.mozdev.org/metadata/rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:root">
+    <MAF:originalurl RDF:resource="http://www.topix.com/forum/drug/valium/TR8OU7V17VL8IE50G#c1"/>
+    <MAF:title RDF:resource="New alternative Silkroad - Topix"/>
+    <MAF:archivetime RDF:resource="Sun, 03 Nov 2013 10:52:27 -0500"/>
+    <MAF:indexfilename RDF:resource="index.html"/>
+    <MAF:charset RDF:resource="ISO-8859-1"/>
+  </RDF:Description>
+</RDF:RDF>

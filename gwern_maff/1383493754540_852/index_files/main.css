@@ -1,0 +1,137 @@
+/* Effective stylesheet produced by snapshot save */
+html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, small, strike, strong, sub, sup, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; list-style: none outside none; }
+html, body { background: url("bg.jpg") repeat scroll 0% 0% rgb(230, 232, 217); font-family: "Arial",sans-serif; font-size: 0.9em; color: rgb(93, 77, 77); margin: 0px; padding: 0px; width: 100%; height: 100%; line-height: 1.5em; position: relative; text-align: center; }
+a { color: rgb(168, 22, 11); text-decoration: underline; }
+a:hover { text-decoration: none; }
+#wrapper { background: url("bg-wrapper.png") repeat-y scroll center center transparent; min-height: 100%; height: auto ! important; margin: 0px auto -185px; }
+#header { background: url("bg-header.jpg") repeat-x scroll center top transparent; width: 100%; text-align: center; z-index: 12; position: relative; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); }
+#header .inner { width: 960px; height: 146px; margin: auto; text-align: left; position: relative; padding-top: 6px; }
+#header a.logo { background: url("logotyp.png") no-repeat scroll 0% 0% transparent; width: 239px; height: 61px; display: block; position: absolute; left: 0px; top: 44px; text-indent: -9999px; }
+#header .inner #search { background: url("search-panel.png") no-repeat scroll 0% 0% transparent; width: 396px; height: 35px; padding: 13px; position: absolute; top: 46px; left: 269px; }
+#header .inner #search input[type="text"] { background: none repeat scroll 0px center transparent; width: 290px; float: left; font-size: 14px; padding: 10px 5px; border: 0px none; margin: 0px; outline: medium none; }
+#header .inner #search .search-button { background: url("search-button.png") repeat-x scroll center top rgb(252, 189, 1); width: 90px; height: 34px; border: 1px solid rgb(225, 156, 7); float: right; margin: 0px 1px 0px 0px; cursor: pointer; color: rgb(144, 101, 1); text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.4); text-transform: uppercase; font-weight: 700; border-radius: 3px 3px 3px 3px; box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5) inset, 0px 1px 1px rgba(0, 0, 0, 0.5); }
+#header .inner #top-nav { position: relative; float: right; left: -50%; text-align: left; margin-bottom: 2em; }
+#header .inner #top-nav ul { list-style: none outside none; position: relative; left: 50%; margin: 0px; padding: 0px; }
+#header .inner #top-nav ul li { background: none repeat scroll 0% 0% rgba(128, 19, 13, 0.5); border-left: 1px solid rgb(128, 19, 13); float: left; list-style: none outside none; height: 40px; line-height: 40px; margin: 0px ! important; }
+#header .inner #top-nav ul li a { color: rgb(255, 255, 255); text-decoration: none; display: block; padding: 0px 15px; }
+#header .inner #top-nav ul li a:hover { background: none repeat scroll 0% 0% rgb(128, 19, 13); }
+#header .inner #top-nav ul li.last { border-right: 1px solid rgb(128, 19, 13); }
+#header .inner #main-panel { width: 230px; position: absolute; right: 0px; top: 6px; text-align: center; font-size: 12px; }
+#header .inner #main-panel p { margin: 0px; text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3); }
+#header .inner #main-panel a { color: rgb(248, 176, 2); height: 40px; line-height: 40px; text-decoration: none; }
+#header .inner #main-panel a:hover { text-decoration: underline; }
+#header .inner #main-panel span { display: inline-block; padding: 0px 5px; }
+#header .inner #main-panel a.add-button { background: url("add-button.png") no-repeat scroll center top transparent; display: block; width: 160px; height: 64px; padding-left: 60px; line-height: 60px; text-align: left; color: rgb(255, 255, 255); text-decoration: none; font-size: 12px; font-weight: 400; text-transform: uppercase; text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4); }
+#header .inner #main-panel a.add-button:hover { background-position: center bottom; }
+#content { background: url("bg-content.png") no-repeat scroll center top transparent; width: 960px; margin: auto; padding-bottom: 30px; position: relative; z-index: 10; text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.5); }
+.push { height: 185px; }
+#footer { background: url("bg-footer.png") repeat-x scroll center top transparent; padding: 35px 0px 30px; text-align: center; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); }
+#footer .inner { width: 960px; margin: auto; text-align: left; font-size: 12px; color: rgb(255, 255, 255); text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3); }
+#footer .inner ul { float: left; width: 215px; margin-left: 20px; }
+#footer .inner ul li { background: url("footer-list.gif") no-repeat scroll left center transparent; padding-left: 10px; }
+#footer .inner a { color: rgb(248, 176, 2); height: 20px; line-height: 20px; text-decoration: none; }
+#footer .inner a:hover { text-decoration: underline; }
+#footer .inner .info { width: 215px; float: right; margin-right: 20px; }
+#footer .inner .info p { line-height: 16px; margin: 0px 0px 10px; }
+#footer .inner .info p:last-child { margin-bottom: 0px; }
+#content #main h1 { margin: 20px 0px; font-size: 20px; line-height: 1.2em; }
+#content #main { width: 640px; float: left; text-align: left; }
+#content #sidebar { width: 300px; float: right; text-align: left; }
+#page-nav { background: url("dotted.gif") repeat-x scroll left bottom transparent; height: 35px; line-height: 34px; margin-bottom: 20px; }
+#page-nav li { background: url("subnav-arrow.png") no-repeat scroll right center transparent; padding-right: 17px; margin-right: 8px; float: left; }
+#page-nav li.last { background: none repeat scroll 0px center transparent; }
+#main-content, #main-content h3, #sidebar .content, #sidebar .content h3, #big-content { background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 19px; margin-top: 60px; border: 1px solid rgb(191, 192, 193); text-align: left; position: relative; z-index: 20; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); }
+#main-content { z-index: 10; padding: 0px; }
+#main-content span.filler { background: none repeat scroll 0% 0% rgb(255, 255, 255); width: 100%; height: 3px; display: block; position: absolute; top: 0px; left: 0px; z-index: 20; }
+#main-content .inner { background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 19px; }
+#main-content .inner.bg { background: url("content-inner.png") repeat-x scroll center top rgb(242, 243, 236); padding: 19px; border-top: 1px solid rgb(191, 192, 193); }
+#main-content .inner.first { border: 0px none; }
+#main-content .inner table th { text-align: left; color: rgb(159, 159, 159); padding-right: 10px; width: 100px; }
+#main-content .inner p.last { margin-bottom: 0px; }
+.inner-item, .company-logo { background: none repeat scroll 0% 0% rgb(243, 243, 243); padding: 12px 15px; position: relative; font-size: 13px; border: 1px solid rgb(221, 221, 221); box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); }
+.stars { background: none repeat scroll 0% 0% rgb(243, 243, 243); position: absolute; top: 14px; right: 15px; padding-left: 15px; }
+#content #main .company-info .company-logo { padding: 10px; background: none repeat scroll 0% 0% rgb(255, 255, 255); float: left; }
+#content #main .company-info .info { width: 480px; float: left; margin-left: 20px; position: relative; }
+#content #main .company-info .info h1 { margin: 0px; padding: 0px; height: 18px; line-height: 18px; }
+#content #main .company-info p.location { background: url("icon-pin.png") no-repeat scroll 0px 4px transparent; padding-left: 16px; margin: 5px 0px 0px; }
+#content #main .company-info .info .stars { position: absolute; top: 0px; right: 0px; background: none repeat scroll 0px center transparent; }
+#main-content h4, h2.newh2 { background: url("dotted-light.gif") repeat-x scroll left center transparent; margin: 25px 0px 15px; padding: 0px; font-size: 18px; position: relative; line-height: 18px; color: rgb(168, 22, 11); }
+#main-content h4 span, h2.newh2 span { background: none repeat scroll 0% 0% rgb(255, 255, 255); padding-right: 14px; }
+#main-content h4 span.arrow, h2.newh2 span.arrow { background: url("h4-arrow.png") no-repeat scroll 0% 0% transparent; display: block; position: absolute; width: 16px; height: 18px; top: 0px; left: -23px; }
+#main-content .inner .left { width: 300px; float: left; }
+#main-content .inner .right { width: 300px; float: right; }
+#main-content .inner h4, h2.newh2 { margin: 25px 0px 15px; }
+#main-content .inner h4.first, h2.newh2first { margin-top: 0px; }
+#main-content p { margin: 10px 0px 20px; }
+#main-content table.form { width: 100%; font-size: 14px; margin-bottom: 30px; }
+.newsubmit, .newedit { padding: 7px 15px; background: none repeat scroll 0% 0% rgb(234, 169, 2); color: rgb(255, 255, 255); border: 1px solid rgb(165, 119, 3); font-weight: 700; cursor: pointer; transition: all 0.2s ease-in-out 0s ; transform: translateZ(0px); text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4); }
+.newsubmit:hover, .newedit:hover { background: none repeat scroll 0% 0% rgb(253, 190, 0); text-decoration: none; }
+#commentthis, #commentdone { position: absolute; top: 23px; right: 0px; width: 250px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-radius: 4px 4px 4px 4px; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); border: 1px solid rgb(191, 192, 193); padding: 5px 10px 10px; display: none; }
+#commentthis textarea, #commentdone textarea { float: left; width: 100%; height: 40px; font-size: 12px; padding: 5px; -moz-box-sizing: border-box; border-radius: 4px 4px 4px 4px; border: 1px solid rgb(191, 192, 193); }
+#commentthis p, #commentdone p { float: left; width: 100%; padding: 5px 0px 10px; margin: 0px; }
+#commentthis p#commenterror, #commentdone p#commenterror { background: none repeat scroll 0% 0% rgb(197, 56, 47); padding: 3px 0px 1px; text-align: center; border-radius: 4px 4px 4px 4px; color: rgb(255, 255, 255); display: none; }
+#commentthis a#submitcomment, #commentdone a#submitcomment { float: right; padding: 3px 0px 1px; background: none repeat scroll 0% 0% rgb(197, 56, 47); color: rgb(255, 255, 255); margin-top: 10px; width: 100%; -moz-box-sizing: border-box; text-decoration: none; font-size: 11px; border-radius: 4px 4px 4px 4px; text-align: center; }
+#commentthis a#submitcomment:hover, #commentdone a#submitcomment:hover { text-decoration: underline; }
+#commentdone p { color: rgb(0, 136, 0); }
+#main-content table.form.last { margin-bottom: 0px; }
+#main-content table.form.aw { width: auto; margin: auto; white-space: nowrap; text-align: left; }
+#main-content table.form td { padding-bottom: 10px; vertical-align: top; }
+#main-content table.form label { height: 36px; line-height: 40px; }
+#main-content table.form td { vertical-align: middle; }
+#main-content table.form td.first { width: 130px; padding-right: 10px; font-weight: 700; vertical-align: middle; }
+#main-content table.form tr.last td { padding-bottom: 0px; }
+#main-content table.form input[type="text"], #main-content table.form input[type="password"] { background: none repeat scroll 0% 0% rgb(243, 243, 243); border: 1px solid rgb(210, 210, 210); padding: 8px 10px; width: 200px; font-size: 14px; float: left; }
+#main-content table.form textarea { background: none repeat scroll 0% 0% rgb(243, 243, 243); border: 1px solid rgb(210, 210, 210); font-size: 14px; padding: 10px; width: 300px; height: 100px; float: left; }
+#main-content table.form span.required { font-size: 18px; color: rgb(168, 22, 11); font-weight: 700; float: left; display: block; margin-left: 10px; }
+#sidebar .content { margin-bottom: 50px; }
+#sidebar .content h3 { position: absolute; top: -35px; left: -1px; margin: 0px; height: 35px; line-height: 34px; padding: 0px 20px; border-bottom: 0px none; z-index: 16; font-size: 13px; }
+#sidebar .content h3 span { background: url("dotted-light.gif") repeat-x scroll left bottom transparent; display: block; color: rgb(93, 77, 77); }
+#sidebar .content span.filler { background: none repeat scroll 0% 0% rgb(255, 255, 255); width: 100%; height: 3px; display: block; position: absolute; top: 0px; left: 0px; z-index: 20; }
+#sidebar .content ul li { background: url("list-item.png") no-repeat scroll left center transparent; height: 18px; line-height: 18px; padding-left: 20px; }
+.map-container { position: relative; }
+#map { height: 340px; position: relative; overflow: hidden ! important; }
+.clearfix { display: inline-block; }
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0px; }
+html .clearfix { display: block; }
+.noscreen { display: none; }
+#fancybox-loading { position: fixed; top: 50%; left: 50%; width: 40px; height: 40px; margin-top: -20px; margin-left: -20px; cursor: pointer; overflow: hidden; z-index: 1104; display: none; }
+#fancybox-loading div { position: absolute; top: 0px; left: 0px; width: 40px; height: 480px; background-image: url("urn:not-loaded:http://www.magnaastra.cz/assets/web/css/fancybox/fancybox.png"); }
+#fancybox-overlay { position: absolute; top: 0px; left: 0px; width: 100%; z-index: 1100; display: none; }
+#fancybox-tmp { padding: 0px; margin: 0px; border: 0px none; overflow: auto; display: none; }
+#fancybox-wrap { position: absolute; top: 0px; left: 0px; padding: 20px; z-index: 1101; outline: medium none; display: none; }
+#fancybox-outer { position: relative; width: 100%; height: 100%; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#fancybox-content { width: 0px; height: 0px; padding: 0px; outline: medium none; position: relative; overflow: hidden; z-index: 1102; border: 0px solid rgb(255, 255, 255); }
+#fancybox-close { position: absolute; top: -15px; right: -15px; width: 30px; height: 30px; background: url("urn:not-loaded:http://www.magnaastra.cz/assets/web/css/fancybox/fancybox.png") repeat scroll -40px 0px transparent; cursor: pointer; z-index: 1103; display: none; }
+#fancybox-left, #fancybox-right { position: absolute; bottom: 0px; height: 100%; width: 35%; cursor: pointer; outline: medium none; background: url("urn:not-loaded:http://www.magnaastra.cz/assets/web/css/fancybox/blank.gif") repeat scroll 0% 0% transparent; z-index: 1102; display: none; }
+#fancybox-left { left: 0px; }
+#fancybox-right { right: 0px; }
+#fancybox-left-ico, #fancybox-right-ico { position: absolute; top: 50%; left: -9999px; width: 30px; height: 30px; margin-top: -15px; cursor: pointer; z-index: 1102; display: block; }
+#fancybox-left-ico { background-image: url("urn:not-loaded:http://www.magnaastra.cz/assets/web/css/fancybox/fancybox.png"); background-position: -40px -30px; }
+#fancybox-right-ico { background-image: url("urn:not-loaded:http://www.magnaastra.cz/assets/web/css/fancybox/fancybox.png"); background-position: -40px -60px; }
+#fancybox-left:hover, #fancybox-right:hover { visibility: visible; }
+#fancybox-left:hover span { left: 20px; }
+#fancybox-right:hover span { left: auto; right: 20px; }
+.fancybox-bg { position: absolute; padding: 0px; margin: 0px; border: 0px none; width: 20px; height: 20px; z-index: 1001; }
+#fancybox-bg-n { top: -20px; left: 0px; width: 100%; background-image: url("urn:not-loaded:http://www.magnaastra.cz/assets/web/css/fancybox/fancybox-x.png"); }
+#fancybox-bg-ne { top: -20px; right: -20px; background-image: url("urn:not-loaded:http://www.magnaastra.cz/assets/web/css/fancybox/fancybox.png"); background-position: -40px -162px; }
+#fancybox-bg-e { top: 0px; right: -20px; height: 100%; background-image: url("urn:not-loaded:http://www.magnaastra.cz/assets/web/css/fancybox/fancybox-y.png"); background-position: -20px 0px; }
+#fancybox-bg-se { bottom: -20px; right: -20px; background-image: url("urn:not-loaded:http://www.magnaastra.cz/assets/web/css/fancybox/fancybox.png"); background-position: -40px -182px; }
+#fancybox-bg-s { bottom: -20px; left: 0px; width: 100%; background-image: url("urn:not-loaded:http://www.magnaastra.cz/assets/web/css/fancybox/fancybox-x.png"); background-position: 0px -20px; }
+#fancybox-bg-sw { bottom: -20px; left: -20px; background-image: url("urn:not-loaded:http://www.magnaastra.cz/assets/web/css/fancybox/fancybox.png"); background-position: -40px -142px; }
+#fancybox-bg-w { top: 0px; left: -20px; height: 100%; background-image: url("urn:not-loaded:http://www.magnaastra.cz/assets/web/css/fancybox/fancybox-y.png"); }
+#fancybox-bg-nw { top: -20px; left: -20px; background-image: url("urn:not-loaded:http://www.magnaastra.cz/assets/web/css/fancybox/fancybox.png"); background-position: -40px -122px; }
+#fancybox-title { font-family: Helvetica; font-size: 12px; z-index: 1102; }
+.ui-tooltip:not(.ie9haxors) div.ui-tooltip-content, .ui-tooltip:not(.ie9haxors) div.ui-tooltip-titlebar { filter: none; }
+.ui-helper-reset { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none outside none; }
+.ui-helper-clearfix:before, .ui-helper-clearfix:after { content: ""; display: table; }
+.ui-helper-clearfix:after { clear: both; }
+.ui-helper-clearfix {  }
+.ui-tabs { position: relative; padding: 0px; }
+.ui-tabs .ui-tabs-nav { position: absolute; top: -35px; left: -1px; margin: 0px; height: 35px; z-index: 1; padding: 0px; }
+.ui-tabs .ui-tabs-nav li { float: left; height: 27px; line-height: 27px; border: 1px solid rgb(191, 192, 193); margin: 6px -1px 0px 0px; }
+.ui-tabs .ui-tabs-nav li a { background: url("switcher-shadow.png") repeat-x scroll center bottom rgb(230, 230, 230); display: block; padding: 0px 14px; text-decoration: none; color: rgb(93, 77, 77); }
+.ui-tabs .ui-tabs-nav li a:hover { background: none repeat scroll 0% 0% rgb(249, 226, 172); }
+.ui-tabs .ui-tabs-nav li.ui-tabs-active { background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 0px 20px; border-bottom: 0px none; z-index: 16; margin: 0px -1px 0px 0px; height: 35px; line-height: 34px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-tabs-loading a { background: url("dotted-light.gif") repeat-x scroll left bottom transparent; display: block; color: rgb(93, 77, 77); font-size: 14px; font-weight: 700; padding: 0px; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a { cursor: pointer; }
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0px; padding: 0px; background: none repeat scroll 0px center transparent; }

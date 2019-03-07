@@ -1,0 +1,113 @@
+/* Effective stylesheet produced by snapshot save */
+#channel-feed .feed-item-dismissable.last .feed-item-main { border-bottom: medium none; }
+#channel-search .search-form { visibility: hidden; position: relative; vertical-align: middle; display: inline-block; }
+#channel-search .search-field { width: 0px; padding-right: 22px; transition: width 0.3s ease 0s; }
+#channel-search .search-button { opacity: 0; position: absolute; width: 22px; height: 28px; top: 0px; right: 5px; }
+#channel-search .show-search { vertical-align: top; }
+#channel-search .show-search img, #channel-search .yt-uix-button-icon-search { opacity: 0.33; background: url("www-refresh-vflAjYAhp.png") no-repeat scroll -170px -201px transparent; width: 14px; height: 14px; }
+#channel-search:hover .show-search img, #channel-search .yt-uix-button:hover .yt-uix-button-icon-search { opacity: 1; }
+.yt-uix-button-c4-search { padding: 0px; background: none repeat scroll 0% 0% transparent; border: 0px none; }
+@media (max-width: 1280px) {
+  .multirow-shelf .yt-uix-expander.yt-uix-expander-collapsed .yt-shelf-grid-item:nth-child(-n+6) { display: inline-block; }
+  .branded-page-v2-secondary-column-hidden .multirow-shelf .yt-uix-expander.yt-uix-expander-collapsed .yt-shelf-grid-item:nth-child(-n+8) { display: inline-block; }
+}
+@media (min-width: 1281px) and (max-width: 1480px) {
+  .multirow-shelf .yt-uix-expander.yt-uix-expander-collapsed .yt-shelf-grid-item:nth-child(-n+8) { display: inline-block; }
+  .branded-page-v2-secondary-column-hidden .multirow-shelf .yt-uix-expander.yt-uix-expander-collapsed .yt-shelf-grid-item:nth-child(-n+10) { display: inline-block; }
+}
+@media (min-width: 1481px) {
+  .multirow-shelf .yt-uix-expander.yt-uix-expander-collapsed .yt-shelf-grid-item:nth-child(-n+10) { display: inline-block; }
+}
+.site-left-aligned #guide { width: 175px; padding-top: 20px; padding-left: 5px; float: left; }
+.display-name:hover { text-decoration: none; }
+.guide-toplevel h3 { margin: 12px 0px 5px 4px; font-size: 10px; }
+.guide-item, .guide-view-more { display: block; position: relative; border: medium none; height: 24px; background: none repeat scroll 0% 0% transparent; color: rgb(85, 85, 85); font-size: 11px; }
+.guide-item:hover { text-decoration: none; }
+.context-back-link:hover, .guide-view-more:hover, #guide-container .guide-item:hover, #guide-container .guide-collection-item:hover .guide-item { background: none repeat scroll 0% 0% rgb(68, 68, 68); color: rgb(255, 255, 255); }
+.guide-item .display-name { width: 100px; display: inline-block; overflow: hidden; white-space: nowrap; word-wrap: normal; text-overflow: ellipsis; }
+.guide-section-no-counts .guide-item .display-name, .guide-item .display-name.no-count { width: 135px; }
+.guide-item .guide-count { position: absolute; right: 20px; padding: 0px 4px; height: 100%; background: none repeat scroll 0% 0% transparent; color: rgb(173, 173, 173); }
+.guide-item:hover .guide-count { color: rgb(255, 255, 255); }
+#guide-channels { width: auto; }
+.guide-section-separator { margin: 8px 15px 8px 4px; border-bottom: 1px solid rgb(226, 226, 226); }
+.guide-item .thumb { margin-right: 5px; margin-left: 4px; }
+.guide-channels-content { position: relative; }
+.guide-channels-list { position: relative; clear: both; max-height: 247px; padding: 0px 0px 3px; overflow: hidden; }
+@media screen and (min-height: 769px) and (max-height: 900px) {
+  .guide-channels-list { max-height: 351px; }
+}
+@media screen and (min-height: 901px) and (max-height: 1024px) {
+  .guide-channels-list { max-height: 481px; }
+}
+@media screen and (min-height: 1025px) {
+  .guide-channels-list { max-height: 611px; }
+}
+.guide-channels-list:hover { overflow-y: auto; overflow-x: hidden; }
+.guide-channels-list .guide-channel a { position: relative; width: 175px; }
+.guide-channels-list a.guide-item { display: block; white-space: nowrap; }
+#guide-subscriptions-section { position: relative; }
+li.guide-section h3 { width: 155px; color: rgb(153, 153, 153); overflow: hidden; white-space: nowrap; word-wrap: normal; text-overflow: ellipsis; }
+li.guide-section.without-filter h3 { width: 135px; }
+.guide-sort-container { float: right; }
+.without-filter .guide-sort-container { margin: -2px 23px 0px 0px; }
+.yt-uix-button.guide-sort-button { height: 12px; width: 12px; background: none repeat scroll 0% 0% transparent; padding: 3px; border: 1px solid transparent; border-radius: 6px 6px 6px 6px; }
+.yt-uix-button.guide-sort-button.yt-uix-button-active, .yt-uix-button.guide-sort-button:hover { border-color: rgb(153, 153, 153); background-color: rgb(255, 255, 255); }
+.yt-uix-button.guide-sort-button img { width: 0px; height: 0px; margin: -9px 0px 0px -1px; border-left: 3px solid transparent; border-right: 3px solid transparent; border-top: 3px solid rgb(153, 153, 153); background: none repeat scroll 0% 0% transparent; opacity: 0.6; }
+.yt-uix-button.guide-sort-button:hover img { opacity: 1; }
+.guide-sort-container .yt-uix-button-menu .yt-uix-button-menu-item { padding-left: 23px; }
+.yt-uix-button-menu-guide-sorts { margin-top: 2px; }
+.guide-management-settings-icon { background: url("www-hitchhiker-vfl1qWzp0.png") no-repeat scroll -53px -693px transparent; width: 18px; height: 18px; }
+.guide-management-plus-icon { background: url("www-hitchhiker-vfl1qWzp0.png") no-repeat scroll -58px -736px transparent; width: 18px; height: 18px; }
+.subscription-list-item:hover:not(.selected) .add-badge, .subscription-list-item.selected:hover .remove-badge, .subscription-list-item.selected:not(:hover) .added-badge { display: inherit; }
+.branded-page-v2-header .branded-page-gutter-padding, .branded-page-v2-primary-col .branded-page-gutter-padding { padding-left: 30px; padding-right: 30px; }
+.branded-page-v2-secondary-col .branded-page-box { padding: 15px 0px 15px 15px; }
+.branded-page-header-title, .branded-page-header-title a { color: rgb(255, 255, 255); font-size: 15px; text-decoration: none; text-shadow: 0px -1px rgba(0, 0, 0, 0.5); overflow: hidden; }
+.branded-page-v2-primary-col { overflow: hidden; min-height: 700px; border-right: 1px solid rgb(226, 226, 226); border-bottom: 1px solid rgb(226, 226, 226); border-left: 1px solid rgb(226, 226, 226); background-color: rgb(255, 255, 255); }
+.branded-page-v2-secondary-col { float: right; padding-bottom: 5px; width: 173px; }
+.branded-page-v2-header { position: relative; margin: 0px; }
+.branded-page-v2-subnav-container { padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid rgb(204, 204, 204); }
+.branded-page-related-channels-item { position: relative; margin-bottom: 13px; font-size: 11px; }
+.branded-page-related-channels-item .yt-uix-button-subscription-container { margin-top: 1px; }
+.branded-page-related-channels, .branded-page-related-channels h2, .branded-page-related-channels h2 a { color: rgb(85, 85, 85); }
+.branded-page-related-channels, .branded-page-related-channels h3 { font-size: 11px; }
+.branded-page-related-channels h3 a, .branded-page-related-channels h3 { width: 100%; color: rgb(51, 51, 51); text-decoration: none; }
+.branded-page-related-channels h2 { margin-bottom: 10px; font-size: 11px; font-weight: normal; line-height: 14px; }
+.branded-page-related-channels-list { margin-top: 2px; }
+.branded-page-related-channels-item .yt-lockup .yt-lockup-thumbnail { margin: 0px 5px 0px 0px; }
+.branded-page-related-channels-item .yt-lockup .yt-lockup-meta { margin-top: 0px; }
+#c4-header-bg-container { position: relative; height: 175px; border-bottom: 1px solid rgb(216, 216, 216); background-size: cover; background-color: rgb(51, 51, 51); background-position: center center; }
+@media not all, screen and (min-resolution: 1.5dppx) {
+  #c4-header-bg-container { background-size: auto 100%; }
+}
+.channel-header-profile-image-container { top: 0px; left: 30px; height: 100px; width: 100px; position: absolute; background-color: rgba(0, 0, 0, 0.2); display: inline-block; }
+.channel-header-profile-image { width: 100px; height: 100px; background-color: rgb(233, 236, 238); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4); }
+.channel-header .primary-header-contents { position: relative; padding: 30px 30px 10px; line-height: 13px; }
+.channel-header .branded-page-header-title .spf-link { line-height: 24px; color: rgb(51, 51, 51); font-size: 20px; font-weight: normal; text-shadow: none; }
+.channel-header .primary-header-actions { float: right; }
+.channel-header-subscription-button-container { float: right; }
+#channel-subheader { position: relative; border-bottom: 1px solid rgb(204, 204, 204); }
+#channel-navigation-menu { float: left; }
+#channel-navigation-menu li:first-child { margin-left: 0px; }
+#channel-navigation-menu li { float: left; margin-left: 20px; }
+.channel-header #header-links { position: absolute; right: 30px; bottom: 0px; padding: 0px; font-size: 0px; cursor: auto; }
+#channel-subheader .epic-nav-item-heading .icon-c4-home-feed, #channel-subheader .yt-uix-button-epic-nav-item.selected .yt-uix-button-icon-c4-home-feed, #channel-subheader .yt-uix-button-epic-nav-item:hover .yt-uix-button-icon-c4-home-feed { background: url("www-channels-c4-vflQIFQuJ.png") no-repeat scroll 0px -38px transparent; width: 22px; height: 15px; }
+a.yt-uix-button.yt-uix-button-epic-nav-item, button.yt-uix-button-epic-nav-item, .epic-nav-item, .epic-nav-item-heading { border: medium none; padding: 0px 3px 3px; cursor: pointer; background: none repeat scroll 0% 0% transparent; color: rgb(156, 156, 156); font-size: 11px; font-weight: bold; height: 29px; line-height: 29px; vertical-align: bottom; -moz-box-sizing: content-box; border-radius: 0px 0px 0px 0px; box-shadow: none; }
+.epic-nav-dropdown-group:hover, a.yt-uix-button-epic-nav-item:hover, a.yt-uix-button-epic-nav-item.selected, a.yt-uix-button-epic-nav-item.yt-uix-button-toggled, button.yt-uix-button-epic-nav-item:hover, button.yt-uix-button-epic-nav-item.selected, button.yt-uix-button-epic-nav-item.yt-uix-button-toggled, .epic-nav-item:hover, .epic-nav-item.selected, .epic-nav-item.yt-uix-button-toggled, .epic-nav-item-heading { height: 29px; line-height: 29px; color: rgb(51, 51, 51); border-bottom: 3px solid rgb(204, 24, 30); border-color: rgb(204, 24, 30); padding-bottom: 0px; display: inline-block; }
+.epic-nav-item-heading-icon { vertical-align: middle; }
+.secondary-nav.yt-uix-button-epic-nav-item:hover, .secondary-nav.epic-nav-item:hover { border-bottom: 0px none; color: rgb(156, 156, 156); }
+.feed-list-item { position: relative; margin-top: -2px; border-top: 1px solid transparent; border-bottom: 1px solid transparent; padding: 0px 15px; }
+.feed-list-item:first-child { margin-top: 11px; }
+.feed-item-container .feed-item-main { min-height: 45px; margin: 4px 0px -1px 51px; border-bottom: 1px solid rgb(226, 226, 226); padding: 8px 0px 10px; color: rgb(85, 85, 85); font-size: 12px; }
+.feed-item-container .feed-item-main-content { max-width: 749px; }
+.flex-width-enabled .feed-item-container .feed-item-main-content { max-width: 100%; }
+.feed-item-main .feed-item-header { margin: 4px 10px 0px 0px; line-height: 14px; }
+.feed-item-main .yt-lockup, .feed-item-main .feed-item-header, .feed-item-main .feed-item-content-wrapper, .feed-item-promo-heading .feed-item-content-wrapper { margin-bottom: 12px; }
+.feed-item-main .feed-item-post { margin: 8px 0px; line-height: 14px; }
+.feed-item-main .feed-item-header a, .feed-item-main a.yt-user-name { color: inherit; }
+.feed-item-container:hover .feed-item-header a, .feed-item-container:hover a.yt-user-name { color: rgb(39, 147, 230); }
+.feed-item-container .feed-author-bubble { margin-right: 8px; }
+.feed-author-bubble { display: block; float: left; background: url("www-hitchhiker-vfl1qWzp0.png") no-repeat scroll 0px -475px transparent; width: 43px; height: 38px; }
+.feed-item-container .feed-author-bubble-container { position: relative; z-index: 1; }
+.feed-author-bubble .feed-item-author { position: relative; z-index: -1; margin: 5px; vertical-align: middle; line-height: 1em; display: inline-block; }
+.feed-author-bubble .yt-thumb { background: none repeat scroll 0% 0% transparent; }
+.feed-item-actions-line .feed-item-owner { font-weight: bold; }

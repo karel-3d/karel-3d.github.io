@@ -1,0 +1,39 @@
+/* Effective stylesheet produced by snapshot save */
+html { min-height: 100%; }
+body { min-height: 100%; }
+.search { float: right; }
+body { margin: 0px; padding: 0px; }
+#bg { background-color: rgb(21, 28, 36); float: left; width: 100%; min-width: 1150px; height: 5px; border-bottom: 1px solid rgb(41, 50, 57); margin: 0px; }
+#top { float: left; width: 100%; min-width: 1150px; background-color: rgb(30, 37, 47); height: 80px; border-bottom: 1px solid rgb(241, 241, 241); margin: 0px; }
+#top .logo { float: left; width: 250px; height: 70px; background: url("logo.png") no-repeat scroll 0% 0% transparent; margin-right: 40px; margin-top: 5px; }
+#top .container { margin: 0px auto; width: 1150px; }
+#top .menu { float: left; width: 74%; margin: 13px 0px 0px; }
+#top .menu .right { float: right; }
+#top .menu li { float: left; list-style-type: none; }
+#top .menu li a { color: rgb(255, 255, 255); font-weight: bold; font-size: 140%; padding: 15px; display: block; }
+#top .menu li a:hover { text-decoration: none; }
+#top .menu li:hover { background: linear-gradient(to bottom, rgb(133, 219, 68) 0%, rgb(109, 177, 58) 100%) repeat scroll 0% 0% transparent; }
+#submenu { float: left; width: 100%; background-color: rgb(240, 240, 240); min-width: 1150px; height: 40px; border-top: 1px solid rgb(214, 214, 214); border-bottom: 1px solid rgb(214, 214, 214); }
+#submenu .container { margin: 0px auto; width: 1150px; }
+#submenu .container ul { float: left; list-style-type: none; width: 100%; min-width: 1150px; margin: 0px; }
+#submenu .container ul li { float: left; margin-top: 8px; margin-right: 20px; }
+#submenu .container .search { float: right; margin-top: 5px; margin-right: 10px; }
+#submenu .container .search .span2 { width: 250px; }
+#main { float: left; width: 100%; min-width: 1024px; background-color: rgb(233, 233, 233); min-height: 600px; }
+#main .container { margin: 0px auto; width: 1150px; }
+#footer { float: left; width: 100%; min-width: 1150px; background-color: rgb(9, 14, 18); min-height: 50px; }
+#footer .container { margin: 0px auto; width: 1120px; }
+#layout { margin: 0px; padding: 0px; border: medium none; }
+#layout td { vertical-align: top; }
+#layout td.m { float: left; background-color: rgb(248, 248, 248); border-right: 1px solid rgb(204, 204, 204); width: 900px; min-height: 600px; }
+#layout .td-category { max-width: 240px; border-right: 1px solid rgb(204, 204, 204); }
+#forum.default td { background-color: transparent; vertical-align: middle; }
+#forum .body-topic { float: left; width: 100%; margin-bottom: 30px; }
+#forum .left { float: left; }
+#forum .right { float: right; }
+#forum .label { font-size: 13px; }
+#forum th .caret { border-top: 4px solid rgb(255, 255, 255); vertical-align: middle; }
+#forum th .username { color: rgb(255, 255, 255); }
+#forum th .username:hover { color: rgb(255, 255, 255); text-decoration: none; }
+#cursor { cursor: pointer; }
+.border { background-color: rgb(242, 242, 242); border-top: 1px solid rgb(221, 221, 221); border-bottom: 1px solid rgb(221, 221, 221); padding-top: 15px; }

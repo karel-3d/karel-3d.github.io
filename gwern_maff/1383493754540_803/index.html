@@ -1,0 +1,571 @@
+<!DOCTYPE html><html dir="ltr" class="client-js" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Sheep Marketplace</title>
+<meta charset="UTF-8">
+<meta name="generator" content="MediaWiki 1.21.2">
+<meta name="ResourceLoaderDynamicStyles" content="">
+<style><!--
+/* Effective stylesheet produced by snapshot save */
+sup.reference { unicode-bidi: -moz-isolate; }
+@media print {
+  #toc { border: 1px solid rgb(170, 170, 170); background-color: rgb(249, 249, 249); padding: 5px; }
+  body { background: none repeat scroll 0% 0% white; color: black; margin: 0px; padding: 0px; }
+  ul { list-style-type: square; }
+  #content { background: none repeat scroll 0% 0% transparent; border: medium none ! important; padding: 0px ! important; margin: 0px ! important; direction: ltr; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+  p { margin: 1em 0px; line-height: 1.2em; }
+  pre, .mw-code { border: 1pt dashed black; white-space: pre; font-size: 8pt; overflow: auto; padding: 1em 0px; background: none repeat scroll 0% 0% white; color: black; }
+  a { color: black ! important; background: none repeat scroll 0% 0% transparent ! important; padding: 0px ! important; }
+  a:link, a:visited { color: rgb(85, 34, 0); background: none repeat scroll 0% 0% transparent; text-decoration: underline; }
+  #content a.external.text:after, #content a.external.autonumber:after { content: " (" attr(href) ") "; }
+  #content { background: none repeat scroll 0% 0% white; color: black; }
+  a, a.external, a.new, a.stub { color: black ! important; text-decoration: none ! important; }
+  a, a.external, a.new, a.stub { color: inherit ! important; text-decoration: inherit ! important; }
+  h2, h3, h4, h5, h6, h7 { page-break-after: avoid; }
+  p { widows: 3; orphans: 3; }
+}
+@media screen {
+  .mw-content-ltr { direction: ltr; }
+  #catlinks { text-align: left; }
+  .catlinks-allhidden { display: none; }
+  .visualClear { clear: both; }
+  .mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul { margin: 0.3em 0px 0px 1.6em; padding: 0px; }
+  .mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol { margin: 0.3em 0px 0px 3.2em; padding: 0px; }
+  h1:lang(anp), h1:lang(as), h1:lang(bh), h1:lang(bho), h1:lang(bn), h1:lang(gu), h1:lang(hi), h1:lang(kn), h1:lang(ks), h1:lang(ml), h1:lang(mr), h1:lang(my), h1:lang(mai), h1:lang(ne), h1:lang(new), h1:lang(or), h1:lang(pa), h1:lang(pi), h1:lang(sa), h1:lang(ta), h1:lang(te) { line-height: 1.6em ! important; }
+  h2:lang(anp), h3:lang(anp), h4:lang(anp), h5:lang(anp), h6:lang(anp), h2:lang(as), h3:lang(as), h4:lang(as), h5:lang(as), h6:lang(as), h2:lang(bho), h3:lang(bho), h4:lang(bho), h5:lang(bho), h6:lang(bho), h2:lang(bh), h3:lang(bh), h4:lang(bh), h5:lang(bh), h6:lang(bh), h2:lang(bn), h3:lang(bn), h4:lang(bn), h5:lang(bn), h6:lang(bn), h2:lang(gu), h3:lang(gu), h4:lang(gu), h5:lang(gu), h6:lang(gu), h2:lang(hi), h3:lang(hi), h4:lang(hi), h5:lang(hi), h6:lang(hi), h2:lang(kn), h3:lang(kn), h4:lang(kn), h5:lang(kn), h6:lang(kn), h2:lang(ks), h3:lang(ks), h4:lang(ks), h5:lang(ks), h6:lang(ks), h2:lang(ml), h3:lang(ml), h4:lang(ml), h5:lang(ml), h6:lang(ml), h2:lang(mr), h3:lang(mr), h4:lang(mr), h5:lang(mr), h6:lang(mr), h2:lang(my), h3:lang(my), h4:lang(my), h5:lang(my), h6:lang(my), h2:lang(mai), h3:lang(mai), h4:lang(mai), h5:lang(mai), h6:lang(mai), h2:lang(ne), h3:lang(ne), h4:lang(ne), h5:lang(ne), h6:lang(ne), h2:lang(new), h3:lang(new), h4:lang(new), h5:lang(new), h6:lang(new), h2:lang(or), h3:lang(or), h4:lang(or), h5:lang(or), h6:lang(or), h2:lang(pa), h3:lang(pa), h4:lang(pa), h5:lang(pa), h6:lang(pa), h2:lang(pi), h3:lang(pi), h4:lang(pi), h5:lang(pi), h6:lang(pi), h2:lang(sa), h3:lang(sa), h4:lang(sa), h5:lang(sa), h6:lang(sa), h2:lang(ta), h3:lang(ta), h4:lang(ta), h5:lang(ta), h6:lang(ta), h2:lang(te), h3:lang(te), h4:lang(te), h5:lang(te), h6:lang(te) { line-height: 1.2em; }
+  ol:lang(bcc) li, ol:lang(bqi) li, ol:lang(fa) li, ol:lang(glk) li, ol:lang(kk-arab) li, ol:lang(mzn) li { list-style-type: -moz-persian; }
+  ol:lang(ckb) li { list-style-type: -moz-arabic-indic; }
+  ol:lang(hi) li, ol:lang(mr) li { list-style-type: -moz-devanagari; }
+  ol:lang(as) li, ol:lang(bn) li { list-style-type: -moz-bengali; }
+  ol:lang(or) li { list-style-type: -moz-oriya; }
+  #toc ul, .toc ul { margin: 0.3em 0px; }
+  .mw-content-ltr .toc ul, .mw-content-ltr #toc ul, .mw-content-rtl .mw-content-ltr .toc ul, .mw-content-rtl .mw-content-ltr #toc ul { text-align: left; }
+  .mw-content-ltr .toc ul ul, .mw-content-ltr #toc ul ul, .mw-content-rtl .mw-content-ltr .toc ul ul, .mw-content-rtl .mw-content-ltr #toc ul ul { margin: 0px 0px 0px 2em; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { direction: ltr; }
+}
+@media screen {
+  a { text-decoration: none; color: rgb(6, 69, 173); background: none repeat scroll 0% 0% transparent; }
+  a:visited { color: rgb(11, 0, 128); }
+  a:active { color: rgb(250, 167, 0); }
+  a:hover, a:focus { text-decoration: underline; }
+  .mw-body a.external { color: rgb(51, 102, 187); }
+  .mw-body a.external:visited { color: rgb(102, 51, 102); }
+  .mw-body a.external:active { color: rgb(187, 102, 51); }
+  h1, h2, h3, h4, h5, h6 { color: black; background: none repeat scroll 0% 0% transparent; font-weight: normal; margin: 0px; overflow: hidden; padding-top: 0.5em; padding-bottom: 0.17em; border-bottom: 1px solid rgb(170, 170, 170); }
+  h1 { font-size: 188%; }
+  h2 { font-size: 150%; }
+  h3, h4, h5, h6 { border-bottom: medium none; font-weight: bold; }
+  h3 { font-size: 132%; }
+  h4 { font-size: 116%; }
+  h5 { font-size: 100%; }
+  h1, h2 { margin-bottom: 0.6em; }
+  h3, h4, h5 { margin-bottom: 0.3em; }
+  p { margin: 0.4em 0px 0.5em; line-height: 1.5em; }
+  ul { line-height: 1.5em; list-style-type: square; margin: 0.3em 0px 0px 1.6em; padding: 0px; }
+  ol { line-height: 1.5em; margin: 0.3em 0px 0px 3.2em; padding: 0px; list-style-image: none; }
+  li { margin-bottom: 0.1em; }
+  pre, code, tt, kbd, samp, .mw-code { font-family: monospace,Courier; }
+  pre, .mw-code { padding: 1em; border: 1px dashed rgb(47, 111, 171); color: black; background-color: rgb(249, 249, 249); }
+  table { font-size: 100%; }
+  #toc, .toc, .mw-warning { border: 1px solid rgb(170, 170, 170); background-color: rgb(249, 249, 249); padding: 5px; font-size: 95%; }
+  #toc h2, .toc h2 { display: inline; border: medium none; padding: 0px; font-size: 100%; font-weight: bold; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { text-align: center; }
+  #toc ul, .toc ul { list-style-type: none; list-style-image: none; margin-left: 0px; padding: 0px; text-align: left; }
+  #toc ul ul, .toc ul ul { margin: 0px 0px 0px 2em; }
+  .catlinks { border: 1px solid rgb(170, 170, 170); background-color: rgb(249, 249, 249); padding: 5px; margin-top: 1em; clear: both; }
+  .firstHeading, #firstHeading { margin-bottom: 0.1em; line-height: 1.2em; padding-bottom: 0px; }
+  html, body { height: 100%; margin: 0px; padding: 0px; font-family: sans-serif; font-size: 1em; }
+  body { background-color: rgb(246, 246, 246); }
+  div#content { padding: 2em; border-width: 1px 0px 1px 1px; border-style: solid; border-color: rgb(167, 215, 249); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; margin-top: -1px; background-color: white; color: black; direction: ltr; }
+  div#content { line-height: 1.5em; }
+  #bodyContent { font-size: 0.8em; }
+  ul { list-style-type: disc; list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAANAQMAAABb8jbLAAAABlBMVEX///8AUow5QSOjAAAAAXRSTlMAQObYZgAAABNJREFUCB1jYEABBQw/wLCAgQEAGpIDyT0IVcsAAAAASUVORK5CYII="); }
+  pre, .mw-code { line-height: 1.3em; }
+  #firstHeading { margin-top: 0px; padding-top: 0px; font-size: 1.6em; }
+  div#content a.external, div#content a.external[href^="gopher://"] { background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=") no-repeat scroll right center transparent; padding-right: 13px; }
+  div#content a.external[href^="https://"], .link-https { background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAdUlEQVQYV2P4//8/Awxv3LThf0dXKxyD+DA5DEUg+tWrV2AaWTFcIboJyJrhCtGtRMcgebhpL2/4/v//Lvn//x+7IRjIfn8v+P/t055gxZgKPzaC8Y/nMYQVLpnM8f/zo3AqKfzyOOL/h/sh/59c9sBUSIyvAeRdJWjk4E//AAAAAElFTkSuQmCC") no-repeat scroll right center transparent; padding-right: 13px; }
+  #bodyContent { position: relative; width: 100%; }
+  div#bodyContent { line-height: 1.5em; }
+  body.vector-animateLayout div#content, body.vector-animateLayout div#footer { transition: margin-left 250ms ease 0s, padding 250ms ease 0s; }
+}
+--></style>
+</head><body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Sheep_Marketplace skin-vector action-view vector-animateLayout">
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Sheep Marketplace</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- bodycontent -->
+				<div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="en"><p>Sheep Marketplace is an underground marketplace launched in early 2013. It is likely owned by <a href="#Tom_as">Tomáš Jiřikovský</a>.
+</p>
+<table id="toc" class="toc"><tbody><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Hosting"><span class="tocnumber">1</span> <span class="toctext">Hosting</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Servers"><span class="tocnumber">1.1</span> <span class="toctext">Servers</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#sheep5u64fi457aw.onion_.28main.29"><span class="tocnumber">1.1.1</span> <span class="toctext">sheep5u64fi457aw.onion (main)</span></a></li>
+<li class="toclevel-3 tocsection-4"><a href="#sheepmarketplace.com"><span class="tocnumber">1.1.2</span> <span class="toctext">sheepmarketplace.com</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Coding_infrastructure"><span class="tocnumber">2</span> <span class="toctext">Coding infrastructure</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Staff"><span class="tocnumber">3</span> <span class="toctext">Staff</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Administrator"><span class="tocnumber">3.1</span> <span class="toctext">Administrator</span></a>
+<ul>
+<li class="toclevel-3 tocsection-8"><a href="#Initial_advertising"><span class="tocnumber">3.1.1</span> <span class="toctext">Initial advertising</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Tom_as"><span class="tocnumber">3.1.2</span> <span class="toctext">Tom_as</span></a>
+<ul>
+<li class="toclevel-4 tocsection-10"><a href="#Personal_information"><span class="tocnumber">3.1.2.1</span> <span class="toctext">Personal information</span></a></li>
+<li class="toclevel-4 tocsection-11"><a href="#An_interesting_post_by_Tom_as_.28translated.29"><span class="tocnumber">3.1.2.2</span> <span class="toctext">An interesting post by Tom_as (translated)</span></a></li>
+<li class="toclevel-4 tocsection-12"><a href="#Notes"><span class="tocnumber">3.1.2.3</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-4 tocsection-13"><a href="#His_websites"><span class="tocnumber">3.1.2.4</span> <span class="toctext">His websites</span></a>
+<ul>
+<li class="toclevel-5 tocsection-14"><a href="#old-cans.com"><span class="tocnumber">3.1.2.4.1</span> <span class="toctext">old-cans.com</span></a></li>
+<li class="toclevel-5 tocsection-15"><a href="#fontpark.net"><span class="tocnumber">3.1.2.4.2</span> <span class="toctext">fontpark.net</span></a></li>
+<li class="toclevel-5 tocsection-16"><a href="#snekweb.cz"><span class="tocnumber">3.1.2.4.3</span> <span class="toctext">snekweb.cz</span></a></li>
+<li class="toclevel-5 tocsection-17"><a href="#mmorpg.cz"><span class="tocnumber">3.1.2.4.4</span> <span class="toctext">mmorpg.cz</span></a></li>
+<li class="toclevel-5 tocsection-18"><a href="#dll2u.com"><span class="tocnumber">3.1.2.4.5</span> <span class="toctext">dll2u.com</span></a></li>
+<li class="toclevel-5 tocsection-19"><a href="#epspark.com"><span class="tocnumber">3.1.2.4.6</span> <span class="toctext">epspark.com</span></a></li>
+<li class="toclevel-5 tocsection-20"><a href="#katua.me"><span class="tocnumber">3.1.2.4.7</span> <span class="toctext">katua.me</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-21"><a href="#The_Sheppard"><span class="tocnumber">3.2</span> <span class="toctext">The Sheppard</span></a>
+<ul>
+<li class="toclevel-3 tocsection-22"><a href="#Quotes"><span class="tocnumber">3.2.1</span> <span class="toctext">Quotes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-23"><a href="#ctrlaltweed"><span class="tocnumber">3.3</span> <span class="toctext">ctrlaltweed</span></a>
+<ul>
+<li class="toclevel-3 tocsection-24"><a href="#Quotes_2"><span class="tocnumber">3.3.1</span> <span class="toctext">Quotes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-25"><a href="#device"><span class="tocnumber">3.4</span> <span class="toctext">device</span></a>
+<ul>
+<li class="toclevel-3 tocsection-26"><a href="#Quotes_3"><span class="tocnumber">3.4.1</span> <span class="toctext">Quotes</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-27"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+</ul>
+</td></tr></tbody></table>
+<h1><span class="mw-headline" id="Hosting">Hosting</span></h1>
+<h2><span class="mw-headline" id="Servers"> Servers </span></h2>
+<h3><span class="mw-headline" id="sheep5u64fi457aw.onion_.28main.29"> sheep5u64fi457aw.onion (main) </span></h3>
+<ul><li> Apache 2.2.22 (Ubuntu)
+</li><li> X-Posted-By: "<a rel="nofollow" class="external text" href="http://nette.org/">Nette Framework</a>" (PHP)
+</li><li> Charset: iso-8859
+</li><li> Timezone: UTC+02:00 (matches Czech Republic)
+</li><li> 400 Bad Request indicates the HTTP server is on port 80.
+</li></ul>
+<h3><span class="mw-headline" id="sheepmarketplace.com"> sheepmarketplace.com </span></h3>
+<ul><li> IP address: 185.2.42.79
+<ul><li> Host: HexaGeek (Czech)
+</li></ul>
+</li><li> WHOIS information is obviously false.
+<ul><li> James Black &lt;BLACKJAMES.US@GMAIL.COM&gt;, +1.44756894568544
+<ul><li> According to Google, the recovery cell number attached to this account is  •••••••••••44. This is probably the false number used in the WHOIS ("<i>1</i>447568945685<b>44</b>" fits).
+</li></ul>
+</li></ul>
+</li></ul>
+<p>Before it was shut down by the web host, this site was uncannily similar to the actual hidden service. It used almost the same exact technology, and the official explanation is that they had "fans" (fans? who set up, many months ago, before anyone gave a damn about Sheep, an entire functioning mirror while cloning the software stack and being in a foreign non-English-speaking country just like the Sheep admins?). Ridiculous!<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup>
+</p>
+<h1><span class="mw-headline" id="Coding_infrastructure">Coding infrastructure</span></h1>
+<ul><li> Uses MD5 for UIDs (or another same-length hex algorithm). Probably generated randomly.
+</li><li> <a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/help/sheep-api">It has an API</a>.
+</li><li> Uses HTTP-supplied hostname. For example, if you use the header "Host: test", it will try to redirect you to <a rel="nofollow" class="external free" href="http://test/manager/login">http://test/manager/login</a>.
+</li><li> Admin area: /admin/
+</li><li> Private messages do not escape HTML. Allows injection of Javascript very easily.
+</li><li> Czech comments were found in CSS code.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup> Now removed.
+</li></ul>
+<p>Unlike its competitors, Sheeps' forums are built into the marketplace section of the website. TODO: Make a bot to crawl it.
+</p>
+<h1><span class="mw-headline" id="Staff">Staff</span></h1>
+<h2><span class="mw-headline" id="Administrator"> Administrator </span></h2>
+<ul><li> Broken English.
+</li><li> Profile: "SheepSupport"<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup>
+<ul><li> No PGP key, etc.
+</li></ul>
+</li></ul>
+<h3><span class="mw-headline" id="Initial_advertising"> Initial advertising </span></h3>
+<p>When SheepMarketplace first launched, the administrator(s?) advertised it on various websites:
+</p>
+<ul><li> Feb 1 -- <a rel="nofollow" class="external text" href="http://www.topix.com/forum/drug/valium/TJQH4MTQN1LRKF8NE">topix: "Silk road alternative" (reply)</a>
+<ul><li> Posted by Tom_as from Prague, Czech Republic.
+<ul><li> This is probably nothing, but there is a "Tom_as" on Steam<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup> from Ladna, Czech Republic <sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup>. <s>There is also a "Tom_as" here<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup><sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup></s> (not him) and on <a rel="nofollow" class="external text" href="http://old-cans.com/">this website</a><sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup>.
+</li><li> Upon further investigation, it appears "Tom_as" is a real alias for one of the Sheep Marketplace guys. See the section below.
+</li></ul>
+</li></ul>
+</li><li> Feb 2 -- <a rel="nofollow" class="external text" href="http://www.topix.com/forum/drug/valium/TDIO18FP2JIVJ3VGC">topix: "Black market reloaded" (reply)</a>
+<ul><li> Posted by Mia from Prague, Czech Republic.
+</li></ul>
+</li><li> April 5 -- <a rel="nofollow" class="external text" href="http://www.topix.com/forum/drug/valium/T8U40L7NQS8I7DP9J">topix: "New anonymous marketplace"</a>
+<ul><li> Posted by Sheep from Prague, Czech Republic.
+</li></ul>
+</li><li> April 7 -- <a rel="nofollow" class="external text" href="http://www.topix.com/forum/drug/valium/TR8OU7V17VL8IE50G#c1">topix: "New alternative Silkroad"</a>
+</li><li> April 10 -- <a rel="nofollow" class="external text" href="http://www.topix.com/forum/drug/valium/TVJ2O5CVD3JET4OIS">topix: "anonymous marketplace"</a>
+</li><li> May 3 -- <a rel="nofollow" class="external text" href="https://bitcointalk.org/index.php?topic=194355.0">bitcointalk: "Sheep Marketplace safe alternative SilkRoad"</a>
+</li></ul>
+<h3><span class="mw-headline" id="Tom_as"> Tom_as </span></h3>
+<p>The alias "Tom_as" was one of the first used to advertise Sheep Marketplace. He has had a profile<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup> on the forum for the Nette Framework (which Sheep Marketplace uses<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup>) since October 28, 2011. The account only has 27 posts, but is still active. The e-mail address attached to the profile is thomixcz@gmail.com.
+</p>
+<h4><span class="mw-headline" id="Personal_information"> Personal information </span></h4>
+<ul><li> Aliases:
+<ul><li> Tom_as
+</li><li> ThomixCZ
+</li><li> Stroupek<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">[11]</a></sup>
+</li><li> kocourcz
+</li><li> Thomix<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup>
+</li><li> tomcz<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup>
+</li></ul>
+</li><li> E-mail addresses:
+<ul><li> thomixcz@gmail.com
+</li><li> thomixcz@seznam.cz<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup>
+</li><li> info@snekweb.cz<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">[15]</a></sup>
+</li><li> podpora@snekweb.cz
+</li><li> tom@old-cans.com
+</li></ul>
+</li><li> Location: Břeclav, Czech Republic.
+</li><li> IP address:
+<ul><li> 194.228.13.87
+</li><li> 194.228.13.0/24<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup>
+</li></ul>
+</li><li> Name: Tomáš Jiřikovský<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup> (Tomas Jirikovsky)<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup>.
+</li><li> Skype: kocourcz<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup>, chatnoircz.
+</li><li> YouTube: <a rel="nofollow" class="external free" href="http://www.youtube.com/user/ThomixCZ">http://www.youtube.com/user/ThomixCZ</a>
+</li><li> YouTube: <a rel="nofollow" class="external free" href="http://www.youtube.com/channel/UCQczmXugOEcDGxyxDd9-lsQ">http://www.youtube.com/channel/UCQczmXugOEcDGxyxDd9-lsQ</a>
+</li><li> Google+: <a rel="nofollow" class="external free" href="https://plus.google.com/100326594653927779671/about">https://plus.google.com/100326594653927779671/about</a> (Tomas Jirikovsky, linked to thomixcz@gmail.com)
+</li><li> Facebook: <a rel="nofollow" class="external free" href="https://www.facebook.com/nadsamec">https://www.facebook.com/nadsamec</a> (Tomáš Jiřikovský)
+<ul><li> Among his likes: Kauta.me, FontPark.net, Anonymous Trade, Old-cans.com, PHP.
+</li><li> His only photo: <a rel="nofollow" class="external free" href="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash2/556656_3734542487625_803380023_n.jpg">https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash2/556656_3734542487625_803380023_n.jpg</a>
+</li></ul>
+</li><li> His girlfriend's Facebook: <a rel="nofollow" class="external free" href="https://www.facebook.com/eva.bartosova.33">https://www.facebook.com/eva.bartosova.33</a> (Eva Bartošová)
+<ul><li> <a rel="nofollow" class="external free" href="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn2/1266623_470752949698798_459259706_o.jpg">https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn2/1266623_470752949698798_459259706_o.jpg</a>
+</li><li> <a rel="nofollow" class="external free" href="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn2/1262645_470752959698797_1783518339_o.jpg">https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn2/1262645_470752959698797_1783518339_o.jpg</a>
+</li><li> Zoom in to this photo of his girlfriend's cat (uploaded September 4, 2013<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup>) and you can clearly make out the Tor icon<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">[21]</a></sup> in the computer's taskbar.
+<ul><li> <a rel="nofollow" class="external free" href="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash3/1279001_457187754388651_60346613_o.jpg">https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash3/1279001_457187754388651_60346613_o.jpg</a>
+</li></ul>
+</li></ul>
+</li></ul>
+<h4><span class="mw-headline" id="An_interesting_post_by_Tom_as_.28translated.29"> An interesting post by Tom_as (translated) </span></h4>
+<pre>I wrote a project where to subtract money from the account when you purchase
+items. Everything worked great, but when testing today suddenly stopped
+deducted money.
+
+[...]
+
+$this-&gt;database-&gt;exec("UPDATE `".DB_PREFIX."__users_account` SET `balance` = balance - ? WHERE (`id`= ?)", $valOrder-&gt;price_post + $valOrder-&gt;price, $user-&gt;identity-&gt;id)
+</pre>
+<p>-- Tom_as dealing with transactions and balances using the Nette Framework on October 1, 2013.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup>
+</p>
+<h4><span class="mw-headline" id="Notes"> Notes </span></h4>
+<ul><li> He asked for help creating a GUI application using C++ and the Qt framework in late 2012.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">[23]</a></sup> From the help page on the "Sheep Marketplace Pager" software, it "is written in Qt 5 (C + +) ."<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">[24]</a></sup>
+</li><li> This htaccess sample posted to the Nette Framework forum on October 21, 2013<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">[25]</a></sup> appears to be what is used at Sheep Marketplace. For example, "test.pdf" shows an Apache 404 error but "test.txt" shows the Sheep Marketplace (Nette) custom 404 page.
+</li><li> He discussed using SMTP over Tor on June 15, 2013.<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">[26]</a></sup>
+</li><li> He complained about the RAM requirements of hosting a "Bitcoin server" on March 31, 2013.<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">[27]</a></sup>
+</li><li> He recommended Sheep Marketplace and BMR over Silk Road on April 11, 2013.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">[28]</a></sup>
+</li><li> He claims to have leased 3 virtual servers through DigitalOcean.net around 27 June, 2013 (if the translation is correct).<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">[29]</a></sup>
+</li><li> He talks about his background as a trained locksmith and something to do with computer science and a company. Google's translation of this is very bad, so I do not understand it.<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">[30]</a></sup>
+</li><li> He asked how the onion.to service works in late 2012.<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">[31]</a></sup>
+</li><li> He introduced somebody to the concept of Tor + Bitcoin + PGP for an anonymous marketplace on September 8, 2013.<sup id="cite_ref-32" class="reference"><a href="#cite_note-32">[32]</a></sup>
+</li><li> His e-mail address is listed on the "Bitcoin Scammer List"<sup id="cite_ref-33" class="reference"><a href="#cite_note-33">[33]</a></sup> with the IP address 194.228.13.87. Added 24 May, 2013.
+</li><li> He owns the website fontpark.net and is trying to sell it as of June 12, 2013.<sup id="cite_ref-34" class="reference"><a href="#cite_note-34">[34]</a></sup><sup id="cite_ref-35" class="reference"><a href="#cite_note-35">[35]</a></sup>
+</li><li> He had a girlfriend named "Evička" around September 26, 2011.<sup id="cite_ref-36" class="reference"><a href="#cite_note-36">[36]</a></sup>
+</li><li> He is an Ubuntu user.<sup id="cite_ref-37" class="reference"><a href="#cite_note-37">[37]</a></sup>
+</li><li> He was a user of warcenter.cz from 2008 to 2010.<sup id="cite_ref-38" class="reference"><a href="#cite_note-38">[38]</a></sup>
+</li><li> It appears he indeed owns old-cans.com.<sup id="cite_ref-39" class="reference"><a href="#cite_note-39">[39]</a></sup>
+</li><li> He used Freenode at some point in #bitcoin.cz as Tom_as!~thomixcz@194.228.13.74.<sup id="cite_ref-40" class="reference"><a href="#cite_note-40">[40]</a></sup>
+</li></ul>
+<h4><span class="mw-headline" id="His_websites"> His websites </span></h4>
+<h5><span class="mw-headline" id="old-cans.com"> old-cans.com </span></h5>
+<ul><li> WHOIS: "Tomas Jirikovsky" (address is protected).
+</li><li> IP address: 185.2.42.79 (hosted by HexaGeek; this is the same IP address as sheepmarketplace.com!).
+</li><li> Uses Gandi's mail servers.
+</li><li> Apache/2.2.16 (Ubuntu), PHP/5.3.3-1ubuntu9.10
+</li></ul>
+<h5><span class="mw-headline" id="fontpark.net"> fontpark.net </span></h5>
+<ul><li> WHOIS: "Tomas Jirikovsky" (address is protected).
+</li><li> IP address: 185.2.42.79 (same as above).
+</li><li> Nette Framework.
+</li><li> Uses Gandi's mail servers.
+</li></ul>
+<h5><span class="mw-headline" id="snekweb.cz"> snekweb.cz </span></h5>
+<p>Am I reading this right? Tomas owns the shared web hosting business too, which hosts his personal websites and used to host the clearnet Sheep Marketplace proxy. Everything points to this being true, which makes Tomas a moron.
+</p>
+<ul><li> WHOIS:
+<ul><li> Tomáš Jiřikovský
+</li><li> Fintajslova 22, Břeclav, 69002, CZ
+</li></ul>
+</li><li> IP address: 185.2.42.79 (same as above).
+</li><li> DNS: ns1.snekweb.cz, ns2.snekweb.cz (both resolve to 185.2.42.79).
+</li></ul>
+<p>Contact information, according to the website:
+</p>
+<ul><li> Phone: +420 776 534 406
+</li><li> E-mail: podpora@snekweb.cz
+</li></ul>
+<p>Billing information<sup id="cite_ref-41" class="reference"><a href="#cite_note-41">[41]</a></sup>:
+</p>
+<pre>Šnekweb
+Tomáš Jiřikovský
+Fintajslova 22/1964
+690 02 Břeclav
+
+[Business identification number]: 74795988
+
+[Bank]: Fio banka, a.s., Czech Republic
+[Account number]: 2000090658/2010
+IBAN: SK2583300000002000090658
+SWIFT: FIOZSKBAXXX
+</pre>
+<p>The address is used in the WHOIS details and is also his official business address<sup id="cite_ref-42" class="reference"><a href="#cite_note-42">[42]</a></sup>. The business was registered on July 19, 2010.
+</p><p>Upon closer inspection of the websites that use this IP address, many have Tomas as the registrant. I'm surprised nobody else recognised this, as a list of hostnames was already posted to reddit<sup id="cite_ref-43" class="reference"><a href="#cite_note-43">[43]</a></sup> after the sheepmarketplace.com fiasco.
+</p>
+<h5><span class="mw-headline" id="mmorpg.cz"> mmorpg.cz </span></h5>
+<ul><li> WHOIS:
+<ul><li> Tomáš Jiřikovský
+</li><li> Fintajslova 22, Břeclav, 69002, CZ
+</li><li> +420.777870514
+</li></ul>
+</li></ul>
+<h5><span class="mw-headline" id="dll2u.com"> dll2u.com </span></h5>
+<ul><li> WHOIS: "Tomas Jirikovsky" (address is protected).
+</li></ul>
+<h5><span class="mw-headline" id="epspark.com"> epspark.com </span></h5>
+<ul><li> WHOIS: "Tomas Jirikovsky" (address is protected).
+</li></ul>
+<h5><span class="mw-headline" id="katua.me"> katua.me </span></h5>
+<ul><li> WHOIS: "Tomas Jirikovsky" (address is protected).
+</li><li> Owned by Eva Bartošová.<sup id="cite_ref-44" class="reference"><a href="#cite_note-44">[44]</a></sup>
+<ul><li> <a rel="nofollow" class="external text" href="https://www.facebook.com/eva.bartosova.33">Her Facebook account.</a>
+</li><li> Her boyfriend's Facebook account: <a rel="nofollow" class="external text" href="https://www.facebook.com/nadsamec">Tomáš Jiřikovský</a>. (What a surprise!)
+</li><li> Her address: Denisova 11, Břeclav, CZ
+</li><li> Her phone number: +420777569966
+</li><li> Her e-mail address: evik.bartosova@gmail.com
+</li><li> Her blog: <a rel="nofollow" class="external free" href="http://katua.blog.cz/">http://katua.blog.cz/</a>
+</li><li> Her Skype: katuanka
+</li></ul>
+</li></ul>
+<h2><span class="mw-headline" id="The_Sheppard"> The Sheppard </span></h2>
+<pre>A friendly mod here to help. While I am not the site owner I do my best to
+make everyone here happy. Please encrypt any sensitive info. Open door
+policy, always here to help<sup id="cite_ref-45" class="reference"><a href="#cite_note-45">[45]</a></sup>
+</pre>
+<p><a href="file:///home/gwern/PGP/79231BDA5B4728D0" title="PGP/79231BDA5B4728D0">PGP Key</a>: "The Sheppard &lt;fake@fake.com&gt;".
+</p>
+<h3><span class="mw-headline" id="Quotes"> Quotes </span></h3>
+<pre> To my understanding if an item is marked in transit and the days hit zero the
+money is automatically cleared from escrow, i will get clarification on that as I
+personally have not had an order need to autofinalize<sup id="cite_ref-46" class="reference"><a href="#cite_note-46">[46]</a></sup>
+</pre>
+<p>From these posts, The Sheppard implies that:
+</p>
+<ul><li> He is not a developer of the website.
+</li></ul>
+<h2><span class="mw-headline" id="ctrlaltweed"> ctrlaltweed </span></h2>
+<p>ctrlaltweed ("caw") is a "moderator" and weed vendor<sup id="cite_ref-47" class="reference"><a href="#cite_note-47">[47]</a></sup> from the Czech Republic. He is a former Silk Road vendor.<sup id="cite_ref-48" class="reference"><a href="#cite_note-48">[48]</a></sup>
+</p><p><a href="file:///home/gwern/PGP/5F8526BDB0784C21" title="PGP/5F8526BDB0784C21">PGP Key</a>: "ctrlaltweed" (no email address).
+</p><p>Based off his posts, he appears to be the owner (or one of the owners?) of the site. For example, he maintains the "Sheep Changelog (daily updated)" thread.<sup id="cite_ref-49" class="reference"><a href="#cite_note-49">[49]</a></sup>
+</p>
+<h3><span class="mw-headline" id="Quotes_2"> Quotes </span></h3>
+<pre>These past few days our programmers focused mainly on improving security,
+coding and adding new servers. This is not only for security and backup
+purposes, but also to be able survive in the event of attacks such as DDOS
+attempts. We feel that things are under control now, and will respond
+diligently as needed.<sup id="cite_ref-50" class="reference"><a href="#cite_note-50">[50]</a></sup>
+</pre>
+<pre>I think there is alot of troubles because of this and I acutally suggested this
+to be changed to SR like version, more you agree with me there, more
+pressure i can do to our programators to fix it asap
+and yes there is alot typos, this will change really soon i will do my best to
+help with this our programators, i have to admit that their mature language
+is not english <sup id="cite_ref-51" class="reference"><a href="#cite_note-51">[51]</a></sup>
+</pre>
+<pre>alba45: yes i reported it as very urgent issue and one of our programators is
+working on it right now, so if he dont fall a sleep, it could be done today<sup id="cite_ref-52" class="reference"><a href="#cite_note-52">[52]</a></sup>
+</pre>
+<pre>it should be sorted alot faster now, our programators today finished some
+script which does sort those thinks automaticaly, before that it had to do
+technical support which was obviously really uncomfortable and mainly slow
+for our users
+
+[...]
+
+i will ask our admin how is it with forum while under ddos (why they dont
+work)<sup id="cite_ref-53" class="reference"><a href="#cite_note-53">[53]</a></sup>
+</pre>
+<pre>Sheep marketplace doesnt have anythink to do with the clearnet version
+sheepmarketplace.com, its probably some of our fans but it does have nothink
+to do with the <a rel="nofollow" class="external free" href="http://sheep5u64fi457aw.onion/">http://sheep5u64fi457aw.onion</a> site so the rumors on reddit are
+not true (they all refer about sheepmarketpace.com!)<sup id="cite_ref-54" class="reference"><a href="#cite_note-54">[54]</a></sup>
+</pre>
+<p>From these posts, ctrlaltweed claims:
+</p>
+<ul><li> He is not the administrator, but one exists ("our admin").
+</li><li> There is a team of programmers in charge of making the website.
+</li><li> sheepmarketpace.com is not affiliated with Sheep Marketplace. This appears to be false.
+</li></ul>
+<h2> <span class="mw-headline" id="device"> device </span></h2>
+<pre>Your friendly neighborhood moderator. Contact me as first line of support
+when dealing with your problems on the site. I prefer to work in PGP only,
+so anything you send to me that isn't just idle chit-chat should be encrypted.<sup id="cite_ref-55" class="reference"><a href="#cite_note-55">[55]</a></sup>
+</pre>
+<p><a href="file:///home/gwern/PGP/1EC96BF8A809BCB8" title="PGP/1EC96BF8A809BCB8">PGP Key</a>: "device" (no email address).
+</p>
+<h3><span class="mw-headline" id="Quotes_3"> Quotes </span></h3>
+<pre>Please remember, people - the SheepSupport team are working extremely
+hard to keep this website alive. There have been a number of attacks against
+us that had to be mitigated, and take my word that our programmers are
+working night and day to improve the site.<sup id="cite_ref-56" class="reference"><a href="#cite_note-56">[56]</a></sup>
+</pre>
+<pre>The feedback system is still under heavy development, so I will take your
+input and pass it back to the coding team for review. Thanks for taking th
+time.<sup id="cite_ref-57" class="reference"><a href="#cite_note-57">[57]</a></sup>
+</pre>
+<pre>@DevilWeedSeeds: I will pass this on to the coding team.<sup id="cite_ref-58" class="reference"><a href="#cite_note-58">[58]</a></sup>
+</pre>
+<p>From these posts, device claims:
+</p>
+<ul><li> "SheepSupport" is a team.
+</li><li> There is a team of programmers in charge of making the website.
+</li></ul>
+<h1><span class="mw-headline" id="References">References</span></h1>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.reddit.com/r/SilkRoad/comments/1pko9y/the_bet_bmr_and_sheep_to_die_in_a_year/">gwern: "The Bet: BMR and Sheep to die in a year"</a></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.reddit.com/r/SheepMarketplace/comments/1nsmzx/a_friendly_warning_sheepmarketplacecoms_owner/">http://www.reddit.com/r/SheepMarketplace/comments/1nsmzx/a_friendly_warning_sheepmarketplacecoms_owner/</a></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/account/profile/6c4450188ad18472cb182cf668a45ba4">SheepSupport's profile</a></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://steamcommunity.com/profiles/76561197960524322">http://steamcommunity.com/profiles/76561197960524322</a></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://stats.team-kzn.com/hlstats.php?mode=playerinfo&amp;player=504078">http://stats.team-kzn.com/hlstats.php?mode=playerinfo&amp;player=504078</a></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.interpals.net/tom_as">http://www.interpals.net/tom_as</a></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><a href="#cite_ref-7">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.interpals.net/tomass9">http://www.interpals.net/tomass9</a></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><a href="#cite_ref-8">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://old-cans.com/en/bushido/">http://old-cans.com/en/bushido/</a></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><a href="#cite_ref-9">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.nette.org/en/profile.php?id=4449">http://forum.nette.org/en/profile.php?id=4449</a></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><a href="#cite_ref-10">↑</a></span> <span class="reference-text">The "X-Powered-By" HTTP header shows "Nette Framework".</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><a href="#cite_ref-11">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://hsfan.cz/profily/Stroupek/">http://hsfan.cz/profily/Stroupek/</a></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><a href="#cite_ref-12">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://bitcoin-otc.com/chanlogs/bitcoin.cz/%23bitcoin.cz.2013-04-22.log">http://bitcoin-otc.com/chanlogs/bitcoin.cz/%23bitcoin.cz.2013-04-22.log</a></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><a href="#cite_ref-13">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.mpcforum.com/archive/index.php/t-57613.html">http://www.mpcforum.com/archive/index.php/t-57613.html</a></span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><a href="#cite_ref-14">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.e-sports.sk/user/show.php?id=69854">http://www.e-sports.sk/user/show.php?id=69854</a></span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><a href="#cite_ref-15">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.magnaastra.cz/153164-tomas-jirikovsky">http://www.magnaastra.cz/153164-tomas-jirikovsky</a></span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><a href="#cite_ref-16">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://stats.fakaheda.eu/pstats_121203/player.php?id=34">http://stats.fakaheda.eu/pstats_121203/player.php?id=34</a></span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><a href="#cite_ref-17">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.root.cz/index.php?topic=3453.0">http://forum.root.cz/index.php?topic=3453.0</a></span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><a href="#cite_ref-18">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://www.facebook.com/permalink.php?story_fbid=604945212872771&amp;id=116575745043056">https://www.facebook.com/permalink.php?story_fbid=604945212872771&amp;id=116575745043056</a></span>
+</li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><a href="#cite_ref-19">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.root.cz/index.php?topic=4944.msg42923#msg42923">http://forum.root.cz/index.php?topic=4944.msg42923#msg42923</a></span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><a href="#cite_ref-20">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://www.facebook.com/photo.php?fbid=457187754388651&amp;set=pb.100002922919522.-2207520000.1383461268.&amp;type=3&amp;theater">https://www.facebook.com/photo.php?fbid=457187754388651&amp;set=pb.100002922919522.-2207520000.1383461268.&amp;type=3&amp;theater</a></span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><a href="#cite_ref-21">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://upload.wikimedia.org/wikipedia/commons/c/c0/Tor_logo1.png">http://upload.wikimedia.org/wikipedia/commons/c/c0/Tor_logo1.png</a></span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><a href="#cite_ref-22">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.nette.org/cs/14879-odecita-se-polozka-v-databazi">http://forum.nette.org/cs/14879-odecita-se-polozka-v-databazi</a></span>
+</li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><a href="#cite_ref-23">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.root.cz/index.php?topic=4944.0">http://forum.root.cz/index.php?topic=4944.0</a></span>
+</li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><a href="#cite_ref-24">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/help/pager-software">Sheep Marketplace Pager</a></span>
+</li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><a href="#cite_ref-25">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.nette.org/cs/15789-mac-os-10-8-5-s-ampps-nefunguje-rewrite#p112209">http://forum.nette.org/cs/15789-mac-os-10-8-5-s-ampps-nefunguje-rewrite#p112209</a></span>
+</li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><a href="#cite_ref-26">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.root.cz/index.php?topic=6722.0">http://forum.root.cz/index.php?topic=6722.0</a></span>
+</li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><a href="#cite_ref-27">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.root.cz/index.php?topic=6175.0">http://forum.root.cz/index.php?topic=6175.0</a></span>
+</li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><a href="#cite_ref-28">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.root.cz/index.php?topic=6245.msg59535#msg59535">http://forum.root.cz/index.php?topic=6245.msg59535#msg59535</a></span>
+</li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><a href="#cite_ref-29">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.root.cz/index.php?topic=6802.msg66707#msg66707">http://forum.root.cz/index.php?topic=6802.msg66707#msg66707</a></span>
+</li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><a href="#cite_ref-30">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.root.cz/index.php?topic=5191.msg47295#msg47295">http://forum.root.cz/index.php?topic=5191.msg47295#msg47295</a></span>
+</li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><a href="#cite_ref-31">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.root.cz/index.php?topic=5094.0">http://forum.root.cz/index.php?topic=5094.0</a></span>
+</li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><a href="#cite_ref-32">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://forum.pirati.cz/piratska-poradna-f285/anonymoustrade-com-t18584.html">https://forum.pirati.cz/piratska-poradna-f285/anonymoustrade-com-t18584.html</a></span>
+</li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><a href="#cite_ref-33">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://bcchanger.com/hall_of_shame.php">http://bcchanger.com/hall_of_shame.php</a></span>
+</li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><a href="#cite_ref-34">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.lupa.cz/index.php?topic=3314.0">http://forum.lupa.cz/index.php?topic=3314.0</a></span>
+</li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><a href="#cite_ref-35">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://www.facebook.com/pages/FontParknet/116575745043056">https://www.facebook.com/pages/FontParknet/116575745043056</a></span>
+</li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><a href="#cite_ref-36">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://www.facebook.com/permalink.php?story_fbid=265334940167135&amp;id=116575745043056">https://www.facebook.com/permalink.php?story_fbid=265334940167135&amp;id=116575745043056</a></span>
+</li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><a href="#cite_ref-37">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.ubuntu.cz/index.php?action=profile;area=showposts;u=14859">http://forum.ubuntu.cz/index.php?action=profile;area=showposts;u=14859</a></span>
+</li>
+<li id="cite_note-38"><span class="mw-cite-backlink"><a href="#cite_ref-38">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.warcenter.cz/memberlist.php?mode=viewprofile&amp;u=62613">http://www.warcenter.cz/memberlist.php?mode=viewprofile&amp;u=62613</a></span>
+</li>
+<li id="cite_note-39"><span class="mw-cite-backlink"><a href="#cite_ref-39">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://mitsubishi.megaherz.cz/viewtopic.php?f=49&amp;t=832">http://mitsubishi.megaherz.cz/viewtopic.php?f=49&amp;t=832</a></span>
+</li>
+<li id="cite_note-40"><span class="mw-cite-backlink"><a href="#cite_ref-40">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://bitcoin-otc.com/chanlogs/bitcoin.cz/%23bitcoin.cz.2013-04-22.log">http://bitcoin-otc.com/chanlogs/bitcoin.cz/%23bitcoin.cz.2013-04-22.log</a></span>
+</li>
+<li id="cite_note-41"><span class="mw-cite-backlink"><a href="#cite_ref-41">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.snekweb.cz/kontakt/">http://www.snekweb.cz/kontakt/</a></span>
+</li>
+<li id="cite_note-42"><span class="mw-cite-backlink"><a href="#cite_ref-42">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://rejstrik-firem.kurzy.cz/74795988/tomas-jirikovsky/statisticky-urad/">http://rejstrik-firem.kurzy.cz/74795988/tomas-jirikovsky/statisticky-urad/</a></span>
+</li>
+<li id="cite_note-43"><span class="mw-cite-backlink"><a href="#cite_ref-43">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.reddit.com/r/SheepMarketplace/comments/1nsmzx/a_friendly_warning_sheepmarketplacecoms_owner/ccm5nem">http://www.reddit.com/r/SheepMarketplace/comments/1nsmzx/a_friendly_warning_sheepmarketplacecoms_owner/ccm5nem</a></span>
+</li>
+<li id="cite_note-44"><span class="mw-cite-backlink"><a href="#cite_ref-44">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.pinterest.com/katuan/">http://www.pinterest.com/katuan/</a></span>
+</li>
+<li id="cite_note-45"><span class="mw-cite-backlink"><a href="#cite_ref-45">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/account/profile/dda8ecd706596f19f8cf7dfb3938960e">The Sheppard's profile</a></span>
+</li>
+<li id="cite_note-46"><span class="mw-cite-backlink"><a href="#cite_ref-46">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/forum/topic/sheep-faq-please-read-ceee71fe04f3a8fd51fb8a24be700c8e">Forum post, Wed Oct 23, 2013 / 08:58 AM</a></span>
+</li>
+<li id="cite_note-47"><span class="mw-cite-backlink"><a href="#cite_ref-47">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/account/profile/496e9b132c345d8a3e7f37899b235a01">ctrlaltweed's profile</a></span>
+</li>
+<li id="cite_note-48"><span class="mw-cite-backlink"><a href="#cite_ref-48">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/forum/topic/ctrlaltweed-is-back-and-ready-to-ship-d279b47eb2fc86e6fa33489cd6d21e78">Sheep forums: "ctrlaltweed from SR is back up and running", Fri Oct 4, 2013 / 10:06 AM</a></span>
+</li>
+<li id="cite_note-49"><span class="mw-cite-backlink"><a href="#cite_ref-49">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/forum/topic/sheep-changelog-daily-updated-b1bce4f4ecf61442e1301e7cddd2d448">Sheep forums: "Sheep Changelog (daily updated)", Sun Oct 27, 2013 / 05:57 PM</a></span>
+</li>
+<li id="cite_note-50"><span class="mw-cite-backlink"><a href="#cite_ref-50">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/forum/topic/sheep-marketplace-want-to-hear-your-wishes-9fe3d1a010f72802b05be22ccd9991d6">Forum post, Mon Oct 14, 2013 / 09:56 PM</a></span>
+</li>
+<li id="cite_note-51"><span class="mw-cite-backlink"><a href="#cite_ref-51">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/forum/topic/sheep-marketplace-want-to-hear-your-wishes-9fe3d1a010f72802b05be22ccd9991d6">Forum post, Mon Oct 14, 2013 / 10:16 PM</a></span>
+</li>
+<li id="cite_note-52"><span class="mw-cite-backlink"><a href="#cite_ref-52">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/forum/topic/sheep-marketplace-want-to-hear-your-wishes-9fe3d1a010f72802b05be22ccd9991d6">Forum post, Mon Oct 14, 2013 / 10:17 PM</a></span>
+</li>
+<li id="cite_note-53"><span class="mw-cite-backlink"><a href="#cite_ref-53">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/forum/topic/sheep-marketplace-want-to-hear-your-wishes-9fe3d1a010f72802b05be22ccd9991d6">Forum post, Mon Oct 14, 2013 / 10:57 PM</a></span>
+</li>
+<li id="cite_note-54"><span class="mw-cite-backlink"><a href="#cite_ref-54">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/forum/topic/sheep-marketplace-news-9f6fe4ea07e87a291b3a055c914d822a/2">Forum post, Sun Oct 6, 2013 / 01:43 PM</a></span>
+</li>
+<li id="cite_note-55"><span class="mw-cite-backlink"><a href="#cite_ref-55">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/account/profile/750f3cdeb6c4a868ddbf61224cc7874e">device's profile</a></span>
+</li>
+<li id="cite_note-56"><span class="mw-cite-backlink"><a href="#cite_ref-56">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/forum/topic/sheep-marketplace-want-to-hear-your-wishes-9fe3d1a010f72802b05be22ccd9991d6/8">Forum post, Sun Oct 20, 2013 / 09:07 PM</a></span>
+</li>
+<li id="cite_note-57"><span class="mw-cite-backlink"><a href="#cite_ref-57">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/forum/topic/sheep-marketplace-want-to-hear-your-wishes-9fe3d1a010f72802b05be22ccd9991d6/9">Forum post, Wed Oct 23, 2013 / 04:30 PM</a></span>
+</li>
+<li id="cite_note-58"><span class="mw-cite-backlink"><a href="#cite_ref-58">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sheep5u64fi457aw.onion/forum/topic/sheep-marketplace-want-to-hear-your-wishes-9fe3d1a010f72802b05be22ccd9991d6/14">Forum post, Mon Oct 28, 2013 / 11:15 PM</a></span>
+</li>
+</ol>
+</div>				<!-- /bodycontent -->
+												<!-- catlinks -->
+				<div id="catlinks" class="catlinks catlinks-allhidden"></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+</body></html>

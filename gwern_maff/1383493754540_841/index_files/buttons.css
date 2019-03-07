@@ -1,0 +1,20 @@
+/* Effective stylesheet produced by snapshot save */
+.btn_green_white_innerfade:hover:not(.btn_disabled) { text-decoration: none; background: linear-gradient(to bottom, rgb(182, 217, 8) 5%, rgb(128, 160, 6) 95%) repeat scroll 0% 0% transparent; }
+.btn_green_white_innerfade:hover:not(.btn_disabled) > span { background: linear-gradient(to bottom, rgb(161, 191, 7) 5%, rgb(128, 160, 6) 95%) repeat scroll 0% 0% transparent; }
+.btn_blue_white_innerfade:hover:not(.btn_disabled) { text-decoration: none; background: linear-gradient(to bottom, rgb(187, 216, 255) 5%, rgb(72, 115, 167) 95%) repeat scroll 0% 0% transparent; }
+.btn_blue_white_innerfade:hover:not(.btn_disabled) > span { background: linear-gradient(to bottom, rgb(154, 183, 222) 5%, rgb(72, 115, 167) 95%) repeat scroll 0% 0% transparent; }
+.btn_darkblue_white_innerfade:hover:not(.btn_disabled) { text-decoration: none; background: linear-gradient(to bottom, rgb(104, 139, 177) 5%, rgb(65, 88, 119) 95%) repeat scroll 0% 0% transparent; }
+.btn_darkblue_white_innerfade:hover:not(.btn_disabled) > span { background: linear-gradient(to bottom, rgb(82, 109, 149) 5%, rgb(65, 88, 119) 95%) repeat scroll 0% 0% transparent; }
+.btn_grey_white_innerfade:hover:not(.btn_disabled) { text-decoration: none; background: linear-gradient(to bottom, rgb(194, 194, 194) 5%, rgb(86, 86, 86) 95%) repeat scroll 0% 0% transparent; }
+.btn_grey_white_innerfade:hover:not(.btn_disabled) > span { background: linear-gradient(to bottom, rgb(150, 150, 150) 5%, rgb(86, 86, 86) 95%) repeat scroll 0% 0% transparent; }
+a.btn_grey_grey_outer_bevel:hover:not(.btn_disabled) { background: linear-gradient(to bottom, rgb(87, 116, 158) 5%, rgb(54, 73, 99) 95%) repeat scroll 0% 0% transparent; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75) inset, -2px -2px 5px rgb(150, 150, 150) inset; }
+a.btn_grey_grey_outer_bevel:hover:not(.btn_disabled) > span { display: block; color: rgb(255, 255, 255); text-decoration: none; background: linear-gradient(to bottom, rgb(68, 91, 124) 5%, rgb(54, 73, 99) 95%) repeat scroll 0% 0% transparent; box-shadow: none; }
+.btn_grey_grey_outer_bevel:hover:not(.btn_disabled), .btn_grey_grey:hover:not(.btn_disabled), .btn_grey_black:hover:not(.btn_disabled), .btn_black:hover:not(.btn_disabled) { background-color: rgb(151, 192, 227); color: rgb(0, 0, 0); text-decoration: none; }
+button::-moz-focus-inner { padding: 0px; border: medium none; }
+.btn_grey_grey.btn_ico_thumbs_up:hover:not(.btn_disabled), .btn_grey_black.btn_ico_thumbs_up:hover:not(.btn_disabled) { background-image: url("urn:not-loaded:http://cdn.steamcommunity.com/public/shared/images/buttons/icon_btn_rateup_hover.png"); }
+.btn_grey_grey.btn_ico_thumbs_up.active:hover:not(.btn_disabled) { color: rgb(130, 130, 130); cursor: default; background-color: rgb(44, 44, 44); }
+.btn_grey_grey.btn_ico_thumbs_down:hover:not(.btn_disabled), .btn_grey_black.btn_ico_thumbs_down:hover:not(.btn_disabled) { background-image: url("urn:not-loaded:http://cdn.steamcommunity.com/public/shared/images/buttons/icon_btn_ratedown_hover.png"); }
+.btn_grey_grey.btn_ico_thumbs_down.active:hover:not(.btn_disabled) { color: rgb(130, 130, 130); cursor: default; background-color: rgb(44, 44, 44); }
+.btn_grey_grey.btn_ico_comments:hover:not(.btn_disabled), .btn_grey_black.btn_ico_comments:hover:not(.btn_disabled) { background-image: url("urn:not-loaded:http://cdn.steamcommunity.com/public/shared/images/buttons/icon_btn_comment_hover.png"); }
+.btn_details:hover:not(.btn_disabled) .btn_details_arrow.up { background-position: -15px 0px; }
+.btn_details:hover:not(.btn_disabled) .btn_details_arrow.down { background-position: 30px 0px; }

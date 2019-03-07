@@ -1,0 +1,21 @@
+/* Effective stylesheet produced by snapshot save */
+.inlineBlock { display: inline-block; }
+.noFooter #pageFooter { display: none; }
+#mainContainer { margin-left: -1px; display: block; width: 100%; }
+#leftCol { display: none; float: left; padding: 20px 0px 0px 2px; position: relative; width: 179px; word-wrap: break-word; }
+#rightCol { margin-top: -10000px; float: right; padding-right: 0px; width: 244px; word-wrap: break-word; }
+.hasRightCol #rightCol { margin-top: 0px; }
+#contentCol { background-color: rgb(255, 255, 255); padding-top: 15px; }
+#contentArea { margin-right: -1px; outline: medium none; padding-left: 1px; word-wrap: break-word; }
+.hasLeftCol #contentArea, .hasRightCol #contentArea { float: left; margin-right: 0px; }
+.hasRightCol #contentArea { width: 714px; }
+#bottomContent { clear: both; padding: 0px 20px 12px; }
+.fbPrivacyAudienceIndicator:hover { text-decoration: none; cursor: default; }
+.uiStreamAdditionalLogging .lock, .fbStreamPrivacy .lock { bottom: -1px; margin-bottom: -5px; position: relative; vertical-align: top; }
+.UFIRow .UFIImageBlockImage { margin: 0px; }
+.UFIRow .UFIImageBlockContent { margin: 0px; padding: 0px 0px 0px 8px; }
+@keyframes rotateSpinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+a._p { display: block; }

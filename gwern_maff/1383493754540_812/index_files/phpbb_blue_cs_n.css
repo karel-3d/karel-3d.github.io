@@ -1,0 +1,42 @@
+/* Effective stylesheet produced by snapshot save */
+BODY { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+.pun H1 { border-top: 5px solid rgb(239, 239, 239); border-bottom: 20px solid rgb(239, 239, 239); }
+.pun { color: rgb(0, 0, 0); }
+.pun BLOCKQUOTE, DIV.codebox, DIV.box, adminconsole FIELDSET TH, .rowodd, .roweven { background-color: rgb(247, 245, 238); }
+.pun H2 { background-image: url("urn:not-loaded:http://forum.nette.org/img/nette/cellpic1.gif"); border-right: 1px solid rgb(146, 117, 52); border-left: 1px solid rgb(146, 117, 52); border-width: 1px 1px 0px; border-style: solid; border-color: rgb(146, 117, 52); color: white; font-weight: bold; }
+DIV.blockpost DIV.box, DIV.postright, DIV.postfootright { background-color: rgb(247, 245, 238); }
+DIV.postright, DIV.postfootright { border-left-color: rgb(240, 236, 224); }
+DIV.postleft, DIV.postfootleft, DIV.blockpost LABEL { background-color: rgb(240, 236, 224); }
+DIV.blockpost H2 { background-color: rgb(239, 239, 235); }
+DIV.blockpost H2 SPAN.conr { color: rgb(247, 245, 238); }
+.pun HR { color: rgb(0, 0, 0); }
+DIV.box { border-color: rgb(146, 117, 52); }
+DIV.blockpost DIV.box { border-color: rgb(225, 216, 193); }
+.pun H2 A:link, .pun H2 A:visited { color: rgb(239, 239, 239); }
+.pun H2 A:hover { color: rgb(255, 255, 255); }
+.pun, .pun INPUT, .pun SELECT, .pun TEXTAREA, .pun OPTGROUP { font-family: Verdana,Arial,Helvetica,sans-serif; }
+.pun TABLE, .pun INPUT, .pun SELECT, .pun OPTGROUP, .pun TEXTAREA, DIV.postmsg P.postedit { font-size: 1em; }
+.pun H2, .pun H4 { font-size: 1em; }
+.pun H3 { font-size: 1.1em; }
+DIV.postmsg P { line-height: 1.4; }
+DIV.postleft DT { font-size: 1.1em; }
+DIV.postleft DT, DIV.postmsg H4, TD.tcl H3, DIV.forminfo H3, P.postlink, DIV.linkst LI, DIV.linksb LI, DIV.postlinksb LI, .blockmenu LI, .pun SPAN.warntext, .pun P.warntext { font-weight: bold; }
+.blockpost DT A:link, .blockpost DT A:visited, .blockpost H2 A:link, .blockpost H2 A:visited, .postlink A:link, .postlink A:visited, .postfootright A:link, .postfootright A:visited, .blockmenu A:link, .blockmenu A:visited { text-decoration: none; }
+.blockpost H2 A:hover { text-decoration: underline; }
+DIV.box, .pun TD, .pun TH, .pun BLOCKQUOTE, DIV.codebox, DIV.forminfo, DIV.blockpost LABEL { border-style: solid; border-width: 1px; }
+HTML, BODY { margin: 0px; padding: 0px; }
+DIV.blocktable, DIV.block, DIV.blockform, DIV.block2col, #postreview { margin-bottom: 12px; }
+#punindex DIV.blocktable, DIV.blockpost { margin-bottom: 6px; }
+DIV.linkst, DIV.linksb { margin: 0px 0px 10px; }
+DIV.block DIV.inbox, DIV.blockmenu DIV.inbox { padding: 3px 6px; }
+.pun P, .pun UL, .pun DL, DIV.blockmenu LI, .pun LABEL, #announce DIV.inbox DIV { padding: 3px 0px; }
+.pun H2 { padding: 4px 6px; }
+.pun H1 { padding: 3px 0px 0px; }
+DIV.linkst { padding: 8px 6px 3px; }
+DIV.linksb, DIV.postlinksb { padding: 3px 6px 8px; }
+DIV.postleft DL, DIV.postright { padding: 6px; }
+DD.usercontacts, DD.postavatar { margin-top: 5px; }
+DD.postavatar { margin-bottom: 5px; }
+DIV.postsignature, DIV.postmsg P.postedit { padding-top: 15px; }
+DIV.postfootleft P, DIV.postfootright UL, DIV.postfootright DIV { padding: 10px 6px 5px; }
+DIV.postmsg P { padding: 0px; }

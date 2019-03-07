@@ -1,0 +1,105 @@
+/* Effective stylesheet produced by snapshot save */
+@import url("css.css");
+html, body, form { margin: 0px; padding: 0px; }
+body { line-height: 1.5; background: none repeat scroll 0% 0% white; color: black; position: relative; font-size: 13px; }
+ol, ul, menu { margin: 0.8em 0px 1.75em 1.75em; padding: 0px; }
+li { margin: 0.1em 0px 0.1em 1.75em; padding: 0px; }
+input, select { vertical-align: middle; }
+input, select, textarea { font-size: 100%; }
+img { vertical-align: middle; border: 0px none; }
+hr { height: 0px; border-right: 0px none; border-width: 1px 0px 0px; border-style: solid none none; border-color: black -moz-use-text-color -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+a { padding: 3px 1px; }
+abbr, acronym { cursor: help; border-bottom: 1px dotted rgb(0, 0, 0); }
+h1 + p, h2 + p, h3 + p, h4 + p { text-indent: 0px; }
+p { margin: 0.8em 0px 1em; padding: 0px; text-indent: 0.8em; }
+h1, h2, h3, h4, h5, h6 { text-indent: 0px; margin: 1em 0px 0.6em; padding: 0px; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+.about { border-bottom: 1px dotted gray; }
+@media screen {
+  body, html { min-height: 100%; }
+  body, input, select { font-family: "Open Sans",Verdana,"Geneva CE",lucida,sans-serif; font-size: 14px; }
+  body { background: url("bg.jpg") repeat-x fixed 110px bottom rgb(52, 132, 210); color: rgb(51, 51, 51); line-height: 1.65; overflow-y: scroll; }
+  #page { position: relative; margin: 0px auto; width: 940px; }
+  #footer { bottom: 0px; padding: 5px 0px 10px; font-size: 84%; text-align: center; color: rgb(204, 204, 204); clear: both; }
+  #footer a { color: rgb(255, 190, 16); }
+  .column { float: left; width: 45%; margin-right: 4.9%; }
+  a { color: rgb(0, 106, 235); padding: 3px; margin: 0px -3px; text-decoration: none; }
+  a:hover, a:active, a:focus { background-color: rgb(0, 106, 235); color: white; border-radius: 2px 2px 2px 2px; }
+  #mainHomepage a, #content a { text-decoration: underline; }
+  p { margin: 0.9em 0px 1.2em; padding: 0px; }
+  h1, h2, h3, h4 { font-weight: normal; color: rgb(64, 79, 92); margin: 1.5em 0px 0.9em; }
+  h1 { font-size: 250%; margin: 0.3em 0px; color: rgb(51, 51, 51); }
+  h2 { font-size: 181%; }
+  h3 { font-size: 140%; }
+  hr { clear: both; margin: 0.9em 0px; color: rgb(221, 221, 221); background-color: rgb(221, 221, 221); border: 0px none; height: 1px; }
+  li { margin: 0.2em 0px 0.2em 1.7em; }
+  form { display: inline; }
+  input.text, select, textarea { border: 1px solid gray; background: url("urn:not-loaded:http://files.nette.org/images/input.gif") repeat-x scroll 0% 0% white; }
+  input.text:focus, select:focus, textarea:focus { border-color: black; }
+  li.space { margin-top: 0.7em ! important; }
+  #tooltip { position: absolute; z-index: 3000; border: 1px solid rgb(17, 17, 17); background-color: white; padding: 5px; }
+  #tooltip h3, #tooltip div { margin: 0px; }
+  #ajax-spinner { position: fixed; left: 50%; top: 50%; margin: 15px 0px 0px 15px; padding: 13px; background: url("spinner.gif") no-repeat scroll 50% 50% white; font-size: 0px; z-index: 123456; }
+  #social iframe, #social .fb_iframe_widget span, #social .g-plusone-outer { vertical-align: baseline; margin-right: 20px; }
+  #header { position: relative; height: 110px; }
+  #logo { position: relative; left: 0px; top: 7px; width: 180px; height: 95px; display: block; background: url("logo.png") no-repeat scroll 0% 0% transparent; }
+  #logo span { display: none; }
+  #tools { position: absolute; right: 5px; top: 0px; font-size: 83%; color: rgb(161, 205, 254); line-height: 22px; }
+  #tools form { padding: 4px 5px 8px; background: none repeat scroll 0% 0% rgb(39, 114, 189); border-radius: 0px 0px 5px 5px; }
+  #tools a { color: rgb(161, 205, 254); padding: 3px; }
+  #tools a:hover, #tools a:active, #tools a:focus { background: none repeat scroll 0% 0% rgb(253, 232, 150); color: black; }
+  #search { display: inline; }
+  #search input.text { background: none repeat scroll 0% 0% rgb(148, 190, 231); color: black; border: 0px none; padding: 1px; width: 170px; margin-left: 0.5em; font-size: 115%; }
+  #search input.text:focus { width: 300px; background: none repeat scroll 0% 0% rgb(248, 248, 248); }
+  #wikimenu { position: absolute; z-index: 1000; right: 10px; top: 88px; color: rgb(128, 176, 210); font-size: 70%; text-align: right; }
+  #wikimenu a { color: rgb(161, 205, 254); }
+  #wikimenu ul { list-style: none outside none; padding: 0px; margin: 0px; }
+  #wikimenu > ul > li { margin: 0px 2px; padding: 0px; float: left; border: 1px solid rgb(93, 160, 227); border-radius: 8px 8px 8px 8px; overflow: hidden; }
+  #wikimenu > ul > li:hover { box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.35); }
+  #wikimenu ul ul { display: none; width: 150px; background: none repeat scroll 0% 0% rgb(42, 110, 180); margin-top: -1.5em; padding: 1.9em 3px 3px; }
+  #wikimenu ul ul a { color: white; }
+  #wikimenu ul ul a:hover, #wikimenu ul ul a:active, #wikimenu ul ul a:focus { background: none repeat scroll 0% 0% rgb(253, 232, 150); color: black; }
+  #wikimenu li:hover ul { display: block; }
+  #wikimenu span { color: rgb(93, 160, 227); }
+  #menu ul { position: absolute; right: -2px; top: 36px; list-style: none outside none; }
+  #menu li { float: left; padding: 0px; margin: 0px; height: auto; }
+  #menu a { display: block; margin: 0px 2px; padding: 0px 10px; color: white; font: 600 117%/30px "Open Sans","Trebuchet MS","Geneva CE",lucida,sans-serif; border-radius: 5px 5px 5px 5px; }
+  #menu a:hover, #menu a:active, #menu a:focus { color: black; background: url("urn:not-loaded:http://files.nette.org/images/menu-button.gif") repeat-x scroll left center transparent; }
+  #banner { background: url("banner-bg.png") repeat-x scroll 0% 0% transparent; position: relative; width: 940px; height: 326px; color: white; border-radius: 12px 12px 0px 0px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3); }
+  #banner h1 { color: white; font-weight: normal; font-size: 50px; position: absolute; left: 40px; top: 35px; margin: 0px; line-height: 1; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.9); }
+  #banner p#strapline { position: absolute; left: 40px; top: 90px; width: 420px; color: rgb(222, 228, 234); font-size: 121%; font-style: italic; font-family: Georgia,"New York CE",utopia,serif; }
+  #download { position: absolute; left: 30px; top: 235px; background-color: rgb(72, 187, 53); background-image: linear-gradient(90deg, rgb(69, 162, 33), rgb(128, 225, 111)); border-radius: 50px 50px 50px 50px; box-shadow: 0px 0px 2px 1px rgb(130, 205, 118) inset, 0px 2px 5px rgba(0, 0, 0, 0.15), 0px -21px 0px rgba(0, 0, 0, 0.06) inset; color: white; font-weight: bold; font-size: 22px; padding: 8px 40px 12px; text-shadow: 0px 1px 0px rgb(12, 54, 5); }
+  #download:hover, #download:active, #download:focus { background-image: linear-gradient(90deg, rgb(79, 184, 39), rgb(151, 241, 136)); }
+  #download:active { top: 237px; box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.1) inset, 0px -17px 0px rgba(0, 0, 0, 0.06) inset; }
+  #slider .jcarousel-clip { position: absolute; left: 600px; bottom: 0px; width: 255px; height: 290px; padding: 0px; margin: 0px; overflow: hidden; z-index: 5; }
+  #slider ul { z-index: 1; overflow: hidden; position: relative; top: 0px; left: 0px; margin: 0px; padding: 0px; }
+  #slider ul li { float: left; list-style: none outside none; margin: 0px; padding: 0px; width: 280px; height: 290px; }
+  #slider li p { margin: 0px; padding: 0px; text-indent: 0px; line-height: 1.2em; font-size: 121%; font-family: Georgia,"New York CE",utopia,serif; position: absolute; bottom: 240px; width: 255px; }
+  #slider p a { color: rgb(160, 201, 238); }
+  #slider li img { position: absolute; top: 73px; }
+  #slider .jcarousel-prev, #slider .jcarousel-next { background: url("banner-arrow-left.png") no-repeat scroll 0% 0% transparent; position: absolute; left: 525px; top: 155px; width: 80px; height: 91px; opacity: 0.05; z-index: 3; display: none; }
+  #slider .jcarousel-next { background: url("banner-arrow-right.png") no-repeat scroll 0% 0% transparent; left: 852px; }
+  #slider .jcarousel-prev:hover, #slider .jcarousel-next:hover { opacity: 0.3; }
+  #mainHomepage { margin: 1px 0px 0px; padding: 0px 40px 40px; position: relative; background: none repeat scroll 0% 0% white; border-width: 1px; border-style: solid; border-right: 1px solid rgb(239, 244, 247); border-color: rgb(249, 249, 249) rgb(239, 244, 247) rgb(239, 244, 247); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-radius: 0px 0px 12px 12px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3); }
+  #mainHomepage hr { visibility: hidden; }
+  #mainHomepage #toc-news, #mainHomepage #toc-features { overflow: auto; padding-bottom: 10px; }
+  #mainHomepage #toc-news .column.item1 { width: 250px; margin: 0px; }
+  #mainHomepage #toc-news .column.item2, #mainHomepage #toc-news .column.item3 { width: 250px; margin: 0px 0px 0px 50px; }
+  #mainHomepage #toc-features { background: url("homepage-section-bg.png") no-repeat scroll 0% 0% transparent; padding: 2em 40px; margin: 2em -40px 0px; }
+  #mainHomepage #toc-features .column.item1 { width: 370px; margin: 0px; }
+  #mainHomepage #toc-features .column.item2 { width: 370px; margin: 0px 0px 0px 100px; }
+  #mainHomepage #toc-features img.icon { margin: 1.8em 5px 5px; line-height: 0; float: left; }
+  #mainHomepage #toc-features h2, #mainHomepage #toc-features p, #mainHomepage #toc-features ul { margin-left: 85px; border: 0px none; }
+  #mainHomepage #toc-features h2 { margin-bottom: 0.1em; color: rgb(170, 137, 8); }
+}
+@media print {
+  a { color: black; }
+  fieldset, input, select, textarea { display: none; }
+  body, input, select { font-family: Verdana,"Geneva CE",lucida,sans-serif; background: none repeat scroll 0% 0% white; color: black; }
+  h1, h2, h3, h4 { font-family: Georgia,"New York CE",utopia,serif; font-weight: normal; margin: 1.5em 0px 0.9em; }
+  #tools, #wikimenu, #footer, #slider, #slider *, #header, #sidebar, #download, a.anchor { display: none; }
+  img.icon { margin: 1em 1em 1em 0px; float: left; }
+}
+@media not all, not all {
+  #logo { background-image: url("urn:not-loaded:http://files.nette.org/images/logo-big.png"); background-size: 180px 95px; }
+}

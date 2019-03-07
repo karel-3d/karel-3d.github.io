@@ -1,0 +1,32 @@
+/* Effective stylesheet produced by snapshot save */
+body { background-color: rgb(255, 255, 255); background-image: none; margin-top: 0px; margin-bottom: 0px; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(0, 0, 0); }
+table, td, div, p { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(0, 0, 0); }
+input, textarea, button { border: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 10px; }
+p { margin: 6px; }
+form { margin-top: 0px; margin-bottom: 0px; }
+.border { border-width: 0px; border-style: solid solid none; border-color: rgb(102, 102, 102); }
+.border-dotted-side { border-style: none dotted; border-width: 0px; border-color: rgb(102, 102, 102); }
+.border-dotted { border-width: 0px; border-right: 0px solid rgb(102, 102, 102); border-left: 0px solid rgb(102, 102, 102); border-color: rgb(102, 102, 102); border-style: dotted solid none; }
+.text-small { font-size: 11px; }
+.title-small { color: rgb(205, 205, 205); font-weight: bold; font-size: 11px; }
+a:link, a:visited { color: rgb(102, 102, 102); text-decoration: none; font-weight: bold; }
+a:hover { color: rgb(136, 136, 136); text-decoration: none; font-weight: bold; }
+.menu_link-small-top, .menu_link-small-top:link, .menu_link-small-top:visited { font-weight: normal; color: rgb(205, 205, 205); font-size: 11px; }
+.menu_link-small-top:hover { font-weight: normal; color: rgb(205, 205, 205); font-size: 11px; }
+.menu_link-small, .menu_link-small:link, .menu_link-small:visited { font-weight: normal; color: rgb(205, 205, 205); text-decoration: none; font-size: 11px; }
+.menu_link-small:hover { font-weight: normal; color: rgb(205, 205, 205); text-decoration: none; font-size: 11px; }
+#main { width: 100%; margin: 0px; background-color: rgb(255, 255, 255); border-left: 0px solid rgb(17, 17, 17); border-right: 0px solid rgb(17, 17, 17); }
+#main1 { margin: 0px; text-align: center; width: 100%; background-color: rgb(255, 255, 255); border-left: 0px solid rgb(17, 17, 17); border-right: 0px solid rgb(17, 17, 17); }
+#left { margin: 0px 0px 0px 5px; width: 180px; float: left; border: 0px solid red; display: none; }
+#right { margin: 0px 5px 0px 0px; width: 150px; float: right; border: 0px solid red; display: none; }
+#content { background-color: rgb(255, 255, 255); width: 100%; margin: 0px 0px 0px 193px; color: rgb(0, 0, 0); }
+#header { top: 13px; padding: 85px 0px 0px; margin: 0px auto; width: 0px; height: 40px; vertical-align: bottom; background-color: rgb(255, 255, 255); display: none; }
+#search { top: 138px; margin: 0px auto; padding: 0px; width: 970px; height: 36px; background-color: rgb(54, 58, 62); border-left: 0px solid rgb(17, 17, 17); border-right: 0px solid rgb(17, 17, 17); display: none; }
+#top_banner { position: absolute; margin: 0px 0px 0px 430px; top: 0px; width: 500px; padding: 0px; float: right; text-align: right; display: none; }
+.ie_fix { text-align: left; }
+#content_1 { width: 609px; background-color: rgb(255, 255, 255); }
+.top_m, #top_m1, #top_m { display: none; }
+#div_1, #div_2 { background-color: rgb(255, 255, 255); }
+p, div, font, span, table, td, tr, iframe, input, textarea { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+#div_1 { width: 100%; text-align: center; }
+#div_2 { margin: 0px; }

@@ -1,0 +1,90 @@
+/* Effective stylesheet produced by snapshot save */
+A { text-decoration: none; color: rgb(0, 0, 0); }
+A:active { text-decoration: none; color: rgb(0, 0, 0); }
+A:hover { text-decoration: none; color: rgb(82, 102, 124); }
+A.hlmenu { text-decoration: none; color: rgb(255, 255, 255); }
+A.hlmenu:active { text-decoration: none; color: rgb(255, 255, 255); }
+A.hlmenu:hover { text-decoration: none; color: rgb(245, 245, 245); }
+a.whitee { text-decoration: none; color: rgb(255, 255, 255); }
+A.whitee:active { text-decoration: none; color: rgb(255, 255, 255); }
+A.whitee:hover { text-decoration: none; color: Silver; }
+body { background-color: rgb(99, 99, 99); text-align: center; margin: 0px auto; background-image: url("ocbg.jpg"); background-repeat: repeat-y; background-position: center center; font-size: 12px; font-family: verdana; }
+form { margin: 0px; }
+#ocbg { width: 100%; background-image: url("pruhbg.jpg"); background-repeat: no-repeat; background-position: center top; }
+#oc { width: 855px; text-align: center; margin: 0px auto; border-left: 1px solid rgb(153, 168, 173); border-right: 1px solid rgb(153, 168, 173); height: 100%; }
+.okraj { margin: 0px auto; width: 853px; border-left: 1px solid rgb(72, 85, 91); border-right: 1px solid rgb(72, 85, 91); }
+#menu { border-left: 1px solid rgb(241, 243, 242); border-right: 1px solid rgb(241, 243, 242); height: 24px; width: 851px; background-image: url("menubg.jpg"); }
+#logo { background-color: rgb(241, 243, 242); height: 78px; border-left: 1px solid rgb(241, 243, 242); border-right: 1px solid rgb(241, 243, 242); width: 851px; background-image: url("lbg.jpg"); text-align: center; }
+#menu2 { height: 30px; width: 853px; background-image: url("pbg.jpg"); }
+.ok1 { float: left; }
+.ok2 { float: right; }
+.menu_text { float: left; margin-left: 1mm; }
+#mainmenu { float: left; margin-left: 5mm; margin-top: 12.6mm; height: 30px; }
+.mainmenu_text { float: left; background: url("mmbg.jpg") repeat scroll 0% 0% transparent; height: 30px; font-size: 12px; font-family: verdana; font-weight: bold; vertical-align: bottom; }
+.logo_text { float: left; }
+.vsk { margin-top: 3mm; }
+#search { margin-top: 6mm; float: right; }
+.hledejfont { font-size: 24px; font-family: verdana; background-image: url("hledejbg.jpg"); height: 36px; float: left; width: 280px; border: 0px none; }
+.hledej1 { float: left; }
+.hlsubmit { float: left; }
+.menu2_text { width: 820px; text-align: center; color: rgb(255, 255, 255); font-size: 13px; font-family: verdana; font-weight: bold; float: left; padding: 1mm; }
+#main { float: left; width: 505px; text-align: left; }
+#jine { float: left; width: 345px; }
+.jinepulka { float: left; width: 171px; height: 900px; }
+#spodek { float: left; width: 853px; background-image: url("spodekbg.jpg"); background-repeat: repeat-x; height: 78px; }
+.spodekl { float: left; }
+.spodek_text { float: left; width: 99%; }
+.spodekr { float: right; }
+.odd { float: left; width: 100%; background-image: url("odd.jpg"); background-repeat: repeat-x; }
+.modra { float: right; width: 171px; font-size: 12px; font-family: verdana; font-weight: bold; text-align: center; color: rgb(255, 255, 255); margin-top: 1mm; }
+.oranzova { float: left; width: 246px; font-size: 12px; font-family: verdana; text-align: center; color: rgb(255, 255, 255); margin-top: 1mm; margin-bottom: 1mm; padding-left: 1mm; }
+.cerna { float: left; width: 492px; font-size: 12px; font-family: verdana; text-align: center; color: rgb(255, 255, 255); margin-top: 1mm; padding-left: 1.5mm; }
+.jine_oranzovaforum { float: left; background-image: url("oranzovaforum.jpg"); width: 246px; height: 22px; font-weight: bold; }
+.jine_textforum { float: left; background-image: url("bgforum.jpg"); width: 246px; font-size: 11px; font-family: verdana; text-align: left; color: rgb(0, 0, 0); }
+.jine_modra { float: left; background-image: url("modra.jpg"); width: 171px; height: 22px; }
+.jine_cervena { float: left; background-image: url("cervena.jpg"); width: 171px; height: 22px; }
+.jine_zelena { float: left; background-image: url("zelena.jpg"); width: 171px; height: 22px; }
+.jine_cerna { float: left; background-image: url("cerna.jpg"); width: 492px; height: 26px; font-weight: bold; }
+.jine_oranzova { float: left; background-image: url("oranzova.jpg"); width: 171px; height: 22px; font-weight: bold; }
+.jine_text { float: left; background-image: url("jinebg.jpg"); width: 171px; font-size: 11px; font-family: verdana; text-align: left; color: rgb(0, 0, 0); }
+.jine_textcerna { float: left; background-image: url("bgcerna.jpg"); width: 492px; font-size: 11px; font-family: verdana; text-align: left; color: rgb(0, 0, 0); background-repeat: repeat-y; }
+.jinekonec { float: left; }
+.zar { float: left; height: 10px; margin-left: 3.5mm; margin-top: 1mm; }
+.zarcerna { float: left; margin-left: 5.5mm; margin-top: 1.5mm; }
+.zar2 { text-align: center; float: left; margin-left: 1.5mm; margin-right: 1.5mm; width: 160px; }
+.zar3 { text-align: center; float: left; margin-left: 1.5mm; margin-right: 1.5mm; width: 160px; }
+.zar7 { text-align: left; float: left; margin-left: 1.5mm; margin-right: 1.5mm; width: 235px; }
+.zar8 { text-align: left; float: left; margin-left: 1.5mm; margin-right: 1.5mm; width: 483px; }
+.menu_v { float: left; margin-top: 1mm; }
+#anketa { float: left; width: 160px; text-align: center; margin: 0px auto; }
+.anotazka { font-size: 11px; font-family: verdana; font-weight: bold; }
+.anodpoved { font-size: 11px; font-family: verdana; text-align: left; }
+.angraf { font-size: 11px; font-family: verdana; text-align: left; float: left; }
+.animggraf { float: left; width: 80px; }
+.anproc { float: right; width: 80px; }
+.anhlaska { font-size: 11px; font-family: verdana; font-weight: bold; width: 160px; text-align: left; }
+.bliktop { margin-left: -0.5mm; display: block; float: left; width: 163px; cursor: pointer; border-top: 1px solid rgb(170, 170, 170); }
+a.bliktop:hover { display: block; background-color: rgb(215, 215, 215); }
+.blikforum { margin-left: -0.5mm; display: block; float: left; width: 238px; cursor: pointer; border-top: 1px solid rgb(170, 170, 170); }
+a.blikforum:hover { display: block; background-color: rgb(215, 215, 215); }
+.menuhl ul { padding: 0px; margin: 0px; list-style-type: none; }
+.menuhl li { float: left; position: relative; font-size: 14px; font-family: verdana; padding-left: 4mm; cursor: default; }
+.menuhl ul ul { visibility: hidden; position: absolute; height: 0px; top: 31px; left: 0px; }
+.menuhl ul li:hover ul, .menuhl ul a:hover ul { visibility: visible; }
+a.amenu { color: rgb(255, 255, 255); text-decoration: none; display: block; width: 100px; }
+a.amenu:hover { color: rgb(255, 255, 255); text-decoration: none; display: block; width: 100px; }
+a.amenu:active { color: rgb(255, 255, 255); text-decoration: none; display: block; width: 100px; }
+.zar4 { padding-top: 1mm; float: left; width: 318px; height: 232px; background-repeat: no-repeat; background-position: center top; background-image: url("pacmenu.jpg"); margin-top: -4mm; position: relative; }
+.zar6 { padding-top: 1mm; float: left; width: 318px; height: 232px; background-repeat: no-repeat; background-position: center top; background-image: url("mariomenu.jpg"); margin-top: -4mm; position: relative; }
+.zar5 { float: right; padding-right: 9mm; padding-top: 7mm; text-align: left; }
+.fontmenu { font-size: 13px; font-family: verdana; font-weight: bold; }
+.menuhl :hover { display: block; }
+.obrnov { float: left; }
+.strankovani { padding-top: 2mm; padding-bottom: 2mm; width: 500px; margin: 0px auto; text-align: center; clear: both; font-size: 12px; font-family: verdana; }
+.bold { font-weight: bold; }
+.obrnov { float: left; }
+.vice { font-weight: bold; font-style: italic; }
+.leftspodek { float: left; text-align: left; margin-top: 1mm; margin-left: 0.5mm; }
+.centerspodek { float: left; margin-top: 2.5mm; margin-left: 20mm; }
+.snek { margin: 5px 0px 0px 7px; float: left; width: 152px; height: 60px; background: url("snek-banner.png") no-repeat scroll 0% 0% transparent; }
+a.snek:hover { background: url("snek-banner.png") no-repeat scroll 0px -60px transparent; }

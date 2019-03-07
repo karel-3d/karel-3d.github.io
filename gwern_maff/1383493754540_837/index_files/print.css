@@ -1,0 +1,24 @@
+/* Effective stylesheet produced by snapshot save */
+* { padding: 0px; margin: 0px; }
+body { font: 11pt Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+a:link { color: rgb(0, 0, 0); text-decoration: none; }
+a:visited { color: rgb(0, 0, 0); text-decoration: none; }
+a:active { color: rgb(0, 0, 0); text-decoration: none; }
+img, .noprint, #sub-header, #sub-footer, .navbar, .box1, .divider, .signature { display: none; }
+.content img { display: inline; }
+#wrap { margin: 0px 2em; }
+p { font-size: 85%; }
+.copyright { font-size: 75%; }
+h1, h2, h3, h1 a, h2 a, h3 a { font-family: "Trebuchet MS",georgia,Verdana,Sans-serif; color: rgb(0, 0, 0); background: none repeat scroll 0% 0% transparent; text-decoration: none; font-weight: bold; }
+h2 { font-size: 16pt; margin-top: 1em; }
+h3 { font-size: 14pt; margin-top: 1em; }
+.content { font-size: 11pt; line-height: 14pt; margin-bottom: 1em; font-family: "Lucida Grande","Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; overflow: hidden; }
+.postbody a:link, .postbody a:visited, .postbody a:hover, .postbody a:active { text-decoration: underline; padding: 0.1em 0.2em; margin: -0.1em -0.2em; color: rgb(102, 102, 102); background: none repeat scroll 0% 0% transparent; font-size: 100%; }
+html > body .postbody a:link:after, html > body .postbody a:visited:after { content: " (" attr(href) ") "; font-size: 90%; text-decoration: none; }
+hr { height: 1px; background-color: rgb(153, 153, 153); border-width: 0px; }
+.author { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 75%; margin-bottom: 0.6em; }
+.postbody .author a:link, .postbody .author a:visited, html > body .postbody .author a:link:after, html > body .postbody .author a:visited:after, .postquote .quote-by a:link, .postquote .quote-by a:visited, html > body .postquote .quote-by a:link:after, html > body .postquote .quote-by a:visited:after, html > body .postbody h1 a:link:after, html > body .postbody h2 a:link:after { text-decoration: none; content: ""; }
+.postprofile { display: none; }
+.postquote, blockquote { font-size: 85%; margin: 1em 18% 1em 4%; padding: 0.5em; position: relative; line-height: 1.5em; border: 1px solid rgb(153, 153, 153); }
+.quote-by, blockquote cite { color: black; display: block; font-weight: bold; }
+ol, ul { margin-left: 15pt; }

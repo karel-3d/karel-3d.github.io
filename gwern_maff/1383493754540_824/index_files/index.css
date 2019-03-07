@@ -1,0 +1,124 @@
+/* Effective stylesheet produced by snapshot save */
+a:link { color: rgb(152, 1, 1); text-decoration: none; }
+a:visited { color: rgb(85, 2, 2); text-decoration: none; }
+a:hover { text-decoration: underline; }
+body { font: 95%/90% Verdana,Helvetica,sans-serif; margin: 0px; padding: 12px 0px 4px; background: url("fond.gif") repeat scroll 0% 0% transparent; }
+body, td, th, tr { color: rgb(0, 0, 0); }
+form { padding: 0px; margin: 0px; }
+input, textarea { background-color: white ! important; }
+input, button { font-size: 90%; }
+select { font-size: 90%; font-weight: normal; color: rgb(0, 0, 0); background-color: white ! important; font-family: verdana,sans-serif; }
+input, button, select, textarea { font: 90%/105% verdana,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+h1, h2, h3, h4, h5, h6 { color: rgb(0, 0, 0); font-size: 1em; margin: 0px; padding: 0px; }
+a img { border: 0px none; }
+strong { font-weight: bold; }
+em { font-style: italic; }
+.floatright { float: right; }
+.floatleft { float: left; }
+.clear { clear: both; }
+.smalltext, tr.smalltext th { font-size: 0.85em; font-family: verdana,sans-serif; }
+.padding { padding: 0.7em; }
+ul.reset, ul.reset li { padding: 0px; margin: 0px; list-style: none outside none; }
+.titlebg, .titlebg2, tr.titlebg td, tr.titlebg2 td { color: rgb(0, 0, 0); font-family: Verdana,Helvetica,sans-serif; font-weight: bold; background: url("titlebg.jpg") repeat-x scroll 0% 0% rgb(233, 240, 246); }
+.catbg, .catbg2, tr.catbg td, tr.catbg2 td, tr.catbg th, tr.catbg2 th { color: rgb(255, 255, 255); font-family: Verdana,Helvetica,sans-serif; font-weight: bold; background: url("catbg.jpg") repeat-x scroll 0% 0% rgb(217, 188, 122); }
+.catbg, .catbg2, tr.catbg td, tr.catbg2 td, tr.catbg th, tr.catbg2 th { background: url("urn:not-loaded:http://forum.ubuntu.cz/Themes/Ubuntu/images/catbg2.jpg") repeat-x scroll 0% 0% rgb(217, 187, 122); }
+tr.catbg td a, tr.catbg2 td a, .catbg a { color: rgb(255, 255, 255); }
+.windowbg, #preview_body, .content, .roundframe { color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); }
+.windowbg2 { color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); }
+.pagesection { font-size: 0.85em; padding: 0.5em 0.2em; overflow: hidden; }
+.openid_login { background: url("urn:not-loaded:http://forum.ubuntu.cz/Themes/Ubuntu/images/openid.gif") no-repeat scroll 0% 0% white; padding-left: 18px; }
+.content, .roundframe { padding: 0.5em 1.2em; margin: 0px; border: 1px solid rgb(173, 173, 173); }
+#adm_container { float: left; margin-left: 10px; padding: 0px 5px; background: url("admintab_left.gif") no-repeat scroll 0% 0% transparent; }
+ul.admin_menu, ul.admin_menu li ul { margin: 0px; padding: 0px; list-style: none outside none; }
+ul.admin_menu { background: url("admintab_right.gif") no-repeat scroll right top transparent; }
+ul.admin_menu a { text-decoration: none; }
+ul.admin_menu li { position: relative; float: left; background: url("urn:not-loaded:http://forum.ubuntu.cz/Themes/Ubuntu/images/admintab_back.gif") repeat-x scroll right top transparent; padding-right: 4px; }
+ul.admin_menu li.last { background: url("admintab_right.gif") repeat-x scroll right top transparent; }
+ul.admin_menu li.chosen { background: url("admintab_active_left.gif") no-repeat scroll 0% 0% transparent; padding: 0px 0px 0px 6px; }
+ul.admin_menu li h4 { margin: 0px; padding: 7px 5px 3px; cursor: pointer; font-weight: normal; font-size: x-small; text-transform: uppercase; color: rgb(255, 255, 255); }
+ul.admin_menu li.last.chosen h4 { background: url("admintab_active_last.gif") no-repeat scroll right top transparent; padding-right: 17px; }
+ul.admin_menu li.last_chosen h4 { background: url("admintab_active_last.gif") no-repeat scroll right top transparent; padding-right: 17px; }
+ul.admin_menu li.chosen h4 { background: url("urn:not-loaded:http://forum.ubuntu.cz/Themes/Ubuntu/images/admintab_active_right.gif") no-repeat scroll right top transparent; padding-right: 10px; }
+ul.admin_menu li ul { z-index: 90; display: none; position: absolute; width: 19em; border-width: 1px 1px 1px 2px; border-style: solid; border-color: rgb(128, 128, 128) rgb(128, 128, 128) rgb(128, 128, 128) rgb(145, 78, 18); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background: none repeat scroll 0% 0% rgb(248, 248, 251); }
+ul.admin_menu li.chosen ul { margin: 0px 0px 0px -6px; }
+ul.admin_menu li ul li { background: none repeat scroll 0% 0% transparent; width: 19em; padding: 0px; }
+ul.admin_menu li ul li a { display: block; padding: 0.5em 2em 0.5em 0.5em; font-size: 90%; text-decoration: none; background: none repeat scroll 0% 0% transparent; color: rgb(0, 0, 0) ! important; }
+ul.admin_menu li ul li a.subsection { background: url("urn:not-loaded:http://forum.ubuntu.cz/Themes/Ubuntu/images/admin/subsection.gif") no-repeat scroll 98% 50% transparent; }
+ul.admin_menu li ul li a.chosen { font-weight: bold; }
+ul.admin_menu li ul li a:hover { background-color: rgb(217, 188, 122); text-decoration: none; }
+ul.admin_menu li:hover ul, ul.admin_menu li.over ul { display: block; }
+ul.admin_menu li ul li ul, ul.admin_menu li ul li.over ul { display: none; position: absolute; top: -999em; border-width: 1px 1px 1px 2px; border-style: solid; border-color: rgb(160, 160, 160) rgb(160, 160, 160) rgb(160, 160, 160) rgb(145, 78, 18); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+ul.admin_menu li ul li:hover ul, ul.admin_menu li ul li.over ul { display: block; left: 18em; top: auto; margin: -2em 0px 0px 1em; }
+.buttonlist ul { background: url("maintab_first.gif") no-repeat scroll left bottom transparent; padding: 0px 0px 0px 10px; }
+.buttonlist ul li, .buttonlist_bottom ul li { display: inline; }
+.buttonlist ul li a, .buttonlist_bottom ul li a { float: left; display: block; color: rgb(255, 255, 255); font-size: 0.8em; font-family: tahoma,sans-serif; text-transform: uppercase; text-decoration: none; }
+.buttonlist ul li a:hover, .buttonlist_bottom ul li a:hover { color: rgb(224, 224, 255); }
+.buttonlist ul li a span { background: url("maintab_back.gif") repeat-x scroll left bottom transparent; display: block; padding: 0.1em 0.5em 0.5em; }
+.buttonlist ul li.last a span { background: url("maintab_last.gif") no-repeat scroll right bottom transparent; padding: 0.1em 1em 0.5em 0.5em; }
+.buttonlist ul li.active a span em { padding: 0.1em 0.5em 0.5em; display: block; font-style: normal; background: url("maintab_active_back.gif") repeat-x scroll right bottom transparent; }
+.buttonlist ul li.active a span { background: url("maintab_active_first.gif") no-repeat scroll left bottom transparent; padding: 0px 0px 0px 8px; }
+.buttonlist ul li.active a { background: url("maintab_active_last.gif") no-repeat scroll right bottom transparent; padding-right: 8px; }
+.generic_tab_strip { margin: 0px 1em 2em; }
+.generic_tab_strip .buttonlist { float: left ! important; }
+#mainframe { font-size: 85%; width: 95%; margin: auto; }
+h1#forum_name { padding: 0.6em 0px; margin: 0px; font-family: Verdana,helvetica,sans-serif; font-size: 135%; color: rgb(217, 188, 122); }
+#greeting_section { padding: 0.7em 0.4em; clear: both; }
+#greeting_section li { font-weight: normal; }
+#greeting_section li#name { padding-left: 0.5em; }
+#greeting_section li em { font-style: normal; font-weight: bold; }
+#user_section { padding: 1px; margin: 1px 0px 0px; font-size: 90%; }
+#user_section ul, #user_section form { padding: 0.5em 0.7em; }
+#news_section { clear: both; font-size: 0.8em; padding: 0.5em 1em; }
+#random_news h3 { margin-right: 1em; font-size: 0.85em; display: inline; }
+#random_news p { margin: 0px; padding: 0px; display: inline; }
+.main_menu { padding-left: 1em; }
+.main_menu ul { list-style: none outside none; padding: 0px 0px 0px 10px; margin: 0px; background: url("maintab_first.gif") no-repeat scroll left bottom transparent; }
+.main_menu li { margin: 0px; padding: 0px; display: inline; }
+.main_menu li a:link, .main_menu li a:visited { float: left; display: block; color: rgb(255, 255, 255); font-size: 0.8em; font-family: tahoma,sans-serif; text-transform: uppercase; }
+.main_menu li a:hover { color: rgb(224, 224, 255); text-decoration: none; }
+.main_menu li a span { background: url("maintab_back.gif") repeat-x scroll left bottom transparent; display: block; padding: 0.1em 0.5em 0.5em; }
+.main_menu li.last a span { background: url("maintab_last.gif") no-repeat scroll right bottom transparent; padding: 0.1em 1em 0.5em 0.5em; }
+.main_menu li.active a span em { padding: 0.1em 0.5em 0.5em; display: block; font-style: normal; background: url("maintab_active_back.gif") repeat-x scroll right bottom transparent; }
+.main_menu li.active a span { background: url("maintab_active_first.gif") no-repeat scroll left bottom transparent; padding: 0px 0px 0px 8px; }
+.main_menu li.active a { background: url("maintab_active_last.gif") no-repeat scroll right bottom transparent; padding-right: 8px; }
+ul.linktree { clear: both; width: 100%; list-style: none outside none; margin: 0px; padding: 1.5em 0.5em 0.5em; overflow: hidden; }
+ul.linktree li { float: left; padding: 0px 0.5em 0px 0px; font-size: 0.8em; }
+ul.linktree li a { color: rgb(0, 0, 0); }
+ul.linktree li a:hover { color: rgb(204, 51, 51); }
+ul.linktree li span { font-weight: bold; }
+#footerarea { padding: 1em 0px 2em; text-align: center; }
+#footerarea ul { margin: 0px auto; }
+#footerarea ul li { text-align: center; display: inline; border-right: 1px solid rgb(136, 136, 136); margin: 0px; padding: 0px 4px 0px 2px; }
+#footerarea ul li.copyright { display: block; line-height: 0; font-size: small; padding: 1em; }
+#footerarea ul li.copyright, #footerarea ul li.last { border-right: medium none; }
+#upshrink, #advsearch { margin: 0px 1ex; }
+h3.catbg, h3.catbg2, h3.titlebg, h4.titlebg, h4.catbg, div.titlebg, .table_list tbody.header td { overflow: hidden; line-height: 2em; font-weight: bold; }
+h3.titlebg, h4.titlebg { border-left: 1px solid rgb(173, 173, 173); border-right: 1px solid rgb(173, 173, 173); }
+h3.titlebg, h4.catbg { padding: 0px 0.5em ! important; }
+.titlebg, tr.titlebg th, tr.titlebg td, .titlebg2, tr.titlebg2 th, tr.titlebg2 td { color: rgb(0, 0, 0); font-style: normal; background: url("titlebg.jpg") repeat-x scroll 0% 0% rgb(155, 174, 191); border-bottom: 1px solid rgb(55, 85, 118); border-top: 1px solid rgb(255, 255, 255); padding-left: 10px; padding-right: 10px; }
+.titlebg, .titlebg a:link, .titlebg a:visited { font-weight: bold; color: rgb(0, 0, 0); font-style: normal; }
+.titlebg2 a:link, .titlebg2 a:visited { color: rgb(0, 0, 0); font-style: normal; text-decoration: underline; }
+.titlebg2 a:hover { text-decoration: underline; }
+.catbg, tr.catbg td, .catbg3, tr.catbg3 td { background: url("catbg.jpg") repeat-x scroll 0% 0% rgb(217, 188, 122); color: rgb(0, 0, 0); padding-left: 10px; padding-right: 10px; }
+.catbg, .catbg2, .catbg3 { border-bottom: 1px solid rgb(55, 85, 118); }
+.catbg, .catbg2 { font-weight: bold; }
+.catbg a:link, .catbg a:visited, .catbg2 a:link, .catbg2 a:visited { color: rgb(0, 0, 0); text-decoration: none; }
+.catbg a:hover, .catbg2 a:hover, .catbg3 a:hover { color: rgb(0, 0, 0); }
+.buttonlist, .buttonlist_bottom { margin-right: 1em; float: right; }
+img.smiley { vertical-align: bottom; }
+.buttonlist, .buttonlist_bottom { margin-right: 1em; float: right; }
+.counter { margin: 0px; padding: 0.2em 0.5em 0.1em 0.2em; font-size: 2.2em; font-weight: bold; color: rgb(53, 76, 95); float: left; }
+.list_posts { border-top: 1px solid rgb(173, 173, 173); padding-top: 1em; margin-top: 0.5em; }
+div.core_posts { border: 1px solid rgb(173, 173, 173); margin-bottom: 3px; }
+div.core_posts div.content { background: none repeat scroll 0% 0% transparent; border: medium none; }
+.headerpadding { padding: 0.5em; }
+.clearfix:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+.bordercolor { background-color: rgb(173, 173, 173); padding: 0px; }
+.tborder { padding: 1px; border: 1px solid rgb(105, 105, 105); background-color: rgb(255, 255, 255); }
+@media print {
+  .tborder { border: medium none; }
+}
+.mojeid_submit { background: url("login-b.png") no-repeat scroll 0% 0% transparent; cursor: pointer; font-weight: normal; color: white; width: 102px; border: 0px none; }
+.mojeid_submit:hover { border: 0px none; }

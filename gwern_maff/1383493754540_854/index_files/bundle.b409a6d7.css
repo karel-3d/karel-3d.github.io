@@ -1,0 +1,96 @@
+/* Effective stylesheet produced by snapshot save */
+audio:not([controls]) { display: none; }
+html { font-size: 100%; }
+button::-moz-focus-inner, input::-moz-focus-inner { padding: 0px; border: 0px none; }
+body { margin: 0px; }
+@font-face {
+  font-family: "Abril-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("urn:not-loaded:http://passets-ec.pinterest.com/webapp/style/app/common/fonts/abril/bold/abril_bold_tt-webfont.9fd50b01.woff") format("woff");
+}
+@font-face {
+  font-family: "Abril-Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("urn:not-loaded:http://passets-ec.pinterest.com/webapp/style/app/common/fonts/abril/italic/abril_italic_tt-webfont.2c989c0b.woff") format("woff");
+}
+@font-face {
+  font-family: "Abril-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("urn:not-loaded:http://passets-ec.pinterest.com/webapp/style/app/common/fonts/abril/regular/abril_regular_tt-webfont.0636839a.woff") format("woff");
+}
+@font-face {
+  font-family: "Adelle-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("urn:not-loaded:http://passets-ec.pinterest.com/webapp/style/app/common/fonts/adelle/bold/adelle_bold_tt-webfont.279830a4.woff") format("woff");
+}
+@font-face {
+  font-family: "Adelle-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("urn:not-loaded:http://passets-ec.pinterest.com/webapp/style/app/common/fonts/adelle/light/adelle_light_tt-webfont.72513ef2.woff") format("woff");
+}
+@font-face {
+  font-family: "Adelle-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("urn:not-loaded:http://passets-ec.pinterest.com/webapp/style/app/common/fonts/adelle/regular/adelle_regular_tt-webfont.f56116dd.woff") format("woff");
+}
+html { background-image: url("bg-1x.11437c43.png"); background-repeat: repeat; background-color: rgb(227, 227, 227); }
+html, body { font-family: 'Helvetica Neue','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3',arial,sans-serif; color: rgb(33, 25, 34); font-size: 12px; }
+body { overflow-y: scroll; position: relative; }
+html:not(.safari) .Module.fadeIn { animation: 0.3s ease 0s normal forwards 1 fadeIn; }
+html:not(.safari) .Module.fadeOut { animation: 0.3s ease 0s normal forwards 1 fadeOut; }
+@keyframes bounceIn {
+  0% { opacity: 0; transform: scale(0.3); }
+  50% { opacity: 1; transform: scale(1.02); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes bounceIn {
+  0% { opacity: 0; transform: scale(0.3); }
+  50% { opacity: 1; transform: scale(1.02); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes extremeBounceIn {
+  0% { opacity: 0; transform: scale(0.22); }
+  40% { opacity: 1; transform: scale(1.5); }
+  80% { opacity: 1; transform: scale(1.6); }
+  95% { opacity: 1; transform: scale(0.95); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes extremeBounceIn {
+  0% { opacity: 0; transform: scale(0.22); }
+  40% { opacity: 1; transform: scale(1.5); }
+  80% { opacity: 1; transform: scale(1.6); }
+  95% { opacity: 1; transform: scale(0.95); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes rotater {
+  0% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(360deg) scale(2); }
+  100% { transform: rotate(720deg) scale(1); }
+}
+@keyframes rotater {
+  0% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(360deg) scale(2); }
+  100% { transform: rotate(720deg) scale(1); }
+}

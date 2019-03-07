@@ -1,0 +1,23 @@
+/* Effective stylesheet produced by snapshot save */
+body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, em, font, img, q, strong, b, u, i, center, ol, ul, li, textarea, form, label { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; vertical-align: baseline; background: none repeat scroll 0% 0% transparent; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 11px; line-height: 1; }
+#icqIframe_Body { font-family: arial; font-size: 11px; padding: 0px; margin: 0px; overflow: hidden; }
+.joinIcq { color: rgb(52, 52, 52); background: none repeat scroll 0% 0% rgb(239, 239, 237); display: block; width: 185px; padding: 11px 10px 12px; margin-top: 8px; border-top: 1px solid rgb(159, 159, 159); height: 120px; line-height: 17px; }
+.joinIcq a { font-weight: bold; line-height: 17px; }
+a, a:hover { color: rgb(11, 104, 175); text-decoration: underline; }
+span, #icqIframe input { display: block; }
+input#username, input#password { border: 1px solid rgb(152, 152, 150); width: 182px; height: 22px; font-size: 10px; padding: 0px; margin: 0px; line-height: 22px; }
+.checkbox { margin-top: 8px; overflow-y: auto; }
+.checkbox span { line-height: 19px; }
+.checkbox input, .checkbox span { display: inline-block; float: left; }
+a.block { padding-top: 1px; }
+.head { font-weight: bold; margin: 15px 0px 3px; }
+.form { padding: 4px 10px; }
+#login { border: 1px solid rgb(152, 152, 150); font-size: 13px; margin: 7px auto 0px; width: 95px; height: auto; padding: 4px 0px 3px; font-weight: normal; background: url("urn:not-loaded:http://c.icq.com/siteim/icqbar/img/panel_bg_unread.gif") repeat-x scroll 0px 0px transparent; cursor: pointer; }
+#loading { text-align: center; font-size: 12px; display: none; }
+#loading img { margin: 55px 0px 20px; }
+#error { color: red; margin-top: 10px; font-weight: bold; }
+#msgNotSent { display: none; }
+.block { display: block; }
+#facebookConnect { background: url("urn:not-loaded:http://c.icq.com/siteim/icqbar/img/btn_fb_connect.gif") no-repeat scroll 0px 0px transparent; cursor: pointer; width: 124px; height: 17px; color: rgb(255, 255, 255); display: block; font-weight: bold; padding: 5px 0px 0px 30px; margin: 10px auto; }
+.center { text-align: center; }
+.clearBoth { display: block; clear: both; }

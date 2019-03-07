@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:MAF="http://maf.mozdev.org/metadata/rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:root">
+    <MAF:originalurl RDF:resource="https://www.facebook.com/photo.php?fbid=457187754388651&amp;set=pb.100002922919522.-2207520000.1383461268.&amp;type=3&amp;theater"/>
+    <MAF:title RDF:resource="Eva Bartošová - Eva Bartošová's Photos | Facebook"/>
+    <MAF:archivetime RDF:resource="Sun, 03 Nov 2013 10:52:00 -0500"/>
+    <MAF:indexfilename RDF:resource="index.html"/>
+    <MAF:charset RDF:resource="UTF-8"/>
+  </RDF:Description>
+</RDF:RDF>

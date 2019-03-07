@@ -1,0 +1,11 @@
+/* Effective stylesheet produced by snapshot save */
+body { background: none repeat scroll 0px center transparent; }
+#ram, #ram_paticka, .paticka { margin: 0px; left: 0px; top: 0px; padding: 0px; width: 676px ! important; }
+#ram_paticka { padding: 0px 30px; left: -30px; }
+#ram_inner { margin: 0px; left: 0px ! important; top: 0px ! important; width: 676px ! important; }
+#main, #headerlogo { width: 676px; }
+#contentnew { padding: 125px 0px 10px; }
+#adv_ram, #adv_content, #adv_oramovani, #adv_interstial, #adv_corner, #adv_sheet, #adv_ahead, #adv_googleahead, #adv_leaderboard2, #adv_bigahead, #adv_leaderboard { display: none; }
+#adv_googleleaderboard, #adv_topexclusiv, #adv_rectangle, #adv_googlerectangle, #adv_stickyright, #adv_sky, #adv_bottom, #adv_topclient1, #adv_topclient2, #adv_vipdolni, #adv_viphorni { display: none; }
+#middlecolumn, #rightcolumn, #header, #headerlogin, .paticka table, .paticka hr, #ram_paticka .dole, #tagy, #pribuzne { display: none; }
+.noprint { display: none; }

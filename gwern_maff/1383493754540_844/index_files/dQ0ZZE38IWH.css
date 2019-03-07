@@ -1,0 +1,11 @@
+/* Effective stylesheet produced by snapshot save */
+.fbTimelineLoggedOutTopSection #fbProfileCover .coverImage { margin-top: 1px; }
+.fbTimelineLoggedOutTopSection #fbTimelineHeadline { min-height: 60px; }
+.timelineLayoutLoggedOut #pagelet_timeline_main_column { position: relative; }
+.timelineLayoutLoggedOut #rightCol, .timelineLayoutLoggedOutUserProfile .fbTimelineStickyHeader { display: none; }
+.timelineLayoutLoggedOut #globalContainer { width: 851px; }
+.timelineLayoutLoggedOut .loggedout_menubar_container { min-width: 851px; }
+.timelineLayoutLoggedOut .loggedout_menubar { width: 851px; }
+.timelineLayout .timelineLoggedOutSignUp { position: absolute; right: 18px; top: 18px; min-width: 244px; z-index: 1; }
+.timelineLoggedOutSignUp #pagelet_loggedout_sign_up .uiButton + .uiButton { margin-left: 7px; }
+.timelineLayout.timelineLayoutLoggedOut #pageFooter { margin: 0px -30px; width: auto; }

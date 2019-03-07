@@ -1,0 +1,51 @@
+/* Effective stylesheet produced by snapshot save */
+#ps-main { padding-top: 1em; background: url("content-bg.gif") repeat-x scroll 0% 0% transparent; }
+#ps-main h1, #ps-main h2, #ps-main h3 { font-family: Helvetica,"trebuchet ms",arial,sans-serif; font-size: 140%; font-weight: normal; }
+#ps-main h1 { border-bottom: 2px solid rgb(119, 136, 153); font-weight: bold; }
+#ps-main h2 { font-size: 110%; }
+#ps-main-content { text-align: center; }
+#ps-page-title, .ps-section-title { text-align: center; margin: 0px 1em 1em; background: url("page-title-bg.png") repeat-x scroll 0% 0% rgb(204, 204, 204); border: 1px solid gray; }
+#ps-page-title div.inner, .ps-section-title div.inner { text-align: left; padding: 7px; }
+#ps-page-title h2, .ps-section-title h2 {  }
+#ps-page-title span, .ps-section-title span { float: right; font-weight: bold; }
+#ps-page-title div.ps-plr-profile { padding: 3px; margin: 0px 7px 7px; border: 1px solid rgb(170, 170, 170); background: url("page-title-bg-reverse.png") repeat-x scroll left bottom transparent; text-align: left; }
+div.ps-plr-profile div.row { margin: 3px 0px; }
+div.ps-plr-profile div label { display: inline; float: left; width: 120px; padding-right: 0.5em; clear: left; font-weight: bold; text-align: right; }
+div.ps-plr-profile div p em { color: rgb(102, 102, 102); }
+.ps-frame-header { font-size: 125%; font-weight: bold; text-align: left; padding: 0.3em 0.3em 0.3em 1em; background: url("frame-header-bg.jpg") repeat-y scroll left top rgb(241, 241, 241); border: 1px solid gray; }
+.ps-frame-header span { display: block; width: 100%; background: url("exp_minus_arrow.png") no-repeat scroll 100% 50% transparent; }
+.ps-table-frame { margin: 0px 0.5em 1em; }
+.ps-table-inner { border: 1px solid gray; }
+.ps-table-footer { padding: 0.2em 0.2em 0px 0px; background: url("table-footer-bg.png") repeat-x scroll 0px bottom transparent; text-align: right; }
+.ps-table { width: 100%; text-align: left; border-collapse: collapse; }
+.ps-table th { line-height: 20px; background: url("table-header-bg.png") repeat scroll 0% 0% transparent; border-bottom: 1px solid rgb(153, 153, 153); text-align: center; padding: 0px; }
+.ps-table td { padding: 0px 0.5em 0px 0.4em; border-right: 1px solid rgb(187, 187, 187); text-align: center; line-height: 1.5em; }
+.ps-table tr { background-color: rgb(238, 238, 238); }
+.ps-table tr.even { background-color: rgb(224, 224, 224); }
+.ps-table th a, .ps-table th a:link, .ps-table th a:visited, .ps-table th a:hover, .ps-table th a:active { color: black; }
+.ps-table th.active a { color: white; }
+.ps-table th.active a:hover { color: white; text-decoration: underline; }
+.ps-table th.active p { background: url("table-header-active-l-bg.png") no-repeat scroll 0% 0% transparent; }
+.ps-table th.active span { width: 100%; display: block; background: url("table-header-desc-r-bg.png") no-repeat scroll 100% 0px transparent; }
+.ps-table tr th.active span.desc { background: url("table-header-desc-r-bg.png") no-repeat scroll 100% 0px transparent; cursor: pointer; }
+.ps-table acronym { text-decoration: none; border: medium none; cursor: help; }
+.ps-table td.no-data { font-size: 150%; font-weight: bold; text-align: center; color: gray; padding: 0.5em 0px; }
+.ps-table .left { text-align: left; }
+.ps-table .right { text-align: right; }
+.ps-player-table a.plr, .ps-clan-table a.clan, .ps-map-table a.map, .ps-weapon-table a.weapon, .ps-role-table a.role { font-weight: bold; }
+.ps-map-table td.first {  }
+.ps-role-table td.first, .ps-weapon-table td.first { width: 80px; }
+.pager { display: block; padding: 3px; }
+.pager-current, .pager-goto, .pager-next, .pager-prev { border: 1px solid gray; padding: 0px 2px; background: none repeat scroll 0% 0% rgb(221, 221, 221); }
+.pager-current { background: none repeat scroll 0% 0% lightyellow; font-weight: bold; }
+.pager-next, .pager-prev { background: none repeat scroll 0% 0% rgb(187, 187, 187); }
+.pct-bar { border: 1px solid rgb(170, 170, 170); background-color: rgb(238, 238, 238); height: 8px; overflow: hidden; display: block; float: none ! important; text-align: left ! important; }
+.pct-bar span { display: block; height: 100%; text-align: left; background-color: black; }
+.ps-column-content .pct-bar { margin-top: 3px; }
+.dual-bar { border: 1px solid rgb(170, 170, 170); background-color: rgb(238, 238, 238); height: 8px; overflow: hidden; display: block; text-align: left ! important; float: none ! important; }
+.dual-bar span.left, .dual-bar span.right, .dual-bar span.center { float: left; display: block; height: 100%; text-align: left; background-color: black; }
+.dual-bar span.center { width: 1px; background-color: rgb(170, 170, 170); }
+.ps-column-content .dual-bar { margin-top: 3px; }
+.skillchange-up, .skillchange-down, .rankchange-up, .rankchange-down { display: inline ! important; float: none; }
+em.add-friend { font-size: 90%; font-style: normal; }
+em.add-friend a { color: gray; }

@@ -1,0 +1,7 @@
+/* Effective stylesheet produced by snapshot save */
+table.tablesorter { font-family: arial; background-color: rgb(205, 205, 205); margin: 10px 0pt 15px; font-size: 8pt; width: 100%; text-align: left; }
+table.tablesorter thead tr th, table.tablesorter tfoot tr th { background-color: rgb(230, 238, 238); border: 1px solid rgb(255, 255, 255); font-size: 8pt; padding: 4px; }
+table.tablesorter thead tr .header { background-image: url("bg-1.gif"); background-repeat: no-repeat; background-position: right center; cursor: pointer; }
+table.tablesorter tbody td { color: rgb(61, 61, 61); padding: 4px; background-color: rgb(255, 255, 255); vertical-align: top; }
+table.tablesorter thead tr .headerSortDown { background-image: url("desc.gif"); }
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp { background-color: rgb(141, 189, 216); }

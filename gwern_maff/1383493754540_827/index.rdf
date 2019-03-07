@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:MAF="http://maf.mozdev.org/metadata/rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:root">
+    <MAF:originalurl RDF:resource="http://mitsubishi.megaherz.cz/viewtopic.php?f=49&amp;t=832"/>
+    <MAF:title RDF:resource="mitsubishi.megaherz.cz • Zobrazit téma - Motor se dusi"/>
+    <MAF:archivetime RDF:resource="Sun, 03 Nov 2013 10:50:37 -0500"/>
+    <MAF:indexfilename RDF:resource="index.html"/>
+    <MAF:charset RDF:resource="UTF-8"/>
+  </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,32 @@
+/* Effective stylesheet produced by snapshot save */
+html { min-height: 100%; }
+body { min-height: 100%; }
+.account-settings ul { list-style: none outside none; margin: 0px; padding: 0px; }
+.account-settings { border-right: 1px solid rgb(204, 204, 204); text-align: left; vertical-align: top; height: 100%; width: 240px; background: linear-gradient(to right, rgb(233, 233, 233) 0%, rgb(219, 219, 219) 100%) repeat scroll 0% 0% transparent; }
+.account-settings li a { width: 100%; display: block; padding: 2px 0px ! important; border-bottom: 1px solid rgb(204, 204, 204); }
+.account-settings li a:hover { border-bottom: 1px solid rgb(204, 204, 204); text-decoration: none; background: linear-gradient(to right, rgb(233, 233, 233) 0%, rgb(232, 232, 232) 100%) repeat scroll 0% 0% transparent; }
+.cont-table { float: left; width: 100%; margin: 0px 0px -1px -1px; }
+.cont-table .left { float: left; padding-left: 20px; padding-right: 20px; width: 860px; padding-bottom: 50px; }
+body { margin: 0px; padding: 0px; }
+#bg { background-color: rgb(21, 28, 36); float: left; width: 100%; min-width: 1150px; height: 5px; border-bottom: 1px solid rgb(41, 50, 57); margin: 0px; }
+#top { float: left; width: 100%; min-width: 1150px; background-color: rgb(30, 37, 47); height: 80px; border-bottom: 1px solid rgb(241, 241, 241); margin: 0px; }
+#top .logo { float: left; width: 146px; height: 70px; background: url("logo.png") no-repeat scroll 0% 0% transparent; margin-right: 40px; margin-top: 5px; }
+#top .container { margin: 0px auto; width: 1150px; }
+#top .menu { float: left; width: 83%; margin: 13px 0px 0px; }
+#top .menu li { float: left; list-style-type: none; }
+#top .menu li a { color: rgb(255, 255, 255); font-weight: bold; font-size: 140%; padding: 15px; display: block; }
+#top .menu li a:hover { text-decoration: none; }
+#top .menu li:hover { background: linear-gradient(to bottom, rgb(133, 219, 68) 0%, rgb(109, 177, 58) 100%) repeat scroll 0% 0% transparent; }
+#submenu { float: left; width: 100%; background-color: rgb(240, 240, 240); min-width: 1150px; height: 40px; border-top: 1px solid rgb(214, 214, 214); border-bottom: 1px solid rgb(214, 214, 214); }
+#main { float: left; width: 100%; min-width: 1024px; background-color: rgb(233, 233, 233); min-height: 600px; }
+#main .container { margin: 0px auto; width: 1150px; }
+#main .category { margin: 0px; float: left; width: 240px; list-style-type: none; font-weight: bold; background: linear-gradient(to right, rgb(233, 233, 233) 0%, rgb(219, 219, 219) 100%) repeat scroll 0% 0% transparent; }
+#main .category li { margin: 0px; padding-left: 0px; }
+#main .category li a { display: block; padding: 2px 0px 2px 5px; border-bottom: 1px solid rgb(204, 204, 204); }
+#main .category li a:hover { border-bottom: 1px solid rgb(204, 204, 204); text-decoration: none; background: linear-gradient(to right, rgb(233, 233, 233) 0%, rgb(232, 232, 232) 100%) repeat scroll 0% 0% transparent; }
+#main .container .txt .cont-table .left { min-height: 600px; }
+#footer { float: left; width: 100%; min-width: 1150px; background-color: rgb(9, 14, 18); min-height: 50px; }
+#footer .container { margin: 0px auto; width: 1120px; }
+#layout { margin: 0px; padding: 0px; border: medium none; }
+#layout td { vertical-align: top; }
+#layout td.m { background-color: rgb(248, 248, 248); border-right: 1px solid rgb(204, 204, 204); width: 900px; }

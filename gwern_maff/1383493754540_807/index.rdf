@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:MAF="http://maf.mozdev.org/metadata/rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:root">
+    <MAF:originalurl RDF:resource="https://bitcointalk.org/index.php?action=profile;u=111022;sa=statPanel"/>
+    <MAF:title RDF:resource="User statistics for: SheepMarketplace"/>
+    <MAF:archivetime RDF:resource="Sun, 03 Nov 2013 10:49:17 -0500"/>
+    <MAF:indexfilename RDF:resource="index.html"/>
+    <MAF:charset RDF:resource="ISO-8859-1"/>
+  </RDF:Description>
+</RDF:RDF>

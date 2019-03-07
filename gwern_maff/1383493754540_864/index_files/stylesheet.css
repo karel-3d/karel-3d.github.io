@@ -1,0 +1,41 @@
+/* Effective stylesheet produced by snapshot save */
+* { margin: 0px; padding: 0px; }
+html { font-size: 100%; }
+body { font-family: "Lucida Grande",Verdana,Helvetica,Arial,sans-serif; color: rgb(255, 255, 255); background: url("body.gif") repeat scroll 0% 0% rgb(36, 36, 36); font-size: 10px; margin: 0px; padding: 0px 5px; }
+img { border: medium none; }
+.gen { margin: 1px; font-size: 1.2em; }
+.genmed { margin: 1px; font-size: 1.1em; }
+.gensmall { margin: 1px; font-size: 1em; }
+a { color: rgb(218, 165, 32); text-decoration: none; }
+a:active, a:visited { color: rgb(218, 165, 32); text-decoration: none; }
+a:hover { color: rgb(255, 255, 255); text-decoration: underline; }
+#maintable { border-style: solid; border-width: 0px 1px 1px; border-color: rgb(0, 0, 0); margin: 0px auto; }
+#logorow { background: url("logo_left.jpg") no-repeat scroll center top transparent; text-align: center; padding: 0px; }
+#logorow, #logo-left {  }
+.navrow { background: url("buttons.gif") repeat-x scroll left top rgb(127, 120, 121); height: 21px; overflow: hidden; border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); color: rgb(255, 255, 255); text-align: center; font-size: 11px; padding: 4px; }
+.navrow a, .navrow a:visited { color: rgb(255, 255, 255); text-decoration: none; }
+.navrow a:hover { color: rgb(255, 255, 255); text-decoration: underline; }
+#contentrow { padding: 5px; background-color: rgb(25, 25, 25); }
+.tablebg { border: 1px solid rgb(0, 0, 0); background: url("cell.gif") repeat-x scroll left top rgb(49, 49, 49); }
+.row1, .row2, .row3, .legend, .forumrules, tr.row1 .row, tr.row2 .row, tr.row3 .row, .postbottom { border-left: 1px solid rgb(64, 64, 64); border-right: 1px solid rgb(18, 18, 18); border-width: 1px; border-style: solid; border-color: rgb(60, 60, 60) rgb(18, 18, 18) rgb(19, 19, 19) rgb(64, 64, 64); background: url("cell.gif") repeat-x scroll left top rgb(49, 49, 49); padding: 4px; }
+td { padding: 2px; }
+.cat { height: 24px; padding: 0px 3px; border-left: 1px solid rgb(64, 64, 64); border-right: 1px solid rgb(18, 18, 18); border-width: 1px; border-style: solid; border-color: rgb(60, 60, 60) rgb(18, 18, 18) rgb(19, 19, 19) rgb(64, 64, 64); background: url("cathead.gif") repeat-x scroll left top rgb(44, 44, 44); text-indent: 4px; }
+caption { margin: 0px; padding: 0px; background: url("hdr_mid.gif") repeat-x scroll left top transparent; white-space: nowrap; height: 27px; text-align: center; }
+.cap-left { background: url("hdr_left.gif") no-repeat scroll left top transparent; }
+.cap-right { background: url("hdr_right.gif") no-repeat scroll right top transparent; padding-top: 8px; height: 19px; }
+caption, caption h1, caption h2, caption h3, caption h4, caption span { font-size: 12px; font-weight: bold; color: rgb(123, 112, 114); }
+.copyright { color: rgb(136, 136, 136); font-weight: normal; font-size: 9px; line-height: 1.2em; }
+.copyright a, .copyright a:visited { color: rgb(170, 170, 170); text-decoration: underline; }
+.copyright a:hover { color: rgb(255, 255, 255); }
+p.breadcrumbs { margin: 0px; padding: 0px; float: left; color: rgb(170, 170, 170); font-weight: bold; white-space: normal; font-size: 1em; }
+p.datetime { margin: 0px; padding: 0px; float: right; white-space: nowrap; font-size: 1em; }
+form { margin: 0px; padding: 0px; border: 0px none; }
+textarea, select, .post, .btnbbcode, .btnmain, .btnlite, .btnfile, .helpline { font-weight: normal; font-family: "Lucida Grande",Verdana,Helvetica,sans-serif; color: rgb(208, 208, 208); border: 1px solid rgb(218, 165, 32); background-color: rgb(34, 34, 34); }
+input { font-size: 1.1em; padding: 1px; }
+select { font-size: 1.1em; padding: 1px; }
+option { padding: 0px 1em 0px 0px; }
+.btnlite { font-weight: normal; cursor: pointer; padding: 1px 5px; font-size: 1.1em; }
+textarea:hover, select:hover, .post:hover, .btnmain:hover, .btnlite:hover, .btnfile:hover { border-color: rgb(208, 208, 208); }
+textarea:focus, select:focus, .post:focus, .btnmain:focus, .btnlite:focus, .btnfile:focus { border-color: rgb(255, 255, 255); color: rgb(255, 255, 255); }
+h4 { margin: 0px; font-size: 1.1em; font-weight: bold; }
+p { font-size: 1.1em; }

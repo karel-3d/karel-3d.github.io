@@ -1,0 +1,75 @@
+/* Effective stylesheet produced by snapshot save */
+.inlineBlock { display: inline-block; }
+#mainContainer { margin-left: -1px; display: block; width: 100%; }
+#leftCol { display: none; float: left; padding: 20px 0px 0px 2px; position: relative; width: 179px; word-wrap: break-word; }
+#rightCol { margin-top: -10000px; float: right; padding-right: 0px; width: 244px; word-wrap: break-word; }
+.hasRightCol #rightCol { margin-top: 0px; }
+#contentCol { background-color: rgb(255, 255, 255); padding-top: 15px; }
+#contentArea { margin-right: -1px; outline: medium none; padding-left: 1px; word-wrap: break-word; }
+.hasLeftCol #contentArea, .hasRightCol #contentArea { float: left; margin-right: 0px; }
+.hasRightCol #contentArea { width: 714px; }
+#bottomContent { clear: both; padding: 0px 20px 12px; }
+.fbPrivacyAudienceIndicator:hover { text-decoration: none; cursor: default; }
+.uiStreamAdditionalLogging .lock, .fbStreamPrivacy .lock { bottom: -1px; margin-bottom: -5px; position: relative; vertical-align: top; }
+.sp_1q4iuq { background-image: url("p6FV-SxbpZT.png"); background-size: auto auto; background-repeat: no-repeat; display: inline-block; height: 16px; width: 16px; }
+.sx_87f35d { background-position: -289px -906px; }
+.sx_c65728 { width: 9px; height: 12px; background-position: -187px -561px; }
+.sp_adzcm8 { background-image: url("aj4fYvYEVBN.png"); background-size: auto auto; background-repeat: no-repeat; display: inline-block; height: 17px; width: 16px; }
+.sx_30ea8b { height: 16px; background-position: 0px -36px; }
+._52ju { text-align: left; }
+.scrollable { overflow-y: auto; }
+.UFIRow .UFIImageBlockImage { margin: 0px; }
+.UFIRow .UFIImageBlockContent { margin: 0px; padding: 0px 0px 0px 8px; }
+@keyframes rotateSpinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.uiCloseButton { cursor: pointer; display: inline-block; margin: 0px; padding: 0px; }
+.uiCloseButton { background-image: url("urn:not-loaded:https://fbstatic-a.akamaihd.net/rsrc.php/v2/yA/r/4WSewcWboV8.png"); background-repeat: no-repeat; height: 15px; width: 15px; }
+.uiCloseButtonSmall { background-image: url("ogYrclupeJV.png"); height: 11px; margin-top: 1px; width: 11px; }
+.uiCloseButton:hover, .uiCloseButton:focus { background-position: left -32px; }
+.uiCloseButton:active { background-position: left -48px; }
+.uiCloseButtonSmall:hover, .uiCloseButtonSmall:focus { background-position: left -24px; }
+.uiCloseButtonSmall:active { background-position: left -36px; }
+.uiButtonGroup { background-clip: padding-box; background-color: rgb(255, 255, 255); border: 1px solid rgba(0, 0, 0, 0.35); border-radius: 3px 3px 3px 3px; box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1); display: inline-block; padding: 0px; white-space: nowrap; }
+.uiButtonGroup .uiButtonGroupItem { border-left: 1px solid rgba(0, 0, 0, 0.15); border-color: rgba(0, 0, 0, 0.15); display: inline-block; vertical-align: top; }
+.uiButtonGroup .firstItem { border-left: 0px none; }
+.uiButtonGroup .uiSelector, .uiButtonGroup .uiButton { box-shadow: none; vertical-align: top; }
+.uiButtonGroup .selectorItem .uiSelector, .uiButtonGroup .selectorItem .uiPopoverButton, .uiButtonGroup .buttonItem .uiButton { margin: -1px; }
+.uiButtonGroup .uiButtonLarge { padding: 2px 8px; }
+.uiButtonGroup .uiButtonOverlay, .uiButtonGroupOverlay .uiButtonGroupItem .uiButtonDisabled, .uiButtonGroupOverlay .uiButtonGroupItem .uiButtonDisabled:hover, .uiButtonGroupOverlay .uiButtonGroupItem .uiButtonDisabled:active, .uiButtonGroupOverlay .uiButtonGroupItem .uiButtonDisabled:focus { background-clip: padding-box; border-color: transparent; }
+.uiButtonGroup span .uiButtonOverlay, .uiButtonGroup span .uiButtonOverlay:hover { background-image: url("rU-QG3Izn71.png"); background-repeat: no-repeat; background-size: auto auto; background-position: right -152px; background-color: transparent; }
+.uiButtonGroup span .uiButtonOverlay:active, .uiButtonGroup span .uiButtonOverlay:focus { background-image: url("rU-QG3Izn71.png"); background-repeat: no-repeat; background-size: auto auto; background-position: right -201px; background-color: transparent; }
+.uiButtonGroupOverlay .uiButton { border-radius: 0px 0px 0px 0px; }
+.uiButtonGroupOverlay .firstItem .uiButton { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+.uiButtonGroupOverlay .lastItem .uiButton { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+._29k { display: table-cell; vertical-align: top; width: 10000px; }
+._29h { float: left; margin-right: 5px; }
+._29h .img, img._29h, i._29h { display: block; }
+._303 { margin-right: 8px; }
+.uiSelector .uiCloseButton { background-clip: padding-box; border: 1px solid transparent; margin: 0px; }
+.uiScrollableArea { direction: ltr; height: 100%; overflow: hidden; position: relative; }
+.uiScrollableAreaWrap { height: 100%; outline: medium none; overflow-x: hidden; overflow-y: scroll; position: relative; }
+.uiScrollableArea.nofade .uiScrollableAreaWrap, .uiScrollableArea.fade .uiScrollableAreaWrap { margin-right: -30px; padding-right: 30px; }
+.uiScrollableAreaBody { direction: ltr; position: relative; }
+.uiScrollableAreaTrack { bottom: 2px; display: block; pointer-events: none; position: absolute; right: 2px; top: 2px; -moz-user-select: none; width: 7px; z-index: 5; }
+.fade .uiScrollableAreaTrack { opacity: 0; }
+.uiScrollableAreaGripper { background-clip: content-box; background-color: rgba(0, 0, 0, 0.4); border: 1px solid rgba(85, 85, 85, 0.6); border-radius: 7px 7px 7px 7px; position: absolute; right: 0px; transition: width 250ms ease 0s; width: 5px; }
+.uiScrollableAreaDragging .uiScrollableAreaGripper, .uiScrollableAreaTrackOver .uiScrollableAreaGripper, .uiScrollableAreaTrack:hover .uiScrollableAreaGripper { width: 8px; }
+.uiMenu { background-color: rgb(255, 255, 255); padding: 3px 0px 4px; overflow-y: auto; }
+.uiMenuItem .itemAnchor { border-style: solid; border-color: rgb(255, 255, 255); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px 0px; color: rgb(17, 17, 17); display: block; font-weight: normal; line-height: 16px; padding: 1px 16px 1px 22px; text-decoration: none; }
+.uiMenuItem a:hover { text-decoration: none; }
+.uiMenuItem a:active, .uiMenuItem a:focus { background-color: rgb(109, 132, 180); border-color: rgb(59, 89, 152); color: rgb(255, 255, 255); outline: medium none; }
+.uiMenu .checked .itemAnchor { background: url("urn:not-loaded:https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/6NgdP4PZyfY.png") no-repeat scroll left 4px transparent; font-weight: bold; }
+.uiMenu .checked a:active, .uiMenu .checked a:focus { background-color: rgb(109, 132, 180); background-position: left -56px; }
+.uiMenuItem { white-space: nowrap; }
+.uiMenuItem .itemLabel { display: block; max-width: 300px; text-overflow: ellipsis; white-space: nowrap; }
+.uiMenuSeparator { border-bottom: 1px solid rgb(221, 221, 221); margin: 5px 7px 6px; padding-top: 1px; }
+.uiMorePager .uiMorePagerPrimary { display: block; padding: 10px 15px; }
+.uiMorePager .uiMorePagerPrimary:hover { background-color: rgb(216, 223, 234); }
+.uiMorePager .arrow { display: inline-block; vertical-align: top; }
+.uiMorePager .uiMorePagerLoader { display: none; padding: 11px 15px 9px; text-align: center; }
+.uiMorePagerLight .uiMorePagerPrimary, .uiMorePagerLight .uiMorePagerLoader { padding: 6px 5px 10px; border-top: 1px solid rgb(229, 234, 241); }
+.uiMorePagerLight .uiMorePagerPrimary:hover { background-color: rgb(237, 239, 244); border-top: 1px solid rgb(216, 223, 234); }
+.uiScaledImageContainer { position: relative; overflow: hidden; }
+.uiScaledImageContainer img { height: 100%; min-height: 100%; position: relative; }

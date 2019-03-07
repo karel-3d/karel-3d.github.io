@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:MAF="http://maf.mozdev.org/metadata/rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:root">
+    <MAF:originalurl RDF:resource="https://webcache.googleusercontent.com/search?output=search&amp;sclient=psy-ab&amp;q=cache%3Ahttps%3A%2F%2Fbitcointalk.org%2Findex.php%3Ftopic%3D194355.0%3Ball&amp;oq=cache%3Ahttps%3A%2F%2Fbitcointalk.org%2Findex.php%3Ftopic%3D194355.0%3Ball&amp;gs_l=hp.3..0l4.23752.24744.0.25396.7.7.0.0.0.0.328.1354.2-4j1.5.0....2...1c.1.30.psy-ab..2.5.1291.wRMBhpsRfdw&amp;pbx=1"/>
+    <MAF:title RDF:resource="Sheep Marketplace safe alternative SilkRoad"/>
+    <MAF:archivetime RDF:resource="Sun, 03 Nov 2013 10:49:15 -0500"/>
+    <MAF:indexfilename RDF:resource="index.html"/>
+    <MAF:charset RDF:resource="UTF-8"/>
+  </RDF:Description>
+</RDF:RDF>
