@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- saved from url=(0094)https://ssp.imedia.cz/static/html/sync/pub_sync.html?pmId=1F059804-858F-4465-B5C9-DE4EBDC34FF6 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title></title>
+	</head>
+	<body marginwidth="0" marginheight="0">
+		<script>
+			// najdeme v query pmId, kde je idecko od pubmaticu
+			var search = location.search.substring(1).split('&');
+			for(var i = 0; i < search.length; i++) {
+				if (search[i].indexOf("pmId") != -1) {
+					search = search[i];
+					break;
+				}
+			}
+			// nastavime cookie s expiraci 120 dni
+			var pmId = search.split("=");
+			var now = new Date().getTime();
+			var expire = new Date(now + 60*60*24*120*1000).toGMTString();
+			var hostName = location.host.split(":")[0];
+			hostName = hostName.substring(hostName.indexOf("."));
+			document.cookie = "KADUSERCOOKIE=" + pmId[1] + "; expires=" + expire + "; path=/; domain=" + hostName;
+		</script>
+	
+
+</body></html>

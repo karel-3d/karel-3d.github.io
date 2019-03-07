@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)https://ssp.imedia.cz/static/html/sync/apn_sync.html?uid=8567356807337023373 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			// najdeme v query uid, kde je idecko od appnexusu
+			var search = location.search.substring(1).split('&');
+			for(var i = 0; i < search.length; i++) {
+				if (search[i].indexOf("uid") != -1) {
+					search = search[i];
+					break;
+				}
+			}
+			// nastavime cookie s expiraci 120 dni
+			var uid = search.split("=");
+			var now = new Date().getTime();
+			var expire = new Date(now + 60*60*24*120*1000).toGMTString();
+			var hostName = location.host.split(":")[0];
+			hostName = hostName.substring(hostName.indexOf("."));
+			document.cookie = "APNUID=" + uid[1] + "; expires=" + expire + "; path=/; domain=" + hostName;
+		</script>
+	
+
+</body></html>
