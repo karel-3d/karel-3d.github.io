@@ -8,16 +8,11 @@
     <script src="https://cdn.ckeditor.com/ckeditor5/23.1.0/classic/ckeditor.js"></script>
 
     <div id="editor">
-      <h1>Header but not</h1>
-      <p>Paragraph</p>
-      <p>Paragraph</p>
+      <h1>Heading</h1>
+      <p>Not a heading</p>
     </div>
     <script>
-        ClassicEditor
-            .create( document.querySelector( '#editor' ) )
-            .catch( error => {
-                console.error( error );
-            } );
+        ClassicEditor.create( document.querySelector( '#editor' ) );
     </script>
   </body>
 </html>
